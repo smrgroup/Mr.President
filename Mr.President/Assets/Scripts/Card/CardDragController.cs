@@ -5,7 +5,6 @@ using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class CardDragController : MonoBehaviour
 {
@@ -76,31 +75,23 @@ public class CardDragController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.touchCount > 1 || IsDraging == false)
+        if (Input.touchCount > 1|| IsDraging == false)
         {
             Quaternion currentRotation = transform.rotation;
             Quaternion wantedRotation = Quaternion.Euler(0, 0, 0);
-            transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 80);
+            transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 100);
         }
         else
         { 
 
-            rig.position = Vector3.Lerp(transform.position, (Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _zDistanceToCamera)) + _offsetToMouse), Time.deltaTime * 2.0f);
+            rig.position = Vector3.Lerp(transform.position, (Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _zDistanceToCamera)) + _offsetToMouse), Time.deltaTime * 4.0f);
 
 
             _XDistanceFromStart = _startPosition.x - transform.position.x;
 
             Debug.Log(_XDistanceFromStart);
 
-            float max_Rotate = 0.25f;
-            if (_XDistanceFromStart > max_Rotate)
-                _XDistanceFromStart = max_Rotate;
-            else if (_XDistanceFromStart < (max_Rotate * -1))
-                _XDistanceFromStart =(max_Rotate * -1);
-            else if (_XDistanceFromStart < (max_Rotate * -1))
-                _XDistanceFromStart = (max_Rotate * -1);
-
-            _XDistanceFromStart = (_XDistanceFromStart * 50) / 100;
+            _XDistanceFromStart = (_XDistanceFromStart * 10) / 100;
 
             if (transform.position.x > _startPosition.x)
             {
