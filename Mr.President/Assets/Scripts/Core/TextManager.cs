@@ -22,6 +22,11 @@ public class TextManager : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             string pretext = textbox.text;
             textbox.text = Sentenses[i]+ ' ' + pretext;
+
+            if (textbox.text.Length >= 46)
+                textbox.text += "\n";
+
+
         }
     }
 
