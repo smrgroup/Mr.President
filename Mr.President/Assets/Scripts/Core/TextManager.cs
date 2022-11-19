@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TextManager : MonoBehaviour
 {
     string[] Sentenses;
-    Text textbox;
+    TextMeshProUGUI textbox;
+    AudioSource textClip;
+
     private void Start()
     { 
-        textbox = GetComponent<Text>();
+        textbox = GetComponent<TextMeshProUGUI>();
+        textClip = GetComponent<AudioSource>();
         Sentenses = textbox.text.Split(' ');
         textbox.text = "";
         StartCoroutine(typemessage());
@@ -17,14 +21,17 @@ public class TextManager : MonoBehaviour
 
     IEnumerator typemessage()
     {
-        for (int i = Sentenses.Length - 1; i >= 0; i--)
+        for (int i = 0; i <= Sentenses.Length - 1; i++)
         {
             yield return new WaitForSeconds(0.1f);
-            string pretext = textbox.text;
-            textbox.text = Sentenses[i]+ ' ' + pretext;
+            textbox.text += Sentenses[i];
+            textbox.text += " ";
+            textClip.Play(0);
 
-            if (textbox.text.Length >= 46)
-                textbox.text += "\n";
+            //string pretext = textbox.text;
+            //textbox.text = Sentenses[i]+ ' ' + pretext;
+
+
 
 
         }
