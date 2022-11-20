@@ -37,10 +37,8 @@ public class CardDragController : MonoBehaviour
 
 
     [Tooltip("Card Flip")]
-    public float x, y, z;
     public GameObject CardBack;
-    [SerializeField]
-    private bool CardBackActive;
+    private bool CardBackActive = true;
 
 
     void OnMouseDown()
@@ -51,6 +49,10 @@ public class CardDragController : MonoBehaviour
 
     void OnMouseDrag()
     {
+
+        if (CardBackActive)
+            return;
+
         IsDraging = true;
     }
 
@@ -80,7 +82,6 @@ public class CardDragController : MonoBehaviour
 
         rig = GetComponent<Rigidbody2D>();
 
-        CardBackActive =true;
         FlipCard();
     }
 
@@ -103,8 +104,8 @@ public class CardDragController : MonoBehaviour
             if (!CardBackActive)
             {
                 Quaternion currentRotation = transform.rotation;
-                Quaternion wantedRotation = Quaternion.Euler(0,0,0);
-                transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 100);
+                Quaternion wantedRotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 150);
             }
 
             HideCardTexts();
@@ -163,17 +164,20 @@ public class CardDragController : MonoBehaviour
 
     IEnumerator CalculateFlip()
     {
-        for (int i = -180; i < 0; i++)
+        for (int i = -180; i < 0; i+=2)
         {
-            yield return new WaitForSeconds(0.005f);
-            transform.Rotate(new Vector3(x, y, z));
+            yield return new WaitForSeconds(0);
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, i , transform.eulerAngles.z);
 
             if (i == -90)
             {
-                CardBack.SetActive(false);  
+                CardBack.SetActive(false);
             }
+            if (i <= -1)
+                CardBackActive = false;
         }
-        CardBackActive = false;
+
+
 
     }
 
