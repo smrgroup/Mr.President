@@ -113,13 +113,8 @@ public class CardDragController : MonoBehaviour
         else
         {
 
-            rig.position = Vector3.Lerp(transform.position, (Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _zDistanceToCamera)) + _offsetToMouse), Time.deltaTime * 10.0f);
-
 
             _XDistanceFromStart = _startPosition.x - transform.position.x;
-
-
-
             _XDistanceFromStart = (_XDistanceFromStart * 10) / 100;
 
 
@@ -139,8 +134,7 @@ public class CardDragController : MonoBehaviour
                 HideCardTexts();
             }
 
-            Debug.Log(state + " " + transform.position.x);
-
+            rig.position = Vector3.Lerp(transform.position, (Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, _zDistanceToCamera)) + _offsetToMouse), Time.deltaTime * 30.0f);
             Quaternion targetrotation = new Quaternion(transform.rotation.x, transform.rotation.y, _XDistanceFromStart, transform.rotation.w);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetrotation, Time.deltaTime * 150);
 
@@ -164,12 +158,12 @@ public class CardDragController : MonoBehaviour
 
     IEnumerator CalculateFlip()
     {
-        for (int i = -180; i < 0; i+=2)
+        for (int i = -180; i < 0; i+=4)
         {
             yield return new WaitForSeconds(0);
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, i , transform.eulerAngles.z);
 
-            if (i == -90)
+            if (i == -92)
             {
                 CardBack.SetActive(false);
             }
