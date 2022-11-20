@@ -10,34 +10,37 @@ using UnityEngine.UI;
 public class CardDragController : MonoBehaviour
 {
 
- 
-
     Vector3 _startPosition;
     Vector3 _startPositionLocal;
-
 
     Vector3 _offsetToMouse;
     float _zDistanceToCamera;
     float _XDistanceFromStart;
+    float ChoosenArea = 0.5f;
+
+    private bool IsDraging = false;
+    private Vector3 currentAngle;
+    protected State state;
 
     private Rigidbody2D rig;
-
     public EasyTween Tweens;
 
-
+    [Tooltip("Card Movement Curve")]
     public AnimationCurve EnterAnim;
     public AnimationCurve ExitAnim;
 
+    [Tooltip("Card Help Text")]
     public GameObject LeftText;
     public GameObject RightText;
-    public EasyTween LeftTween;
-    public EasyTween RightTween;
+    private EasyTween LeftTween;
+    private EasyTween RightTween;
 
-    private bool IsDraging = false;
 
-    private Vector3 currentAngle;
-
-    protected State state;
+    [Tooltip("Card Flip")]
+    public float x, y, z;
+    public GameObject CardBack;
+    [SerializeField]
+    private bool CardBackActive;
 
 
     void OnMouseDown()
@@ -76,6 +79,9 @@ public class CardDragController : MonoBehaviour
         RightTween = RightText.GetComponent<EasyTween>();
 
         rig = GetComponent<Rigidbody2D>();
+
+        CardBackActive =true;
+        FlipCard();
     }
 
     // Update is called once per frame
@@ -94,9 +100,13 @@ public class CardDragController : MonoBehaviour
     {
         if (Input.touchCount > 1 || IsDraging == false)
         {
-            Quaternion currentRotation = transform.rotation;
-            Quaternion wantedRotation = Quaternion.Euler(0, 0, 0);
-            transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 100);
+            if (!CardBackActive)
+            {
+                Quaternion currentRotation = transform.rotation;
+                Quaternion wantedRotation = Quaternion.Euler(0,0,0);
+                transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 100);
+            }
+
             HideCardTexts();
         }
         else
@@ -112,17 +122,17 @@ public class CardDragController : MonoBehaviour
             _XDistanceFromStart = (_XDistanceFromStart * 10) / 100;
 
 
-            if (transform.position.x >= 0.2f && state == State.Middle)
+            if (transform.position.x >= ChoosenArea && state == State.Middle)
             {
                 state = State.Right;
                 RightTween.OpenCloseObjectAnimation();
             }
-            else if (transform.position.x <= -0.2f && state == State.Middle)
+            else if (transform.position.x <= -ChoosenArea && state == State.Middle)
             {
                 state = State.Left;
                 LeftTween.OpenCloseObjectAnimation();
             }
-            else if (transform.position.x <= 0.2f && transform.position.x >= -0.2f)
+            else if (transform.position.x <= ChoosenArea && transform.position.x >= -ChoosenArea)
             {
                 state = State.Middle;
                 HideCardTexts();
@@ -144,6 +154,29 @@ public class CardDragController : MonoBehaviour
         LeftTween.ChangeSetState(false);
         RightTween.ChangeSetState(false);
     }
+
+
+    void FlipCard()
+    {
+        StartCoroutine(CalculateFlip());
+    }
+
+    IEnumerator CalculateFlip()
+    {
+        for (int i = -180; i < 0; i++)
+        {
+            yield return new WaitForSeconds(0.005f);
+            transform.Rotate(new Vector3(x, y, z));
+
+            if (i == -90)
+            {
+                CardBack.SetActive(false);  
+            }
+        }
+        CardBackActive = false;
+
+    }
+
 
 }
 
