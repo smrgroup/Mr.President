@@ -255,6 +255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0f4db69c5230b5439e601caeb1fb159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _RightPosition: {x: 980, y: -800, z: 0}
+  _LeftPosition: {x: -980, y: -800, z: 0}
   Tweens: {fileID: 0}
   EnterAnim:
     serializedVersion: 2
@@ -548,7 +550,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 0.4
+    animationDuration: 0.3
 --- !u!114 &7825539021619129267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,7 +816,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 0.4
+    animationDuration: 0.3
 --- !u!114 &7825539021780443125
 MonoBehaviour:
   m_ObjectHideFlags: 0

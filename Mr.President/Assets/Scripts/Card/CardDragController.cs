@@ -10,7 +10,11 @@ using UnityEngine.UI;
 public class CardDragController : MonoBehaviour
 {
 
+    [Tooltip("Card Target Positions")]
     Vector3 _startPosition;
+    public Vector3 _RightPosition;
+    public Vector3 _LeftPosition;
+
     Vector3 _startPositionLocal;
 
     Vector3 _offsetToMouse;
@@ -59,14 +63,14 @@ public class CardDragController : MonoBehaviour
     public void OnMouseUp()
     {
         _offsetToMouse = Vector3.zero;
-
-        Tweens.ChangeSetState(false);
-        Tweens.SetAnimationPosition(transform.localPosition, _startPositionLocal, EnterAnim, ExitAnim);
-        Tweens.OpenCloseObjectAnimation();
-
         IsDraging = false;
 
-
+        if (state == State.Middle)
+            OnMIddle();
+        else if (state == State.Left)
+            OnLeft();
+        else if (state == State.Right)
+            OnRight();
 
     }
 
@@ -101,7 +105,7 @@ public class CardDragController : MonoBehaviour
     {
         if (Input.touchCount > 1 || IsDraging == false)
         {
-            if (!CardBackActive)
+            if (!CardBackActive && state == State.Middle)
             {
                 Quaternion currentRotation = transform.rotation;
                 Quaternion wantedRotation = Quaternion.Euler(0, 0, 0);
@@ -113,10 +117,8 @@ public class CardDragController : MonoBehaviour
         else
         {
 
-
             _XDistanceFromStart = _startPosition.x - transform.position.x;
             _XDistanceFromStart = (_XDistanceFromStart * 10) / 100;
-
 
             if (transform.position.x >= ChoosenArea && state == State.Middle)
             {
@@ -176,9 +178,37 @@ public class CardDragController : MonoBehaviour
     }
 
 
+    void OnMIddle() 
+    {
+        Tweens.ChangeSetState(false);
+        Tweens.SetAnimationPosition(transform.localPosition, _startPositionLocal, EnterAnim, ExitAnim);
+        Tweens.OpenCloseObjectAnimation();
+    }
+
+    void OnLeft()
+    {
+        Tweens.ChangeSetState(false);
+        Tweens.SetAnimationPosition(transform.localPosition, _LeftPosition, EnterAnim, ExitAnim);
+        Tweens.OpenCloseObjectAnimation();
+        StartCoroutine(RLMoveAwait(0.2f, gameObject));
+    }
+
+    void OnRight()
+    {
+        Tweens.ChangeSetState(false);
+        Tweens.SetAnimationPosition(transform.localPosition, _RightPosition, EnterAnim, ExitAnim);
+        Tweens.OpenCloseObjectAnimation();
+        StartCoroutine(RLMoveAwait(0.2f, gameObject));
+    }
+
+    IEnumerator RLMoveAwait(float second , GameObject obj)
+    {
+        yield return new WaitForSeconds(second);
+        Destroy(obj);
+        StaticData.gameManager.CreateCard();
+    }
+
 }
-
-
 
 public enum State
 {

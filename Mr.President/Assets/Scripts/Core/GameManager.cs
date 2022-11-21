@@ -20,12 +20,19 @@ public class GameManager : MonoBehaviour
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
 
+    public CardData cardsdata;
+
     // Start is called before the first frame update
     void Start()
     {
         backcardsPrefabs = new List<GameObject>();
         StartCoroutine(intialCardArea());
-        Application.targetFrameRate = 60;
+
+        StaticData.gameManager = this;
+
+     //if (Application.platform == RuntimePlatform.Android)
+            Application.targetFrameRate = 100;
+
     }
 
     // Update is called once per frame
@@ -36,18 +43,43 @@ public class GameManager : MonoBehaviour
 
     IEnumerator intialCardArea()
     {
-        for (int i = 0; i < 5; i++)
+
+        int CardCount = 5;
+
+        yield return new WaitForSeconds(0.5f);
+
+        for (int i = 0; i < CardCount; i++)
         {
-            yield return new WaitForSeconds(0.3f);
             GameObject Bcard = Instantiate(BackCardPrefab,BackCards.transform);
-            Bcard.GetComponent<EasyTween>().OpenCloseObjectAnimation();
             backcardsPrefabs.Add(Bcard);
+            yield return new WaitForSeconds(0.4f);
+            backcardsPrefabs[i].GetComponent<EasyTween>().OpenCloseObjectAnimation();
         }
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f);
 
-        PlayableCard = Instantiate(CardPrefab, BackGroundPlay.transform);
+        CreateCard();
+
+        //destroy unneccecery Backs
+        for (int j = 0; j < backcardsPrefabs.Count - 1; j++)
+        {
+            Destroy(backcardsPrefabs[j]);
+        }
 
     }
+
+    public void CreateCard()
+    {
+        PlayableCard = Instantiate(CardPrefab, BackGroundPlay.transform);
+        CardDetails carddetails = GetRandomCard();
+        PlayableCard.name = PlayableCard.name;
+        PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+    }
+
+    public CardDetails GetRandomCard()
+    {
+       int rnd = Random.Range(0, cardsdata.Cards.Count);
+        return cardsdata.Cards[rnd];
+    } 
 
 }

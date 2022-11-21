@@ -107,15 +107,6 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.7086373
-          value: 1.0162263
-          inSlope: 0.55165863
-          outSlope: 0.55165863
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
           time: 1
           value: 1
           inSlope: 0
@@ -153,8 +144,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -781, y: 716, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -328, y: 1676, z: 0}
-      EndWorldPos: {x: 453, y: 960, z: 0}
+      StartWorldPos: {x: -581, y: 1016, z: 0}
+      EndWorldPos: {x: 200, y: 300, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
