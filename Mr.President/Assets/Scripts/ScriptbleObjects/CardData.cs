@@ -11,6 +11,8 @@ public class CardData : ScriptableObject
 [System.Serializable]
 public class CardDetails
 {
-    public string cardName;
+    public int ID;
+    public string Name;
+    public string Text;
     public Sprite Image;
 }

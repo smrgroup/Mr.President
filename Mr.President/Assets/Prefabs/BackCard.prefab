@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -781, y: 716}
-  m_SizeDelta: {x: 400, y: 600}
+  m_SizeDelta: {x: 350, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5382209042164535234
 CanvasRenderer:
@@ -144,8 +144,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -781, y: 716, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -581, y: 1016, z: 0}
-      EndWorldPos: {x: 200, y: 300, z: 0}
+      StartWorldPos: {x: -606, y: 991, z: 0}
+      EndWorldPos: {x: 175, y: 275, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:

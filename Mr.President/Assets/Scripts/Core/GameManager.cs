@@ -10,17 +10,20 @@ public class GameManager : MonoBehaviour
 {
 
     [Tooltip("PreFabs")]
-    public GameObject BackCards;
+    public GameObject CardsArea;
     public GameObject BackGroundPlay;
 
     public GameObject BackCardPrefab;
     public GameObject CardPrefab;
 
+    public CardData cardsdata;
 
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
+    private TextManager textarea;
+   
 
-    public CardData cardsdata;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +33,9 @@ public class GameManager : MonoBehaviour
 
         StaticData.gameManager = this;
 
-     //if (Application.platform == RuntimePlatform.Android)
+        textarea = FindObjectOfType<TextManager>();
+
+        if (Application.platform == RuntimePlatform.Android)
             Application.targetFrameRate = 100;
 
     }
@@ -50,7 +55,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < CardCount; i++)
         {
-            GameObject Bcard = Instantiate(BackCardPrefab,BackCards.transform);
+            GameObject Bcard = Instantiate(BackCardPrefab,CardsArea.transform);
             backcardsPrefabs.Add(Bcard);
             yield return new WaitForSeconds(0.4f);
             backcardsPrefabs[i].GetComponent<EasyTween>().OpenCloseObjectAnimation();
@@ -70,10 +75,11 @@ public class GameManager : MonoBehaviour
 
     public void CreateCard()
     {
-        PlayableCard = Instantiate(CardPrefab, BackGroundPlay.transform);
+        PlayableCard = Instantiate(CardPrefab,CardsArea.transform);
         CardDetails carddetails = GetRandomCard();
-        PlayableCard.name = PlayableCard.name;
+        PlayableCard.name = carddetails.ID+"-"+carddetails.Name;
         PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+        textarea.typemsg(carddetails.Text);
     }
 
     public CardDetails GetRandomCard()

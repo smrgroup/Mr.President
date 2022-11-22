@@ -11,15 +11,20 @@ public class TextManager : MonoBehaviour
     AudioSource textClip;
 
     private void Start()
-    { 
+    {
         textbox = GetComponent<TextMeshProUGUI>();
         textClip = GetComponent<AudioSource>();
-        Sentenses = textbox.text.Split(' ');
-        textbox.text = "";
-        StartCoroutine(typemessage());
     }
 
-    IEnumerator typemessage()
+    public void typemsg(string msg)
+    {
+
+        Sentenses = msg.Split(' ');
+        textbox.text = "";
+        StartCoroutine(typemessage(msg));
+    }
+
+    IEnumerator typemessage(string msg)
     {
         for (int i = 0; i <= Sentenses.Length - 1; i++)
         {
