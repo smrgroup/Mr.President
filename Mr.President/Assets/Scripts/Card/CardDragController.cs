@@ -160,17 +160,20 @@ public class CardDragController : MonoBehaviour
 
     IEnumerator CalculateFlip()
     {
-        for (int i = -180; i < 0; i+=4)
+        for (int i = -180; i <= 0; i+=10)
         {
             yield return new WaitForSeconds(0);
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, i , transform.eulerAngles.z);
 
-            if (i == -92)
+            if (i == -90)
             {
                 CardBack.SetActive(false);
             }
-            if (i <= -1)
+            if (i >= 0)
+            {
                 CardBackActive = false;
+                transform.eulerAngles = new Vector3(transform.eulerAngles.x, 0, transform.eulerAngles.z);
+            }
         }
 
 
@@ -205,7 +208,12 @@ public class CardDragController : MonoBehaviour
     {
         yield return new WaitForSeconds(second);
         Destroy(obj);
-        StaticData.gameManager.CreateCard();
+
+        if(state == State.Left)
+            StaticData.gameManager.CreateCard(StaticData.gameManager.carddetails.Left_Card_ID);
+        else if (state == State.Right)
+            StaticData.gameManager.CreateCard(StaticData.gameManager.carddetails.Right_Card_ID);
+
     }
 
 }

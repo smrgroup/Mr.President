@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,12 +18,13 @@ public class GameManager : MonoBehaviour
     public GameObject CardPrefab;
 
     public CardData cardsdata;
+    public CardDetails carddetails;
 
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
+    private Card_Controller card_Controller;
     private TextManager textarea;
-   
-
+    
 
 
     // Start is called before the first frame update
@@ -73,11 +75,16 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void CreateCard()
+    public void CreateCard(int CardID = -1)
     {
         PlayableCard = Instantiate(CardPrefab,CardsArea.transform);
-        CardDetails carddetails = GetRandomCard();
-        PlayableCard.name = carddetails.ID+"-"+carddetails.Name;
+
+    if (CardID == -1)
+       carddetails = GetRandomCard();
+    else
+       carddetails = cardsdata.Cards[CardID];
+
+        PlayableCard.name = carddetails.Name;
         PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
         textarea.typemsg(carddetails.Text);
     }
