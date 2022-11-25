@@ -1,31 +1,59 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "CardData", menuName = "ScriptableObjects/CardData", order = 1)]
+[CreateAssetMenu(fileName = "Chapter_", menuName = "ScriptableObjects/NewChapter", order = 1)]
 public class CardData : ScriptableObject
 {
-    public List<CardDetails> Cards = new List<CardDetails>();
+
+    [Header("<<Chapter Config>>")]
+    public List<Chapter> ChapterFlow = new List<Chapter>();
+    [Space(5)]
+    [Header("<<Cards Config>>")]
+    public CardDetails StartCard = new CardDetails();
+    public List<CardDetails> RandomCards = new List<CardDetails>();
+    public List<CardDetails> SimpleCards = new List<CardDetails>();
+    public List<CardDetails> FastCards = new List<CardDetails>();
+
 
     private void OnValidate()
     {
-        if (Cards.Count > 1)
-        {
-            Cards[0].ID = 0;
-            Cards[0].Name = "Card_" + Cards[0].ID;
-            for (int i = 1; i < Cards.Count; i++)
-            {
-                Cards[i].ID = Cards[i - 1].ID + 1;
-                Cards[i].Name = "Card_" + Cards[i].ID;
+        setIds(RandomCards);
+        setIds(SimpleCards);
+        setIds(FastCards);
+        OnRandomCardInChapter();
+    }
 
+    private void OnEnable()
+    { 
+    }
+
+
+
+    private void setIds(List<CardDetails> list)
+    {
+        if (list.Count > 1)
+        {
+            list[0].ID = 0;
+            for (int i = 1; i < list.Count; i++)
+            {
+                list[i].ID = list[i - 1].ID + 1;
             }
         }
         else
-        if (Cards.Count == 1)
-        { 
-            Cards[0].ID = 0;
-            Cards[0].Name = "Card_" + Cards[0].ID;
+if (RandomCards.Count == 1)
+        {
+            RandomCards[0].ID = 0;
+        }
+    }
+
+    private void OnRandomCardInChapter()
+    {
+        for (int i = 0; i < ChapterFlow.Count; i++)
+        {
+            if (ChapterFlow[i].CardType == CardType.Random)
+                ChapterFlow[i].CardID = -1;         
         }
     }
 }
@@ -37,8 +65,38 @@ public class CardDetails
     public string Name;
     public string Text;
     public Sprite Image;
-
+    public CardType CardType;
+    [Header("Right And Left Card config")]
     public int Left_Card_ID;
     public int Right_Card_ID;
+    [Space(1)]
+    public string Right_Choose_Text;
+    public string Left_Choose_Text;
 
+    public CardDetails()
+    {
+        this.Right_Choose_Text = "ﻪﻠﺑ";
+        this.Left_Choose_Text = "ﺮﯿﺧ";
+    }
+}
+
+[System.Serializable]
+public class Chapter
+{
+    public int CardID;
+    public CardType CardType;
+
+    public Chapter(CardType cardType)
+    {
+        CardID = -1;
+        CardType = cardType;
+    }
+}
+
+public enum CardType
+{ 
+    Random,
+    Fast,
+    simple,
+    StartCard,
 }

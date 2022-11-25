@@ -10,18 +10,22 @@ public class TextManager : MonoBehaviour
     TextMeshProUGUI textbox;
     AudioSource textClip;
 
+    private IEnumerator coroutine;
+
     private void Start()
     {
         textbox = GetComponent<TextMeshProUGUI>();
         textClip = GetComponent<AudioSource>();
-    }
+
+}
 
     public void typemsg(string msg)
     {
-
         Sentenses = msg.Split(' ');
         textbox.text = "";
-        StartCoroutine(typemessage(msg));
+        coroutine = typemessage(msg);
+        StopAllCoroutines();
+        StartCoroutine(coroutine);
     }
 
     IEnumerator typemessage(string msg)
@@ -35,9 +39,6 @@ public class TextManager : MonoBehaviour
 
             //string pretext = textbox.text;
             //textbox.text = Sentenses[i]+ ' ' + pretext;
-
-
-
 
         }
     }

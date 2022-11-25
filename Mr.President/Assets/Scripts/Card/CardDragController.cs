@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -44,6 +45,8 @@ public class CardDragController : MonoBehaviour
     public GameObject CardBack;
     private bool CardBackActive = true;
 
+    public static UnityEvent<State> OnDragedCard;
+
 
     void OnMouseDown()
     {
@@ -74,9 +77,15 @@ public class CardDragController : MonoBehaviour
 
     }
 
+    private void Awake()
+    {
+        OnDragedCard = new UnityEvent<State>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+
         Tweens = GetComponent<EasyTween>();
         _startPositionLocal = transform.localPosition;
         _startPosition = transform.position;
@@ -87,6 +96,7 @@ public class CardDragController : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
 
         FlipCard();
+
     }
 
     // Update is called once per frame
@@ -208,12 +218,7 @@ public class CardDragController : MonoBehaviour
     {
         yield return new WaitForSeconds(second);
         Destroy(obj);
-
-        if(state == State.Left)
-            StaticData.gameManager.CreateCard(StaticData.gameManager.carddetails.Left_Card_ID);
-        else if (state == State.Right)
-            StaticData.gameManager.CreateCard(StaticData.gameManager.carddetails.Right_Card_ID);
-
+        OnDragedCard.Invoke(state);
     }
 
 }

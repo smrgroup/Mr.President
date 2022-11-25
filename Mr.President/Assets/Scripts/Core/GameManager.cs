@@ -18,13 +18,16 @@ public class GameManager : MonoBehaviour
     public GameObject CardPrefab;
 
     public CardData cardsdata;
-    public CardDetails carddetails;
+    private Chapter CarrentCard;
+    private State dragstate;
+
 
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
     private Card_Controller card_Controller;
     private TextManager textarea;
-    
+
+    private int CardCounter = 0;
 
 
     // Start is called before the first frame update
@@ -75,24 +78,50 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void CreateCard(int CardID = -1)
+    public void CreateCard()
     {
-        PlayableCard = Instantiate(CardPrefab,CardsArea.transform);
+     
+            //get card
+            CarrentCard = cardsdata.ChapterFlow[CardCounter];
 
-    if (CardID == -1)
-       carddetails = GetRandomCard();
-    else
-       carddetails = cardsdata.Cards[CardID];
+            //get Card type
+            CardDetails carddetails = CheckCardType();
 
-        PlayableCard.name = carddetails.Name;
-        PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
-        textarea.typemsg(carddetails.Text);
+            //init card
+            PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
+
+            //fill data
+            Text[] ChooseCardTexts = PlayableCard.GetComponentsInChildren<Text>();
+            ChooseCardTexts[0].text = carddetails.Left_Choose_Text;
+            ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
+            PlayableCard.name = carddetails.Name;
+            PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+            textarea.typemsg(carddetails.Text);
+            CardCounter++;
+            CardDragController.OnDragedCard.AddListener(CardDragEvent);
+        
     }
+
+    private void CardDragEvent(State state)
+    {
+        dragstate = state;
+        CreateCard();
+    }
+
+    private CardDetails CheckCardType()
+    {
+        if (CarrentCard.CardType == CardType.Random)
+        {
+            return GetRandomCard();
+        }
+        return null;
+    }
+        
 
     public CardDetails GetRandomCard()
     {
-       int rnd = Random.Range(0, cardsdata.Cards.Count);
-        return cardsdata.Cards[rnd];
+       int rnd = Random.Range(0, cardsdata.RandomCards.Count);
+        return cardsdata.RandomCards[rnd];
     } 
 
 }

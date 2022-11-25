@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d4dfaea1c8c8642922c3e5a0d9909a, type: 3}
+  m_Name: Chapter_1
+  m_EditorClassIdentifier: 
+  ChapterFlow:
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  - CardID: -1
+    CardType: 0
+  StartCard:
+    ID: 0
+    Name: 
+    Text: "\uFB90\uFE8E\uFEAD\u062A \uFEB7\uFEAE\uFEED\u0639"
+    Image: {fileID: 21300000, guid: 2f64862dc8229c34e82b72a870146719, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: RIGHT
+    Left_Choose_Text: LEFT
+  RandomCards:
+  - ID: 0
+    Name: card_0
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 0"
+    Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 1
+    Name: card_1
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 1"
+    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 2
+    Name: card_2
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 2"
+    Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 3
+    Name: card_3
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 3"
+    Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 4
+    Name: card_4
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 4"
+    Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 5
+    Name: card_5
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 5"
+    Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+    CardType: 0
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  SimpleCards:
+  - ID: 0
+    Name: Card_0
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 0"
+    Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+    CardType: 2
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 1
+    Name: Card_1
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 1"
+    Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+    CardType: 2
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  FastCards:
+  - ID: 0
+    Name: card_0
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 0"
+    Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
+    CardType: 1
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+  - ID: 1
+    Name: card_1
+    Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
+      \uFE8D\uFEB3\uFE96 \uFB90\uFEEA \uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE9F\uFECC\uFE92\uFEEA
+      \uFEE7\uFEE4\uFE8E\uFBFE\uFEB6 \uFEA9\uFE8D\uFEA9\u0647 \uFEB7\uFEAA\u0647
+      \uFE8D\uFEB3\uFE96 1"
+    Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+    CardType: 1
+    Left_Card_ID: 0
+    Right_Card_ID: 0
+    Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
