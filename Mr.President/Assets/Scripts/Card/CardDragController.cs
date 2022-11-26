@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
@@ -47,6 +48,8 @@ public class CardDragController : MonoBehaviour
 
     public static UnityEvent<State> OnDragedCard;
 
+    public CardDetails card_details;
+    private List<MinisterController> ministers = new List<MinisterController>();
 
     void OnMouseDown()
     {
@@ -95,6 +98,8 @@ public class CardDragController : MonoBehaviour
 
         rig = GetComponent<Rigidbody2D>();
 
+        ministers = FindObjectsOfType<MinisterController>().ToList();
+
         FlipCard();
 
     }
@@ -123,6 +128,7 @@ public class CardDragController : MonoBehaviour
             }
 
             HideCardTexts();
+            SignMinisters(false);
         }
         else
         {
@@ -133,16 +139,19 @@ public class CardDragController : MonoBehaviour
             if (transform.position.x >= ChoosenArea && state == State.Middle)
             {
                 state = State.Right;
+                SignMinisters();
                 RightTween.OpenCloseObjectAnimation();
             }
             else if (transform.position.x <= -ChoosenArea && state == State.Middle)
             {
                 state = State.Left;
+                SignMinisters();
                 LeftTween.OpenCloseObjectAnimation();
             }
             else if (transform.position.x <= ChoosenArea && transform.position.x >= -ChoosenArea)
             {
                 state = State.Middle;
+                SignMinisters(false);
                 HideCardTexts();
             }
 
@@ -153,7 +162,6 @@ public class CardDragController : MonoBehaviour
         }
     }
 
-
     public void HideCardTexts()
     {
         if (LeftTween.IsObjectOpened()) LeftTween.OpenCloseObjectAnimation();
@@ -161,7 +169,6 @@ public class CardDragController : MonoBehaviour
         LeftTween.ChangeSetState(false);
         RightTween.ChangeSetState(false);
     }
-
 
     void FlipCard()
     {
@@ -190,7 +197,6 @@ public class CardDragController : MonoBehaviour
 
     }
 
-
     void OnMIddle() 
     {
         Tweens.ChangeSetState(false);
@@ -212,6 +218,33 @@ public class CardDragController : MonoBehaviour
         Tweens.SetAnimationPosition(transform.localPosition, _RightPosition, EnterAnim, ExitAnim);
         Tweens.OpenCloseObjectAnimation();
         StartCoroutine(RLMoveAwait(0.2f, gameObject));
+    }
+
+    void SignMinisters(bool state = true)
+    {
+        if (state)
+        {
+            foreach (var targetminister in card_details.Ministers)
+            {
+                foreach (MinisterController minister in ministers)
+                {
+                    if (minister.id == targetminister.id)
+                    {
+                        minister.transform.GetChild(0).GetComponent<Image>().color = Color.red;
+                    }
+                }
+            }
+        }
+        else
+        {
+            foreach (MinisterController minister in ministers)
+            {
+                    minister.transform.GetChild(0).GetComponent<Image>().color = Color.white;
+            }
+        }
+
+
+       
     }
 
     IEnumerator RLMoveAwait(float second , GameObject obj)

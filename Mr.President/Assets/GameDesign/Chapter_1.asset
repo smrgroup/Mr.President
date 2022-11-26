@@ -43,6 +43,7 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: RIGHT
     Left_Choose_Text: LEFT
+    Ministers: []
   RandomCards:
   - ID: 0
     Name: card_0
@@ -56,6 +57,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 1
+      value: 20
+    - id: 7
+      value: -20
   - ID: 1
     Name: card_1
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -68,6 +74,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 4
+      value: 20
+    - id: 9
+      value: -20
   - ID: 2
     Name: card_2
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -80,6 +91,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 3
+      value: 20
+    - id: 2
+      value: -20
   - ID: 3
     Name: card_3
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -92,6 +108,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 7
+      value: 20
+    - id: 5
+      value: -20
   - ID: 4
     Name: card_4
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -104,6 +125,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 4
+      value: 20
+    - id: 2
+      value: -20
   - ID: 5
     Name: card_5
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -116,6 +142,11 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers:
+    - id: 8
+      value: 20
+    - id: 6
+      value: -20
   SimpleCards:
   - ID: 0
     Name: Card_0
@@ -125,10 +156,11 @@ MonoBehaviour:
       \uFE8D\uFEB3\uFE96 0"
     Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
     CardType: 2
-    Left_Card_ID: 0
-    Right_Card_ID: 0
+    Left_Card_ID: 1
+    Right_Card_ID: 2
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers: []
   - ID: 1
     Name: Card_1
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -141,6 +173,7 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers: []
   FastCards:
   - ID: 0
     Name: card_0
@@ -154,6 +187,7 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers: []
   - ID: 1
     Name: card_1
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
@@ -166,3 +200,4 @@ MonoBehaviour:
     Right_Card_ID: 0
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+    Ministers: []

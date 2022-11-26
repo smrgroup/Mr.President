@@ -25,11 +25,6 @@ public class CardData : ScriptableObject
         OnRandomCardInChapter();
     }
 
-    private void OnEnable()
-    { 
-    }
-
-
 
     private void setIds(List<CardDetails> list)
     {
@@ -72,6 +67,7 @@ public class CardDetails
     [Space(1)]
     public string Right_Choose_Text;
     public string Left_Choose_Text;
+    public List<Ministers> Ministers = new List<Ministers>();
 
     public CardDetails()
     {
@@ -91,6 +87,13 @@ public class Chapter
         CardID = -1;
         CardType = cardType;
     }
+}
+
+[System.Serializable]
+public class Ministers 
+{
+    public int id;
+    public int value;
 }
 
 public enum CardType

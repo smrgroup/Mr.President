@@ -1,13 +1,15 @@
 using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
+using Unity.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MinisterController : MonoBehaviour
 {
-
+    [ReadOnlyAttribute]
+    public int id;
     Image borderfill;
-
+    
     // Start is called before the first frame update
     void Start()
     {

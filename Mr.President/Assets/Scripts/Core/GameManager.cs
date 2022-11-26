@@ -80,7 +80,10 @@ public class GameManager : MonoBehaviour
 
     public void CreateCard()
     {
-     
+        if (CardCounter > cardsdata.ChapterFlow.Count)
+            return;
+        else
+        {
             //get card
             CarrentCard = cardsdata.ChapterFlow[CardCounter];
 
@@ -96,10 +99,11 @@ public class GameManager : MonoBehaviour
             ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
             PlayableCard.name = carddetails.Name;
             PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+            PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
             textarea.typemsg(carddetails.Text);
             CardCounter++;
             CardDragController.OnDragedCard.AddListener(CardDragEvent);
-        
+        } 
     }
 
     private void CardDragEvent(State state)
