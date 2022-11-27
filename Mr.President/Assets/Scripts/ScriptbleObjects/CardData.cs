@@ -62,8 +62,8 @@ public class CardDetails
     public Sprite Image;
     public CardType CardType;
     [Header("Right And Left Card config")]
-    public int Left_Card_ID;
-    public int Right_Card_ID;
+    public int Left_Head_ID;
+    public int Right_Head_ID;
     [Space(1)]
     public string Right_Choose_Text;
     public string Left_Choose_Text;

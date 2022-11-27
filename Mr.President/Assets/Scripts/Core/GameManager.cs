@@ -17,17 +17,20 @@ public class GameManager : MonoBehaviour
     public GameObject BackCardPrefab;
     public GameObject CardPrefab;
 
+    //current card data
     public CardData cardsdata;
     private Chapter CarrentCard;
+    private CardDetails carddetails;
     private State dragstate;
-
 
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
     private Card_Controller card_Controller;
     private TextManager textarea;
 
-    private int CardCounter = 0;
+    private static int CardHead = 0;
+    private int NextCardID = 0;
+
 
 
     // Start is called before the first frame update
@@ -80,15 +83,19 @@ public class GameManager : MonoBehaviour
 
     public void CreateCard()
     {
-        if (CardCounter > cardsdata.ChapterFlow.Count)
+
+        Debug.Log("header " + CardHead);
+
+
+        if (CardHead >= cardsdata.ChapterFlow.Count)
             return;
         else
         {
-            //get card
-            CarrentCard = cardsdata.ChapterFlow[CardCounter];
+            //get card by header
+            CarrentCard = cardsdata.ChapterFlow[CardHead];
 
             //get Card type
-            CardDetails carddetails = CheckCardType();
+            carddetails = GetNextCard();
 
             //init card
             PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
@@ -101,22 +108,55 @@ public class GameManager : MonoBehaviour
             PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
             PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
             textarea.typemsg(carddetails.Text);
-            CardCounter++;
             CardDragController.OnDragedCard.AddListener(CardDragEvent);
-        } 
+            CardHead++;
+
+            Debug.Log("header " + CardHead);
+
+        }
     }
 
     private void CardDragEvent(State state)
     {
         dragstate = state;
+        Cardheadmanager();
         CreateCard();
     }
 
-    private CardDetails CheckCardType()
+    private void Cardheadmanager()
     {
-        if (CarrentCard.CardType == CardType.Random)
+        if (CarrentCard.CardType == CardType.Fast)
+        {
+            if (dragstate == State.Left)
+            {
+                CardHead = carddetails.Left_Head_ID;
+            }
+            else if (dragstate == State.Right)
+            { 
+                CardHead = carddetails.Right_Head_ID;
+            }
+        Debug.Log("header " + CardHead);
+        }
+    }
+
+
+    private CardDetails GetNextCard()
+    {
+      
+        int next_cardid = cardsdata.ChapterFlow[CardHead].CardID;
+        CardType next_cardtype = cardsdata.ChapterFlow[CardHead].CardType;
+
+        if (next_cardtype == CardType.Random)
         {
             return GetRandomCard();
+        }
+        else if (next_cardtype == CardType.Fast)
+        {
+            return cardsdata.FastCards[next_cardid];
+        }
+        else if (next_cardtype == CardType.simple)
+        {
+            return cardsdata.SimpleCards[next_cardid];
         }
         return null;
     }
