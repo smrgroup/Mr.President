@@ -111,9 +111,28 @@ public class GameManager : MonoBehaviour
             CardDragController.OnDragedCard.AddListener(CardDragEvent);
             CardHead++;
 
-            Debug.Log("header " + CardHead);
-
         }
+    }
+
+    private CardDetails GetNextCard()
+    {
+
+        int next_cardid = cardsdata.ChapterFlow[CardHead].CardID;
+        CardType next_cardtype = cardsdata.ChapterFlow[CardHead].CardType;
+
+        if (next_cardtype == CardType.Random)
+        {
+            return GetRandomCard();
+        }
+        else if (next_cardtype == CardType.Fast)
+        {
+            return cardsdata.FastCards[next_cardid];
+        }
+        else if (next_cardtype == CardType.simple)
+        {
+            return cardsdata.SimpleCards[next_cardid];
+        }
+        return null;
     }
 
     private void CardDragEvent(State state)
@@ -135,32 +154,9 @@ public class GameManager : MonoBehaviour
             { 
                 CardHead = carddetails.Right_Head_ID;
             }
-        Debug.Log("header " + CardHead);
+        Debug.Log("FastCard Move ON heade " + CardHead);
         }
     }
-
-
-    private CardDetails GetNextCard()
-    {
-      
-        int next_cardid = cardsdata.ChapterFlow[CardHead].CardID;
-        CardType next_cardtype = cardsdata.ChapterFlow[CardHead].CardType;
-
-        if (next_cardtype == CardType.Random)
-        {
-            return GetRandomCard();
-        }
-        else if (next_cardtype == CardType.Fast)
-        {
-            return cardsdata.FastCards[next_cardid];
-        }
-        else if (next_cardtype == CardType.simple)
-        {
-            return cardsdata.SimpleCards[next_cardid];
-        }
-        return null;
-    }
-        
 
     public CardDetails GetRandomCard()
     {
