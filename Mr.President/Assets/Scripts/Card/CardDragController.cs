@@ -49,7 +49,6 @@ public class CardDragController : MonoBehaviour
     public static UnityEvent<State> OnDragedCard;
 
     public CardDetails card_details;
-    private List<MinisterController> ministers = new List<MinisterController>();
 
     void OnMouseDown()
     {
@@ -98,7 +97,7 @@ public class CardDragController : MonoBehaviour
 
         rig = GetComponent<Rigidbody2D>();
 
-        ministers = FindObjectsOfType<MinisterController>().ToList();
+
 
         FlipCard();
 
@@ -226,7 +225,7 @@ public class CardDragController : MonoBehaviour
         {
             foreach (var targetminister in card_details.Ministers)
             {
-                foreach (MinisterController minister in ministers)
+                foreach (MinisterController minister in StaticData.gameManager.ministers)
                 {
                     if (minister.id == targetminister.id)
                     {
@@ -237,7 +236,7 @@ public class CardDragController : MonoBehaviour
         }
         else
         {
-            foreach (MinisterController minister in ministers)
+            foreach (MinisterController minister in StaticData.gameManager.ministers)
             {
                     minister.transform.GetChild(0).GetComponent<Image>().color = Color.white;
             }

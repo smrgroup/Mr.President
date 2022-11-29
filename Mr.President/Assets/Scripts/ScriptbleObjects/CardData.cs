@@ -57,28 +57,28 @@ if (RandomCards.Count == 1)
 public class CardDetails
 {
 
-    public bool Available = true;
+  
 
     public int ID;
-    [DrawIf("Available", true)]
+
     public string Name;
-    [DrawIf("Available", true)]
+
     public string Text;
-    [DrawIf("Available", true)]
+  
     public Sprite Image;
 
     public CardType CardType;
    
 
     [Header("Right And Left Card config")]
-    [DrawIf("Available", true)]
+
     public int Left_Head_ID;
-    [DrawIf("Available", true)]
+  
     public int Right_Head_ID;
     [Space(1)]
-    [DrawIf("Available", true)]
+
     public string Right_Choose_Text;
-    [DrawIf("Available", true)]
+
     public string Left_Choose_Text;
 
     public List<Ministers> Ministers = new List<Ministers>();
@@ -93,7 +93,11 @@ public class CardDetails
 [System.Serializable]
 public class Chapter
 {
+
+    public bool Available = true;
+    [DrawIf("Available",true)]
     public int CardID;
+    [DrawIf("Available", true)]
     public CardType CardType;
 
     public Chapter()
@@ -107,7 +111,14 @@ public class Chapter
 public class Ministers 
 {
     public int id;
-    public int value;
+    public float Left_value = -0.1f;
+    public float Right_value = +0.1f;
+
+    public Ministers()
+    {
+       Left_value = -0.1f;
+       Right_value = +0.1f;
+    }
 }
 
 public enum CardType

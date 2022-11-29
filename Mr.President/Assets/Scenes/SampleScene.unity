@@ -159,6 +159,8 @@ MonoBehaviour:
   CardPrefab: {fileID: 7825539021061821086, guid: 3bfcdb076bc3a6d4695f5f45b4b9ee66,
     type: 3}
   cardsdata: {fileID: 11400000, guid: 9cfeedc5f04a51941b7b234315927243, type: 2}
+  ministers: []
+  chapterflow: []
 --- !u!4 &82995980
 Transform:
   m_ObjectHideFlags: 0

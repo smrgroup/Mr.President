@@ -8,6 +8,7 @@ public class MinisterController : MonoBehaviour
 {
     [ReadOnlyAttribute]
     public int id;
+    public float value = 1;
     Image borderfill;
     
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class MinisterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     IEnumerator StartFill()
@@ -34,5 +35,11 @@ public class MinisterController : MonoBehaviour
             borderfill.fillAmount += 0.005f;
         }
     }
+
+    public void setvalue(float incomevalue)
+    {
+        borderfill.fillAmount = value + incomevalue;
+    }
+
 
 }

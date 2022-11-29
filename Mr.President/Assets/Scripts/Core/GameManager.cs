@@ -28,10 +28,12 @@ public class GameManager : MonoBehaviour
     private Card_Controller card_Controller;
     private TextManager textarea;
 
+    public List<MinisterController> ministers = new List<MinisterController>();
+
     private static int CardHead = 0;
     private int NextCardID = 0;
 
-
+    public List<Chapter> chapterflow;
 
     // Start is called before the first frame update
     void Start()
@@ -39,9 +41,13 @@ public class GameManager : MonoBehaviour
         backcardsPrefabs = new List<GameObject>();
         StartCoroutine(intialCardArea());
 
+        ministers = FindObjectsOfType<MinisterController>().ToList();
+
         StaticData.gameManager = this;
 
         textarea = FindObjectOfType<TextManager>();
+
+        chapterflow = cardsdata.ChapterFlow;
 
         if (Application.platform == RuntimePlatform.Android)
             Application.targetFrameRate = 100;
@@ -87,12 +93,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("header " + CardHead);
 
 
-        if (CardHead >= cardsdata.ChapterFlow.Count)
+        if (CardHead >= chapterflow.Count)
             return;
         else
         {
             //get card by header
-            CarrentCard = cardsdata.ChapterFlow[CardHead];
+            CarrentCard = chapterflow[CardHead];
 
             //get Card type
             carddetails = GetNextCard();
@@ -117,8 +123,14 @@ public class GameManager : MonoBehaviour
     private CardDetails GetNextCard()
     {
 
-        int next_cardid = cardsdata.ChapterFlow[CardHead].CardID;
-        CardType next_cardtype = cardsdata.ChapterFlow[CardHead].CardType;
+        if (!chapterflow[CardHead].Available)
+        {    
+            while(!chapterflow[CardHead].Available)
+                CardHead++;
+        }
+
+        int next_cardid = chapterflow[CardHead].CardID;
+        CardType next_cardtype = chapterflow[CardHead].CardType;
 
         if (next_cardtype == CardType.Random)
         {
@@ -138,6 +150,7 @@ public class GameManager : MonoBehaviour
     private void CardDragEvent(State state)
     {
         dragstate = state;
+        AddMinistersEffect();
         Cardheadmanager();
         CreateCard();
     }
@@ -154,8 +167,35 @@ public class GameManager : MonoBehaviour
             { 
                 CardHead = carddetails.Right_Head_ID;
             }
-        Debug.Log("FastCard Move ON heade " + CardHead);
         }
+        else
+        if (CarrentCard.CardType == CardType.simple)
+        {
+            if (dragstate == State.Left)
+            {
+                chapterflow[carddetails.Left_Head_ID].Available = true;
+            }
+            else if (dragstate == State.Right)
+            {
+                chapterflow[carddetails.Right_Head_ID].Available = true;
+            }
+            Debug.Log("FastCard Move ON heade " + CardHead);
+        }
+    }
+
+    private void AddMinistersEffect()
+    {
+        
+            for (int i = 0; i < carddetails.Ministers.Count; i++)
+            {
+              MinisterController minister = ministers.Find(x => x.id == carddetails.Ministers[i].id);
+            if (dragstate == State.Left)
+                minister.setvalue(carddetails.Ministers[i].Left_value);
+            else
+                minister.setvalue(carddetails.Ministers[i].Right_value);
+
+        }
+
     }
 
     public CardDetails GetRandomCard()
@@ -163,5 +203,7 @@ public class GameManager : MonoBehaviour
        int rnd = Random.Range(0, cardsdata.RandomCards.Count);
         return cardsdata.RandomCards[rnd];
     } 
+
+
 
 }
