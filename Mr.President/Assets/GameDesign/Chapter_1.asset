@@ -37,7 +37,7 @@ MonoBehaviour:
   - Available: 1
     CardID: -1
     CardType: 0
-  - Available: 0
+  - Available: 1
     CardID: -1
     CardType: 0
   - Available: 1
@@ -91,7 +91,7 @@ MonoBehaviour:
       Left_value: -10
       Right_value: 20
     - id: 9
-      Left_value: 0.3
+      Left_value: -0.3
       Right_value: 0.1
   - ID: 2
     Name: card_2
@@ -107,7 +107,7 @@ MonoBehaviour:
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Ministers:
     - id: 3
-      Left_value: 0.2
+      Left_value: -0.2
       Right_value: 0.1
     - id: 2
       Left_value: -0.4
@@ -127,7 +127,7 @@ MonoBehaviour:
     Ministers:
     - id: 7
       Left_value: 0.1
-      Right_value: 0.2
+      Right_value: -0.2
     - id: 5
       Left_value: 0.6
       Right_value: -0.4
@@ -182,7 +182,10 @@ MonoBehaviour:
     Right_Head_ID: 8
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-    Ministers: []
+    Ministers:
+    - id: 7
+      Left_value: 0.1
+      Right_value: -0.1
   - ID: 1
     Name: Card_1
     Text: " \uFE8D\uFBFE\uFEE6 \uFEE3\uFE98\uFEE6 \uFE81\uFEAF\uFEE3\uFE8E\uFBFE\uFEB8\uFBFD
