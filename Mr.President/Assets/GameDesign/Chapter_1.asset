@@ -69,10 +69,10 @@ MonoBehaviour:
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Ministers:
     - id: 1
-      Left_value: -0.2
-      Right_value: 0.2
+      Left_value: -0.05
+      Right_value: 0.02
     - id: 7
-      Left_value: -0.2
+      Left_value: -0.05
       Right_value: 0.01
   - ID: 1
     Name: card_1
