@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject CardPrefab;
 
     //current card data
-    public CardData cardsdata;
+    public  CardData cardsdata;
+    public  CardData Clonecardsdata;
+
     private Chapter CarrentCard;
     private CardDetails carddetails;
     private State dragstate;
@@ -33,22 +35,35 @@ public class GameManager : MonoBehaviour
     private static int CardHead = 0;
     private int NextCardID = 0;
 
-    public List<Chapter> chapterflow;
+    private SpellController spellcontroller;
+
+    public List<Chapter> chapterflow = new List<Chapter>();
 
     // Start is called before the first frame update
     void Start()
     {
+        StaticData.gameManager = this;
+
+        //init CardArea
         backcardsPrefabs = new List<GameObject>();
         StartCoroutine(intialCardArea());
 
+        // Get Ministers And TextArea
         ministers = FindObjectsOfType<MinisterController>().ToList();
-
-        StaticData.gameManager = this;
-
         textarea = FindObjectOfType<TextManager>();
 
-        chapterflow = cardsdata.ChapterFlow;
 
+        // make clone of CardsData for Save Main Data
+        Clonecardsdata = Instantiate(cardsdata);
+
+        // Chapter Data
+        chapterflow = Clonecardsdata.ChapterFlow;
+
+
+        // Find SPellController
+        spellcontroller = FindObjectOfType<SpellController>();
+
+        // Set FPS On Android
         if (Application.platform == RuntimePlatform.Android)
             Application.targetFrameRate = 100;
 
@@ -60,6 +75,7 @@ public class GameManager : MonoBehaviour
         
     }
 
+    #region CardController
     IEnumerator intialCardArea()
     {
 
@@ -190,10 +206,15 @@ public class GameManager : MonoBehaviour
             {
               MinisterController minister = ministers.Find(x => x.id == carddetails.Ministers[i].id);
             if (dragstate == State.Left)
-                minister.setvalue(carddetails.Ministers[i].Left_value);
+            {
+                float spellAffect = spellcontroller.Spelldecision(carddetails.Ministers[i].Left_value, carddetails.Ministers[i].id);
+                minister.setvalue(spellAffect);
+            }
             else
-                minister.setvalue(carddetails.Ministers[i].Right_value);
-
+            {
+                float spellAffect = spellcontroller.Spelldecision(carddetails.Ministers[i].Right_value, carddetails.Ministers[i].id);
+                minister.setvalue(spellAffect);
+            }
         }
 
     }
@@ -202,8 +223,11 @@ public class GameManager : MonoBehaviour
     {
        int rnd = Random.Range(0, cardsdata.RandomCards.Count);
         return cardsdata.RandomCards[rnd];
-    } 
+    }
+    #endregion
 
+    #region Spells
 
+    #endregion
 
 }

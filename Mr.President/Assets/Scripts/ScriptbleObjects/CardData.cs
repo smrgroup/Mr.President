@@ -25,7 +25,6 @@ public class CardData : ScriptableObject
         OnRandomCardInChapter();
     }
 
-
     private void setIds(List<CardDetails> list)
     {
         if (list.Count > 1)

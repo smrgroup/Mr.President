@@ -2068,6 +2068,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5e2f86bf011ed14ab3a8ebfa844d097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spelldata: {fileID: 11400000, guid: 981ed2d2dafa5f64c9148127c32cd7e2, type: 2}
+  spells: []
+  ministers: []
 --- !u!1 &1405932325
 GameObject:
   m_ObjectHideFlags: 0

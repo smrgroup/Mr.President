@@ -18,7 +18,7 @@ MonoBehaviour:
     CardType: 0
   - Available: 1
     CardID: 0
-    CardType: 1
+    CardType: 2
   - Available: 1
     CardID: -1
     CardType: 0
@@ -227,8 +227,8 @@ MonoBehaviour:
       \uFE8D\uFEB3\uFE96 1"
     Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
     CardType: 1
-    Left_Head_ID: 0
-    Right_Head_ID: 0
+    Left_Head_ID: 3
+    Right_Head_ID: 2
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Ministers: []
