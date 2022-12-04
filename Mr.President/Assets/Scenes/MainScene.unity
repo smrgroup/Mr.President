@@ -159,6 +159,7 @@ MonoBehaviour:
   CardPrefab: {fileID: 7825539021061821086, guid: 3bfcdb076bc3a6d4695f5f45b4b9ee66,
     type: 3}
   cardsdata: {fileID: 11400000, guid: 9cfeedc5f04a51941b7b234315927243, type: 2}
+  Clonecardsdata: {fileID: 0}
   ministers: []
   chapterflow: []
 --- !u!4 &82995980
@@ -2069,6 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spelldata: {fileID: 11400000, guid: 981ed2d2dafa5f64c9148127c32cd7e2, type: 2}
+  Clonespelldata: {fileID: 0}
   spells: []
   ministers: []
 --- !u!1 &1405932325
