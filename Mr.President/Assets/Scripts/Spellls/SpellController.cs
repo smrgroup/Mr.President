@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class SpellController : MonoBehaviour
@@ -13,6 +14,10 @@ public class SpellController : MonoBehaviour
     public List<Spell> spells; 
     
     public List<MinistersID> ministers;
+
+    public bool IsActiveSpell = false;
+    Spell Activespell;
+    int baseCardCount;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,56 +32,81 @@ public class SpellController : MonoBehaviour
         
     }
 
-    public float Spelldecision(float value , int MinisterID)
+    public float Spelldecision()
     {
-        foreach (Spell spell in spells)
+
+        if (!IsActiveSpell)
         {
-            float castORnot = Random.Range(0, 100);
-
-            if (castORnot <= spell.Percent_to_Spell && spell.Times_to_Spell > 0)
+            foreach (Spell spell in spells)
             {
-                spell.Times_to_Spell--;
-
-                if (spell.Count_Effect)
+                float castORnot = Random.Range(0, 100);
+                Debug.Log(castORnot+"%");
+                if (castORnot <= spell.Percent_to_Spell && spell.Times_to_Spell > 0)
                 {
-                    if (spell.SpecialMinisters.Count != 0)
-                    {
-                        bool isexist = spell.SpecialMinisters.Any(x => x.id== MinisterID);
-                        if (isexist)
-                        {
-                            return value += spell.CountEffect; 
-                        }
-                        else
-                            return value;
-                    }
-                    else
-                    {
-                        return value += spell.CountEffect;
-                    }
+                    spell.Times_to_Spell--;
+                    baseCardCount = spell.Cards_Count;
+                    IsActiveSpell = true;
+                    Activespell = spell;
+                    Activespell.Cards_Count--;
+                    Debug.Log("Spell Actived");
+                    break;
                 }
-                else if (spell.Percent_Effect)
-                {
-
-                    if (spell.SpecialMinisters.Count != 0)
-                    {
-                        bool isexist = spell.SpecialMinisters.Any(x => x.id == MinisterID);
-                        if (isexist)
-                        {
-                            float pernetage = (spell.PercentEffect / 100) * value;
-                            return value += pernetage;
-                        }
-                        else
-                            return value;
-                    }
-                    else
-                    {
-                        float pernetage = (spell.PercentEffect / 100 ) * value;
-                        return value += pernetage;
-                    }
-
-                }
-
             }
+        }
+        else
+        {
+            Activespell.Cards_Count--;
+        }
+        return 0;
+    }
+
+    public float addAffect(MinisterController minister , float value)
+    {
+
+        if (Activespell.Cards_Count <= 0)
+        {
+            IsActiveSpell = false;
+            Activespell.Cards_Count = baseCardCount;
+            return 0; 
+        }
+
+        if (Activespell.Count_Effect)
+        {
+            if (Activespell.SpecialMinisters.Count != 0)
+            {
+                bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
+                if (isexist)
+                {
+                    return value += Activespell.CountEffect;
+                }
+                else
+                    return value;
+            }
+            else
+            {
+                return value += Activespell.CountEffect;
+            }
+        }
+        else if (Activespell.Percent_Effect)
+        {
+
+            if (Activespell.SpecialMinisters.Count != 0)
+            {
+                bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
+                if (isexist)
+                {
+                    float pernetage = (Activespell.PercentEffect / 100) * value;
+                    return value += pernetage;
+                }
+                else
+                    return value;
+            }
+            else
+            {
+                float pernetage = (Activespell.PercentEffect / 100) * value;
+                return value += pernetage;
+            }
+
         }
 
         return 0;

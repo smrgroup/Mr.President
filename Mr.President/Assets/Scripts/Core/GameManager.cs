@@ -165,6 +165,7 @@ public class GameManager : MonoBehaviour
 
     private void CardDragEvent(State state)
     {
+        spellcontroller.Spelldecision();
         dragstate = state;
         AddMinistersEffect();
         Cardheadmanager();
@@ -177,11 +178,13 @@ public class GameManager : MonoBehaviour
         {
             if (dragstate == State.Left)
             {
-                CardHead = carddetails.Left_Head_ID;
+               if(carddetails.Left_Head_ID != -1)
+                    CardHead = carddetails.Left_Head_ID;
             }
             else if (dragstate == State.Right)
-            { 
-                CardHead = carddetails.Right_Head_ID;
+            {
+                if (carddetails.Left_Head_ID != -1)
+                    CardHead = carddetails.Right_Head_ID;
             }
         }
         else
@@ -207,13 +210,19 @@ public class GameManager : MonoBehaviour
               MinisterController minister = ministers.Find(x => x.id == carddetails.Ministers[i].id);
             if (dragstate == State.Left)
             {
-                float spellAffect = spellcontroller.Spelldecision(carddetails.Ministers[i].Left_value, carddetails.Ministers[i].id);
-                minister.setvalue(spellAffect);
+                if (spellcontroller.IsActiveSpell)
+                {
+                    spellcontroller.addAffect(minister,carddetails.Ministers[i].Left_value);
+                }
+                minister.setvalue(carddetails.Ministers[i].Left_value);
             }
             else
             {
-                float spellAffect = spellcontroller.Spelldecision(carddetails.Ministers[i].Right_value, carddetails.Ministers[i].id);
-                minister.setvalue(spellAffect);
+                if (spellcontroller.IsActiveSpell)
+                {
+                    spellcontroller.addAffect(minister, carddetails.Ministers[i].Right_value);
+                }
+                minister.setvalue(carddetails.Ministers[i].Right_value);
             }
         }
 

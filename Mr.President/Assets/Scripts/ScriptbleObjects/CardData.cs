@@ -76,10 +76,11 @@ public class CardDetails
     public int Right_Head_ID;
     [Space(1)]
 
-    public string Right_Choose_Text;
-
     public string Left_Choose_Text;
 
+    public string Right_Choose_Text;
+
+    
     public List<Ministers> Ministers = new List<Ministers>();
 
     public CardDetails()

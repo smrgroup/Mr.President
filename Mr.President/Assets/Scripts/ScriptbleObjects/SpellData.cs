@@ -38,6 +38,7 @@ public class Spell
     public int Id;
     public string Name;
     [Space(10)]
+    [Header("choose Spell Type")]
     public bool Percent_Effect = false;
     [DrawIf("Percent_Effect", true)]
     public float PercentEffect;
@@ -45,13 +46,19 @@ public class Spell
     [DrawIf("Count_Effect", true)]
     public float CountEffect;
     [Space(10)]
+    [Header("Posibilty To Affect Spell")]
     public float Percent_to_Spell;
+    [Header("Time To Repeat Spell in all game")]
     public int Times_to_Spell;
     [Space(10)]
     [Header("Add SpecialMinisters")]
     public List<MinistersID> SpecialMinisters = new List<MinistersID>();
     [Space(10)]
+    [Header("Count Card Repeat")]
     public int Cards_Count;
+    
+    [Header("IS PowerUp")]
+    public bool IsPowrIp = false;
 
 }
 
