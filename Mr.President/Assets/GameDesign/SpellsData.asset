@@ -16,10 +16,11 @@ MonoBehaviour:
   - Id: 0
     Name: spell
     Percent_Effect: 1
-    PercentEffect: 20
+    PercentEffect: 0.1
     Count_Effect: 0
     CountEffect: 0.1
-    Percent_to_Spell: 100
+    Percent_to_Spell: 20
     Times_to_Spell: 4
     SpecialMinisters: []
     Cards_Count: 2
+    IsPowrIp: 0
