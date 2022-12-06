@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: SpellsData
   m_EditorClassIdentifier: 
   Spells:
-  - Id: 0
+  - IsPowrUp: 0
+    Id: 0
     Name: spell
     Percent_Effect: 1
     PercentEffect: 0.1
@@ -22,5 +23,4 @@ MonoBehaviour:
     Percent_to_Spell: 20
     Times_to_Spell: 4
     SpecialMinisters: []
-    Cards_Count: 2
-    IsPowrIp: 0
+    Cards_Count: 3

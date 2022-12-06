@@ -35,6 +35,10 @@ public class SpellData : ScriptableObject
 [System.Serializable]
 public class Spell 
 {
+
+    [Header("IS PowerUp")]
+    public bool IsPowrUp = false;
+    [Space(15)]
     public int Id;
     public string Name;
     [Space(10)]
@@ -57,9 +61,6 @@ public class Spell
     [Header("Count Card Repeat")]
     public int Cards_Count;
     
-    [Header("IS PowerUp")]
-    public bool IsPowrIp = false;
-
 }
 
 [System.Serializable]
