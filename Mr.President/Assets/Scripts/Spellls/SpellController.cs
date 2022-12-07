@@ -50,6 +50,8 @@ public class SpellController : MonoBehaviour
                     {
                         addspellItem(spell);
                         SetspellActive(spell);
+                        //Because its auo Active
+                        Activespell.Cards_Count--;
                         break;
                     }
                     else
@@ -66,13 +68,12 @@ public class SpellController : MonoBehaviour
         return 0;
     }
 
-    private void SetspellActive(Spell spell)
+    public void SetspellActive(Spell spell)
     {
         spell.Times_to_Spell--;
         baseCardCount = spell.Cards_Count;
         IsActiveSpell = true;
         Activespell = spell;
-        Activespell.Cards_Count--;
         Debug.Log("Spell Actived");
     }
 
@@ -83,15 +84,22 @@ public class SpellController : MonoBehaviour
 
         foreach (SpellItem item in spellItems)
         {
-            if (item.spell.Id == Activespell.Id && item.spell != null)
+            if (item.spell != null)
             {
+                if (item.spell.Id == Activespell.Id && item.isActive)
+                { 
                 item.spell = null;
                 item.hasSpell = false;
+                item.isActive = false;
                 item.GetComponent<Image>().enabled = false;
-                break;
+                item.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+                    break;
+                }
             }
 
         }
+
+        Activespell = new Spell();
     }
 
     public void addspellItem(Spell spell)
@@ -123,11 +131,16 @@ public class SpellController : MonoBehaviour
         {
             if (Activespell.SpecialMinisters.Count != 0)
             {
+                //if special ministers
                 bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
                 if (isexist)
                 {
                     if (EndOfCard) destroyspell();
-                    return value += Activespell.CountEffect;
+                    if (Activespell.IsPowrUp)
+                        return value += Activespell.CountEffect;
+                    else
+                        return value -= Activespell.CountEffect;
+
                 }
                 else
                 {
@@ -138,7 +151,10 @@ public class SpellController : MonoBehaviour
             else
             {
                 if (EndOfCard) destroyspell();
-                return value += Activespell.CountEffect;
+                if (Activespell.IsPowrUp)
+                    return value += Activespell.CountEffect;
+                else
+                    return value -= Activespell.CountEffect;
             }
         }
         else if (Activespell.Percent_Effect)
@@ -146,12 +162,17 @@ public class SpellController : MonoBehaviour
 
             if (Activespell.SpecialMinisters.Count != 0)
             {
+                //if special ministers
                 bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
                 if (isexist)
                 {
                     if (EndOfCard) destroyspell();
+                    
                     float pernetage = (Activespell.PercentEffect / 100) * value;
-                    return value += pernetage;
+                    if (Activespell.IsPowrUp)
+                        return value += pernetage;
+                    else
+                        return value -= pernetage;
                 }
                 else
                 {
@@ -163,7 +184,10 @@ public class SpellController : MonoBehaviour
             {
                 if (EndOfCard) destroyspell();
                 float pernetage = (Activespell.PercentEffect / 100) * value;
-                return value += pernetage;
+                if (Activespell.IsPowrUp)
+                    return value += pernetage;
+                else
+                    return value -= pernetage;
             }
 
         }
@@ -176,7 +200,7 @@ public class SpellController : MonoBehaviour
     {
         foreach (SpellItem item in spellItems)
         {
-            if (item.spell.Id == Activespell.Id)
+            if (item.spell.Id == Activespell.Id && item.isActive)
             {
                 ParticleSystem particle;
                 if (item.spell.IsPowrUp)

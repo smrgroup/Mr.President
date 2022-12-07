@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Chapter_", menuName = "ScriptableObjects/NewChapter", order = 1)]
@@ -15,7 +14,6 @@ public class CardData : ScriptableObject
     public List<CardDetails> RandomCards = new List<CardDetails>();
     public List<CardDetails> SimpleCards = new List<CardDetails>();
     public List<CardDetails> FastCards = new List<CardDetails>();
-
 
     private void OnValidate()
     {
@@ -56,8 +54,6 @@ if (RandomCards.Count == 1)
 public class CardDetails
 {
 
-  
-
     public int ID;
 
     public string Name;
@@ -80,7 +76,9 @@ public class CardDetails
 
     public string Right_Choose_Text;
 
-    
+    [Space(15)]
+    public int SpellRewardID = -1;
+    [Space(10)]
     public List<Ministers> Ministers = new List<Ministers>();
 
     public CardDetails()
@@ -94,11 +92,31 @@ public class CardDetails
 public class Chapter
 {
 
+    public bool _Challenge = false;
+    public bool _Card = true;
+
+    [Header("-------------------------------------------------------")]
+
+    //if Flow Is Challenge
+    //[DrawIf("_Challenge", true)]
+    //public int ChallengeID;
+    //[DrawIf("_Challenge", true)]
+    //public int SpellID;
+
+
+    //if Flow Is Card
+    [DrawIf("_Card", true)] 
     public bool Available = true;
+
     [DrawIf("Available",true)]
+    [DrawIf("_Card", true)]
     public int CardID;
+    
     [DrawIf("Available", true)]
+    [DrawIf("_Card", true)]
     public CardType CardType;
+
+
 
     public Chapter()
     {

@@ -81,13 +81,13 @@ public class GameManager : MonoBehaviour
 
         int CardCount = 5;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
 
         for (int i = 0; i < CardCount; i++)
         {
             GameObject Bcard = Instantiate(BackCardPrefab,CardsArea.transform);
             backcardsPrefabs.Add(Bcard);
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.3f);
             backcardsPrefabs[i].GetComponent<EasyTween>().OpenCloseObjectAnimation();
         }
 
@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("header " + CardHead);
 
 
-        if (CardHead >= chapterflow.Count)
+        if (CardHead >= chapterflow.FindAll(x => x.Available == true).Count)
             return;
         else
         {

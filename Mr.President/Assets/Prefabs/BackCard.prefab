@@ -195,7 +195,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 0.3
+    animationDuration: 0.2
 --- !u!114 &5382209042164535239
 MonoBehaviour:
   m_ObjectHideFlags: 0

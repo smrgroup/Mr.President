@@ -20,7 +20,18 @@ MonoBehaviour:
     PercentEffect: 0.1
     Count_Effect: 0
     CountEffect: 0.1
-    Percent_to_Spell: 20
-    Times_to_Spell: 4
+    Percent_to_Spell: 0
+    Times_to_Spell: 2
     SpecialMinisters: []
-    Cards_Count: 3
+    Cards_Count: 2
+  - IsPowrUp: 1
+    Id: 1
+    Name: spell_up
+    Percent_Effect: 0
+    PercentEffect: 0.1
+    Count_Effect: 1
+    CountEffect: 0.1
+    Percent_to_Spell: 100
+    Times_to_Spell: 2
+    SpecialMinisters: []
+    Cards_Count: 2

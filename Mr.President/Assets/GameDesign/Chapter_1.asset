@@ -13,34 +13,54 @@ MonoBehaviour:
   m_Name: Chapter_1
   m_EditorClassIdentifier: 
   ChapterFlow:
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: 0
     CardType: 1
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: 0
     CardType: 2
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 1
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
     CardID: -1
     CardType: 0
-  - Available: 0
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
     CardID: -1
     CardType: 0
-  - Available: 0
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
     CardID: -1
     CardType: 0
   StartCard:
@@ -53,6 +73,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: LEFT
     Right_Choose_Text: RIGHT
+    SpellRewardID: -1
     Ministers: []
   RandomCards:
   - ID: 0
@@ -67,6 +88,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 1
       Left_value: -0.05
@@ -86,6 +108,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 4
       Left_value: -0.05
@@ -105,6 +128,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 3
       Left_value: -0.05
@@ -124,6 +148,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 7
       Left_value: -0.05
@@ -143,6 +168,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 4
       Left_value: -0.05
@@ -162,6 +188,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 8
       Left_value: -0.05
@@ -182,6 +209,7 @@ MonoBehaviour:
     Right_Head_ID: 8
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 7
       Left_value: -0.05
@@ -198,6 +226,7 @@ MonoBehaviour:
     Right_Head_ID: 0
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers: []
   FastCards:
   - ID: 0
@@ -212,6 +241,7 @@ MonoBehaviour:
     Right_Head_ID: -1
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers:
     - id: 1
       Left_value: -0.05
@@ -231,4 +261,5 @@ MonoBehaviour:
     Right_Head_ID: 2
     Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
     Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+    SpellRewardID: -1
     Ministers: []

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8712777217575591401}
   - component: {fileID: 8712777217575591400}
   - component: {fileID: 7174172874344938108}
+  - component: {fileID: 8529253986561375740}
   m_Layer: 5
   m_Name: Spell_area
   m_TagString: Untagged
@@ -89,7 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c5d00b3c3f5f1f41b256e61b47b932f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PowerUp: {fileID: 0}
+  hasSpell: 0
+  PowerUp: {fileID: 19800000, guid: 0e5bb4eb772d6c646bfe7136254fb5b7, type: 3}
   Spell: {fileID: 2631674692473513255, guid: c222ad37316f71345b690226abf9f1fd, type: 3}
   spell:
     IsPowrUp: 0
@@ -103,3 +105,59 @@ MonoBehaviour:
     Times_to_Spell: 0
     SpecialMinisters: []
     Cards_Count: 0
+--- !u!114 &8529253986561375740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712777217575591413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8712777217575591400}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7174172874344938108}
+        m_TargetAssemblyTypeName: SpellItem, Assembly-CSharp
+        m_MethodName: ActiveSpell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
