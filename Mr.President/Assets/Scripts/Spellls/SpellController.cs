@@ -40,6 +40,7 @@ public class SpellController : MonoBehaviour
 
         if (!IsActiveSpell)
         {
+           // spells = Shuffle(spells);
             foreach (Spell spell in spells)
             {
                 float castORnot = Random.Range(0, 100);
@@ -111,6 +112,11 @@ public class SpellController : MonoBehaviour
                 spellItems[i].GetComponent<Image>().enabled = true;
                 spellItems[i].hasSpell = true;
                 spellItems[i].spell = spell;
+
+                // Spell Auto Active
+                if (!spellItems[i].spell.IsPowrUp)
+                    spellItems[i].isActive = true;
+
                 break;
             }
         }
@@ -215,6 +221,19 @@ public class SpellController : MonoBehaviour
         }
     }
 
+    public List<Spell> Shuffle(List<Spell> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = Random.Range(0, list.Count);
+            Spell value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
 
+        return list;
+    }
 
 }

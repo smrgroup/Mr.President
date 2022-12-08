@@ -33,9 +33,13 @@ public class SpellItem : MonoBehaviour
         if (!SpellController.IsActiveSpell)
         {
             SpellController.SetspellActive(spell);
-            GetComponent<Image>().color = new Color32(255,0, 172,255);
+            GetComponent<Image>().color = new Color32(255, 0, 172, 255);
             isActive = true;
         }
+        else
+        {
+            Debug.Log("Already Another Spell Active");
+        }    
             
     }
 }

@@ -60,7 +60,6 @@ public class Spell
     [Space(10)]
     [Header("Count Card Repeat")]
     public int Cards_Count;
-    
 }
 
 [System.Serializable]
