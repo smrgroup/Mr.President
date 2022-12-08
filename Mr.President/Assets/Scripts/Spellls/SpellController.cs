@@ -115,7 +115,10 @@ public class SpellController : MonoBehaviour
 
                 // Spell Auto Active
                 if (!spellItems[i].spell.IsPowrUp)
+                { 
                     spellItems[i].isActive = true;
+                    spellItems[i].GetComponent<Image>().color = new Color32(255, 0, 172, 255);
+                }
 
                 break;
             }
