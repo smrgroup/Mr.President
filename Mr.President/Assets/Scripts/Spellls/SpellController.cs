@@ -146,14 +146,23 @@ public class SpellController : MonoBehaviour
                 {
                     if (EndOfCard) destroyspell();
                     if (Activespell.IsPowrUp)
-                        return value += Activespell.CountEffect;
+                    {
+                        var newvalue = value + Activespell.CountEffect;
+                        logEffcet(value,Activespell.CountEffect, newvalue);
+                        return newvalue;
+                    }
                     else
-                        return value -= Activespell.CountEffect;
+                    { 
+                        var newvalue = value - Activespell.CountEffect;
+                        logEffcet(value, Activespell.CountEffect, newvalue);
+                        return newvalue;
+                    }
 
                 }
                 else
                 {
                     if (EndOfCard) destroyspell();
+                    Debug.Log("<color=green> IncomeValue " + value + ": </color>");
                     return value;
                 }
             }
@@ -161,9 +170,17 @@ public class SpellController : MonoBehaviour
             {
                 if (EndOfCard) destroyspell();
                 if (Activespell.IsPowrUp)
-                    return value += Activespell.CountEffect;
+                {
+                    var newvalue = value + Activespell.CountEffect;
+                    logEffcet(value, Activespell.CountEffect, newvalue);
+                    return newvalue;
+                }
                 else
-                    return value -= Activespell.CountEffect;
+                {
+                    var newvalue = value - Activespell.CountEffect;
+                    logEffcet(value, Activespell.CountEffect, newvalue);
+                    return newvalue;
+                }
             }
         }
         else if (Activespell.Percent_Effect)
@@ -176,16 +193,22 @@ public class SpellController : MonoBehaviour
                 if (isexist)
                 {
                     if (EndOfCard) destroyspell();
-                    
+
+                    float newvalue = value;
+
                     float pernetage = (Activespell.PercentEffect / 100) * value;
                     if (Activespell.IsPowrUp)
-                        return value += pernetage;
+                         newvalue = value + pernetage; 
                     else
-                        return value -= pernetage;
+                         newvalue = value - pernetage;
+
+                    logEffcet(value, Activespell.PercentEffect, newvalue ,true);
+                    return newvalue;
                 }
                 else
                 {
                     if (EndOfCard) destroyspell();
+                    Debug.Log("<color=green> IncomeValue " + value + ": </color>");
                     return value;
                 }
             }
@@ -193,10 +216,20 @@ public class SpellController : MonoBehaviour
             {
                 if (EndOfCard) destroyspell();
                 float pernetage = (Activespell.PercentEffect / 100) * value;
+                float newvalue = value;
                 if (Activespell.IsPowrUp)
-                    return value += pernetage;
+                {
+                    newvalue = value + pernetage;
+                    logEffcet(value, Activespell.PercentEffect, newvalue, true);
+                }
                 else
-                    return value -= pernetage;
+                {
+                    newvalue = value - pernetage;
+                    logEffcet(value, Activespell.PercentEffect, newvalue, true);
+                }
+
+                return newvalue;
+
             }
 
         }
@@ -237,6 +270,16 @@ public class SpellController : MonoBehaviour
         }
 
         return list;
+    }
+
+    public void logEffcet(float value , float effect, float newvalue,bool percent = false)
+    {
+        if (percent)
+            Debug.Log("<color=#FFB30F> Percent Effect : " + effect  + " |--> </color>" + "<color=#B38CB4> IncomeValue: " + value + " |--> </color>" + "<color=#97CC04> NewValue " + newvalue + " </color>");
+        else
+            Debug.Log("<color=#FFB30F> Count Effect " + effect  + "</color>" + "<color=#B38CB4> IncomeValue " + value + " </color>" + "<color=#97CC04> ==> NewValue " + newvalue + " </color>");
+
+
     }
 
 }
