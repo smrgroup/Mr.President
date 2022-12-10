@@ -11,6 +11,9 @@ public class SpellController : MonoBehaviour
     public SpellData Clonespelldata;
     public List<Spell> spells; 
     public List<MinistersID> ministers;
+    private int CurrentCardID = -1;
+    private int MinisterCounts = -1;
+
 
     //UI Stuff
     public List<SpellItem> spellItems;
@@ -51,8 +54,6 @@ public class SpellController : MonoBehaviour
                     {
                         addspellItem(spell);
                         SetspellActive(spell);
-                        //Because its auo Active
-                        Activespell.Cards_Count--;
                         break;
                     }
                     else
@@ -61,10 +62,6 @@ public class SpellController : MonoBehaviour
                     }
                 }
             }
-        }
-        else
-        {
-            Activespell.Cards_Count--;
         }
         return 0;
     }
@@ -125,14 +122,22 @@ public class SpellController : MonoBehaviour
         }
     }
 
-    public float addAffect(MinisterController minister , float value)
+    public float addAffect(int CardID ,int ministersCount,MinisterController minister , float value)
     {
 
-        bool EndOfCard = false;
-        if (Activespell.Cards_Count <= 0)
+        if (CardID != CurrentCardID)
         {
-            EndOfCard = true;
+            CurrentCardID = CardID;
+            MinisterCounts = ministersCount;
+            Activespell.Cards_Count--;
+            MinisterCounts--;
         }
+        else
+        {
+            if(MinisterCounts!=0)
+            MinisterCounts--;
+        }
+     
 
         addParticleEffect();
 
@@ -144,41 +149,44 @@ public class SpellController : MonoBehaviour
                 bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
                 if (isexist)
                 {
-                    if (EndOfCard) destroyspell();
+                   
                     if (Activespell.IsPowrUp)
                     {
                         var newvalue = value + Activespell.CountEffect;
                         logEffcet(value,Activespell.CountEffect, newvalue);
+                        if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                         return newvalue;
                     }
                     else
                     { 
                         var newvalue = value - Activespell.CountEffect;
                         logEffcet(value, Activespell.CountEffect, newvalue);
+                        if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                         return newvalue;
                     }
 
                 }
                 else
                 {
-                    if (EndOfCard) destroyspell();
                     Debug.Log("<color=green> IncomeValue " + value + ": </color>");
+                    if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                     return value;
                 }
             }
             else
             {
-                if (EndOfCard) destroyspell();
                 if (Activespell.IsPowrUp)
                 {
                     var newvalue = value + Activespell.CountEffect;
                     logEffcet(value, Activespell.CountEffect, newvalue);
+                    if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                     return newvalue;
                 }
                 else
                 {
                     var newvalue = value - Activespell.CountEffect;
                     logEffcet(value, Activespell.CountEffect, newvalue);
+                    if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                     return newvalue;
                 }
             }
@@ -192,7 +200,6 @@ public class SpellController : MonoBehaviour
                 bool isexist = Activespell.SpecialMinisters.Any(x => x.id == minister.id);
                 if (isexist)
                 {
-                    if (EndOfCard) destroyspell();
 
                     float newvalue = value;
 
@@ -203,18 +210,19 @@ public class SpellController : MonoBehaviour
                          newvalue = value - pernetage;
 
                     logEffcet(value, Activespell.PercentEffect, newvalue ,true);
+                    if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                     return newvalue;
                 }
                 else
                 {
-                    if (EndOfCard) destroyspell();
+                   
                     Debug.Log("<color=green> IncomeValue " + value + ": </color>");
+                    if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                     return value;
                 }
             }
             else
             {
-                if (EndOfCard) destroyspell();
                 float pernetage = (Activespell.PercentEffect / 100) * value;
                 float newvalue = value;
                 if (Activespell.IsPowrUp)
@@ -228,6 +236,7 @@ public class SpellController : MonoBehaviour
                     logEffcet(value, Activespell.PercentEffect, newvalue, true);
                 }
 
+                if (Activespell.Cards_Count == 0 && MinisterCounts == 0) destroyspell();
                 return newvalue;
 
             }

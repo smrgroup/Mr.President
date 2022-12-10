@@ -212,7 +212,7 @@ public class GameManager : MonoBehaviour
             {
                 if (spellcontroller.IsActiveSpell)
                 {
-                    spellcontroller.addAffect(minister,carddetails.Ministers[i].Left_value);
+                    spellcontroller.addAffect(carddetails.ID,carddetails.Ministers.Count, minister,carddetails.Ministers[i].Left_value);
                 }
                 minister.setvalue(carddetails.Ministers[i].Left_value);
             }
@@ -220,7 +220,7 @@ public class GameManager : MonoBehaviour
             {
                 if (spellcontroller.IsActiveSpell)
                 {
-                    spellcontroller.addAffect(minister, carddetails.Ministers[i].Right_value);
+                    spellcontroller.addAffect(carddetails.ID,carddetails.Ministers.Count, minister, carddetails.Ministers[i].Right_value);
                 }
                 minister.setvalue(carddetails.Ministers[i].Right_value);
             }
