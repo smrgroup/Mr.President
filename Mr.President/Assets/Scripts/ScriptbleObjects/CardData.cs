@@ -8,45 +8,11 @@ public class CardData : ScriptableObject
 
     [Header("<<Chapter Config>>")]
     public List<Chapter> ChapterFlow = new List<Chapter>();
-    [Space(5)]
-    [Header("<<Cards Config>>")]
-    public CardDetails StartCard = new CardDetails();
-    public List<CardDetails> RandomCards = new List<CardDetails>();
-    public List<CardDetails> SimpleCards = new List<CardDetails>();
-    public List<CardDetails> FastCards = new List<CardDetails>();
+
 
     private void OnValidate()
     {
-        setIds(RandomCards);
-        setIds(SimpleCards);
-        setIds(FastCards);
-        OnRandomCardInChapter();
-    }
-
-    private void setIds(List<CardDetails> list)
-    {
-        if (list.Count > 1)
-        {
-            list[0].ID = 0;
-            for (int i = 1; i < list.Count; i++)
-            {
-                list[i].ID = list[i - 1].ID + 1;
-            }
-        }
-        else
-if (RandomCards.Count == 1)
-        {
-            RandomCards[0].ID = 0;
-        }
-    }
-
-    private void OnRandomCardInChapter()
-    {
-        for (int i = 0; i < ChapterFlow.Count; i++)
-        {
-            if (ChapterFlow[i].CardType == CardType.Random)
-                ChapterFlow[i].CardID = -1;         
-        }
+      
     }
 }
 
@@ -54,30 +20,26 @@ if (RandomCards.Count == 1)
 public class CardDetails
 {
 
-    public int ID;
+    public string ID;
 
     public string Name;
 
     public string Text;
   
     public Sprite Image;
-
-    public CardType CardType;
    
 
     [Header("Right And Left Card config")]
 
-    public int Left_Head_ID;
+    public string Left_Head_ID;
   
-    public int Right_Head_ID;
+    public string Right_Head_ID;
     [Space(1)]
 
     public string Left_Choose_Text;
 
     public string Right_Choose_Text;
 
-    [Space(15)]
-    public int SpellRewardID = -1;
     [Space(10)]
     public List<Ministers> Ministers = new List<Ministers>();
 
@@ -97,30 +59,28 @@ public class Chapter
 
     [Header("-------------------------------------------------------")]
 
-    //if Flow Is Challenge
-    //[DrawIf("_Challenge", true)]
-    //public int ChallengeID;
-    //[DrawIf("_Challenge", true)]
-    //public int SpellID;
-
-
     //if Flow Is Card
     [DrawIf("_Card", true)] 
     public bool Available = true;
 
     [DrawIf("Available",true)]
     [DrawIf("_Card", true)]
-    public int CardID;
+    public string CardID;
     
     [DrawIf("Available", true)]
     [DrawIf("_Card", true)]
     public CardType CardType;
 
+    [Space(10)]
+    [Header("<<Cards>>")]
+    public List<CardDetails> RandomCards = new List<CardDetails>();
+    public CardDetails SimpleCards = new CardDetails();
+    public CardDetails FastCards = new CardDetails();
 
 
     public Chapter()
     {
-        CardID = -1;
+        CardID = "-1";
         CardType = CardType.Random;
     }
 }
