@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
                 CardHead++;
         }
 
-        int next_cardid = chapterflow[CardHead].CardID;
+        string next_cardid = chapterflow[CardHead].CardID;
         CardType next_cardtype = chapterflow[CardHead].CardType;
 
         if (next_cardtype == CardType.Random)
@@ -154,11 +154,11 @@ public class GameManager : MonoBehaviour
         }
         else if (next_cardtype == CardType.Fast)
         {
-            return cardsdata.FastCards[next_cardid];
+            return cardsdata.ChapterFlow[CardHead].FastCards;
         }
         else if (next_cardtype == CardType.simple)
         {
-            return cardsdata.SimpleCards[next_cardid];
+            return cardsdata.ChapterFlow[CardHead].SimpleCards;
         }
         return null;
     }
@@ -178,13 +178,11 @@ public class GameManager : MonoBehaviour
         {
             if (dragstate == State.Left)
             {
-               if(carddetails.Left_Head_ID != -1)
-                    CardHead = carddetails.Left_Head_ID;
+                    CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Left_Head_ID);
             }
             else if (dragstate == State.Right)
             {
-                if (carddetails.Left_Head_ID != -1)
-                    CardHead = carddetails.Right_Head_ID;
+                    CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Right_Head_ID);
             }
         }
         else
@@ -192,13 +190,12 @@ public class GameManager : MonoBehaviour
         {
             if (dragstate == State.Left)
             {
-                chapterflow[carddetails.Left_Head_ID].Available = true;
+                chapterflow.Find(card => card.CardID == carddetails.Left_Head_ID).Available = true;
             }
             else if (dragstate == State.Right)
             {
-                chapterflow[carddetails.Right_Head_ID].Available = true;
+                chapterflow.Find(card => card.CardID == carddetails.Right_Head_ID).Available = true;
             }
-            Debug.Log("FastCard Move ON heade " + CardHead);
         }
     }
 
@@ -230,8 +227,8 @@ public class GameManager : MonoBehaviour
 
     public CardDetails GetRandomCard()
     {
-       int rnd = Random.Range(0, cardsdata.RandomCards.Count);
-        return cardsdata.RandomCards[rnd];
+       int rnd = Random.Range(0, cardsdata.ChapterFlow[CardHead].RandomCards.Count);
+        return cardsdata.ChapterFlow[CardHead].RandomCards[rnd];
     }
     #endregion
 

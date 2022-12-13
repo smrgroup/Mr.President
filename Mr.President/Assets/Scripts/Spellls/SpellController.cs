@@ -11,7 +11,7 @@ public class SpellController : MonoBehaviour
     public SpellData Clonespelldata;
     public List<Spell> spells; 
     public List<MinistersID> ministers;
-    private int CurrentCardID = -1;
+    private string CurrentCardID = "-1";
     private int MinisterCounts = -1;
 
 
@@ -122,7 +122,7 @@ public class SpellController : MonoBehaviour
         }
     }
 
-    public float addAffect(int CardID ,int ministersCount,MinisterController minister , float value)
+    public float addAffect(string CardID ,int ministersCount,MinisterController minister , float value)
     {
 
         if (CardID != CurrentCardID)
