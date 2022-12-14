@@ -8,11 +8,13 @@ public class MinisterController : MonoBehaviour
 {
     [ReadOnlyAttribute]
     public int id;
-    public float value = 1;
+    public float value = 0.5f;
     Image borderfill;
 
     bool startfill = true;
-    
+    bool setnewvalue = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +25,12 @@ public class MinisterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!startfill && value != borderfill.fillAmount)
-        borderfill.fillAmount = Mathf.Lerp(borderfill.fillAmount,value, Time.deltaTime);
+        if (setnewvalue && value != borderfill.fillAmount)
+        {
+            borderfill.fillAmount = Mathf.Lerp(borderfill.fillAmount, value, Time.deltaTime);
+            if (value == borderfill.fillAmount)
+                setnewvalue = false;
+        }
     }
 
     IEnumerator StartFill()
@@ -32,18 +38,27 @@ public class MinisterController : MonoBehaviour
 
         yield return new WaitForSeconds(0.01f);
 
-        while (borderfill.fillAmount != 1)
+        while (borderfill.fillAmount <= 0.5f)
         {
-            yield return new WaitForSeconds(0.00015f);
+            Debug.Log(value);
+            yield return new WaitForSeconds(0.0015f);
             borderfill.fillAmount += 0.005f;
+            if (borderfill.fillAmount > value)
+                borderfill.fillAmount = value;
         }
 
         startfill = false;
     }
 
+    public void effectvalue()
+    {
+
+    }
+
     public void setvalue(float incomevalue)
     {
         value = value + incomevalue;
+        setnewvalue = true;
         if (value > 1)
             value = 1;
     }
