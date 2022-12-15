@@ -20,7 +20,7 @@ MonoBehaviour:
     PercentEffect: 0.1
     Count_Effect: 0
     CountEffect: 0.1
-    Percent_to_Spell: 20
+    Percent_to_Spell: 90
     Times_to_Spell: 2
     SpecialMinisters: []
     Cards_Count: 2

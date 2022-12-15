@@ -10,9 +10,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    [Tooltip("PreFabs")]
+    [Header("PreFabs")]
     public GameObject CardsArea;
     public GameObject BackGroundPlay;
+    [Header("Animation")]
+    public Animator Loading;
+
 
     public GameObject BackCardPrefab;
     public GameObject CardPrefab;
@@ -78,6 +81,12 @@ public class GameManager : MonoBehaviour
     #region CardController
     IEnumerator intialCardArea()
     {
+
+        yield return new WaitForSeconds(1f);
+
+        Loading.SetBool("start",true);
+
+        yield return new WaitForSeconds(1f);
 
         int CardCount = 5;
 

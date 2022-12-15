@@ -24,11 +24,17 @@ MonoBehaviour:
       Name: mmad
       Text: "\uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFB58\uFBFF\uFE8E\u0645 \uFE8D\uFEB3\uFE96"
       Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      Left_Head_ID: f2
+      Right_Head_ID: f2
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers: []
+      Ministers:
+      - id: 1
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 7
+        Left_value: 0.1
+        Right_value: -0.1
     FastCards:
       ID: 
       Name: 
@@ -56,6 +62,28 @@ MonoBehaviour:
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
     FastCards:
+      ID: f1
+      Name: www
+      Text: qqqqq
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: f2
+      Right_Head_ID: f2
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers:
+      - id: 2
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 5
+        Left_value: 0.1
+        Right_value: -0.1
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: f2
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
       ID: 
       Name: 
       Text: 
@@ -65,3 +93,19 @@ MonoBehaviour:
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
+    FastCards:
+      ID: f2
+      Name: www
+      Text: qqqqq
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 0
+      Right_Head_ID: 0
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers:
+      - id: 4
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 2
+        Left_value: 0.1
+        Right_value: -0.1
