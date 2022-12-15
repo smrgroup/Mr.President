@@ -108,9 +108,12 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("header " + CardHead);
 
-
-        if (CardHead >= chapterflow.FindAll(x => x.Available == true).Count)
+        int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
+        if (CardHead >= chapterCards || CardHead == -1)
+        {
+            Debug.Log("End Of Cards");
             return;
+        }
         else
         {
             //get card by header

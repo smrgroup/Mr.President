@@ -88,7 +88,7 @@ public class Chapter
 [System.Serializable]
 public class Ministers 
 {
-    public int id;
+    public string id;
     public float Left_value = -0.1f;
     public float Right_value = +0.1f;
 

@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class MinisterController : MonoBehaviour
 {
-    [ReadOnlyAttribute]
-    public int id;
+    //[ReadOnlyAttribute]
+    public string id;
     public float value = 0.5f;
     Image borderfill;
 
@@ -38,7 +38,7 @@ public class MinisterController : MonoBehaviour
 
         yield return new WaitForSeconds(0.01f);
 
-        while (borderfill.fillAmount <= 0.5f)
+        while (borderfill.fillAmount < 0.5f)
         {
             Debug.Log(value);
             yield return new WaitForSeconds(0.0015f);
