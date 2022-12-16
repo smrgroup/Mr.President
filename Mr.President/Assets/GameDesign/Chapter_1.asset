@@ -1349,7 +1349,7 @@ MonoBehaviour:
         \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFE97\uFEB8\uFB91\uFBFF\uFEDE \uFE91\uFEAA\uFEEB\uFBFF\uFEAA"
       Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
       Left_Head_ID: C1L1.7Q3
-      Right_Head_ID: 
+      Right_Head_ID: C1L1.6Q1
       Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
       Right_Choose_Text: "\uFEE2\uFED4\uFEDF\uFE8E\uFEA8\uFEE3"
       Ministers: []
@@ -1426,7 +1426,7 @@ MonoBehaviour:
       Ministers: []
   - _Challenge: 0
     _Card: 1
-    Available: 1
+    Available: 0
     CardID: C1L1.6Q2
     CardType: 0
     RandomCards:
