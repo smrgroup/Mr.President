@@ -16,39 +16,7 @@ MonoBehaviour:
   - _Challenge: 0
     _Card: 1
     Available: 1
-    CardID: c1r1
-    CardType: 2
-    RandomCards: []
-    SimpleCards:
-      ID: c1r1
-      Name: mmad
-      Text: "\uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFB58\uFBFF\uFE8E\u0645 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
-      Left_Head_ID: f2
-      Right_Head_ID: f2
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 1
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 7
-        Left_value: 0.1
-        Right_value: -0.1
-    FastCards:
-      ID: 
-      Name: 
-      Text: 
-      Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers: []
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 1
+    CardID: C1L0Q1
     CardType: 1
     RandomCards: []
     SimpleCards:
@@ -56,56 +24,282 @@ MonoBehaviour:
       Name: 
       Text: 
       Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
     FastCards:
-      ID: f1
-      Name: www
-      Text: qqqqq
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: f2
-      Right_Head_ID: f2
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 2
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 5
-        Left_value: 0.1
-        Right_value: -0.1
+      ID: 
+      Name: 
+      Text: "\uFEB3\uFE8E\u0644...\u0660\u0663\u0660\u0662 "
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q2
+      Right_Head_ID: C1L0Q2
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
   - _Challenge: 0
     _Card: 1
-    Available: 0
-    CardID: f2
-    CardType: 2
+    Available: 1
+    CardID: C1L0Q2
+    CardType: 1
     RandomCards: []
     SimpleCards:
       ID: 
       Name: 
       Text: 
       Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
     FastCards:
-      ID: f2
-      Name: www
-      Text: qqqqq
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      ID: 
+      Name: 
+      Text: "\uFEB7\uFEE4\uFE8E \uFE91\uFEEA \uFECB\uFEE8\uFEEE\uFE8D\u0646 \uFEAD\uFE8B\uFBFF\uFEB2
+        \uFE9F\uFEE4\uFEEC\uFEEE\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\u0628
+        \uFEB7\uFEAA\uFBFE\uFEAA \uFEED\uFEC7\uFBFF\uFED4\uFEEA \uFEB7\uFEE4\uFE8E
+        \uFE91\uFEAE\uFED7\uFEAE\uFE8D\uFEAD\u06CC \uFECB\uFEAA\uFE8D\uFEDF\uFE96
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q3
+      Right_Head_ID: C1L0Q3
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q3
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 4
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 2
-        Left_value: 0.1
-        Right_value: -0.1
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFB90\uFE9C\uFEAE\uFBFE\uFE96 \uFEE3\uFEAE\uFEA9\u0645 \uFE8D\u0632
+        \uFEB7\uFEE4\uFE8E \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFB90\uFEAE\uFEA9\uFEE7\uFEAA
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFE8D\uFEE7\uFE98\uFEC8\uFE8E\u0631 \uFB58\uFBFF\uFEB8\uFEAE\uFED3\uFE96
+        \uFB90\uFEB8\uFEEE\u0631 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q4
+      Right_Head_ID: C1L0Q4
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q4
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFEE3\uFE8E \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\uFE97\uFBFD \uFEA9\u0631
+        \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFBFF\uFEAE \uFEA7\uFEEE\uFE8D\uFEEB\uFBFF\uFEAA
+        \uFEA9\uFE8D\uFEB7\uFE96..."
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q5
+      Right_Head_ID: C1L0Q5
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q5
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFB58\uFBFF\uFEAE\uFEED\uFEAF\u06CC \uFEB7\uFEE4\uFE8E \uFEAD\u0648
+        \uFEA9\u0631 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\uFE91\uFE8E\u062A \uFE97\uFE92\uFEAE\uFBFE\uFB8F
+        \uFEE3\uFBFF\uFB95\uFEE2 \u060C \uFE8D\uFEED\uFEE3\uFEAA\u0645 \uFE97\uFE8E
+        \uFEE7\uFB91\uFE8E\uFE97\uFBFD \uFEAD\u0648 \uFE91\uFEEA \uFEB7\uFEE4\uFE8E
+        \uFE8D\uFECB\uFEE0\uFE8E\u0645 \uFB90\uFEE8\uFEE2"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q6
+      Right_Head_ID: C1L0Q6
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\u061F\uFBFD\uFE97\uFE8E\uFB91\uFEE7 \uFEEA\uFB7C"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q6
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFEB7\uFEA8\uFE8E\u0635 \uFEAD\uFEED\u06CC \uFEBB\uFED4\uFEA4\uFEEA
+        \uFEED\uFEAF\uFEAD\u0627 \uFEEB\uFE8E\u06CC \uFEA9\uFEED\uFEDF\uFE96 \uFEB7\uFEE4\uFE8E
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q7
+      Right_Head_ID: C1L0Q7
+      Left_Choose_Text: "\uFE8E\uFEEB\uFE8D"
+      Right_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q7
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\u0631 \uFEBB\uFEEE\uFEAD\uFE97\uFBFD \uFB90\uFEEA \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEEB\uFEAE \uFBFE\uFB8F \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEA
+        \u0660 \uFBFE\uFE8E \u0660\u0660\u0661 \uFE91\uFEAE\uFEB3\uFEAA \uFEA9\uFEED\uFEDF\uFE96
+        \uFEB3\uFED8\uFEEE\u0637 \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q9
+      Right_Head_ID: C1L0Q8
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\u061F\u0627\uFEAE\uFB7C \uFE8E\uFEE3\uFE8D"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q8
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE91\uFEAE\uFEEB\uFEEA \uFEAF\uFEE3\uFE8E\uFEE7\uFBFD
+        \u060C \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEAE \uFE8D\uFBFE\uFEE6 \uFE91\uFE8E\uFEED\u0631
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA \uFB90\uFEEA \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96
+        \uFEB7\uFEE4\uFE8E \uFEA9\uFEED\uFE8D\u0645 \uFB7C\uFEE8\uFEAA\uFE8D\uFEE7\uFBFD
+        \uFEE7\uFEAA\uFE8D\uFEAD\u062F \u0648 \uFE97\uFEE4\uFE8E\uFBFE\uFEDE \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA
+        \uFEA7\uFEEE\uFEA9\uFEB7\uFE8E\u0646 \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96
+        \uFEAD\u0627 \uFE91\uFEAA\uFEB3\uFE96 \uFE91\uFB95\uFBFF\uFEAE\uFEE7\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q9
+      Right_Head_ID: C1L0Q9
+      Left_Choose_Text: "\uFEE2\uFEE4\uFEE4\uFEE4\uFEE4\uFEEB"
+      Right_Choose_Text: "\uFEAA\uFEE8\uFEEB\uFE8E\uFE92\uFE98\uFEB7\uFE8D \u0631\uFEA9
+        \uFE8E\uFEEC\uFEE7\uFE81"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q9
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFB90\uFE8E\uFEAD\u062A \uFEEB\uFE8E\u06CC \uFE91\uFE8E\uFEAF\u06CC
+        \uFB7C\uFEEC\uFE8E\u0631 \uFEA9\uFEB3\uFE98\uFEEA \uFEEB\uFEB4\uFE98\uFEE8\uFEAA 
+        \uFECB\uFE8E\uFEA9\u06CC = \uFEAD\uFEE7\uFB93 \uFEA7\uFE8E\uFB90\uFEB4\uFE98\uFEAE\u06CC 
+        \uFEE3\uFEEC\uFEE2 = \uFEAD\uFEE7\uFB93 \uFE81\uFE91\uFBFD  \uFEA9\uFE8D\uFEB3\uFE98\uFE8E\uFEE7\uFBFD
+        = \uFEAD\uFEE7\uFB93 \uFE91\uFEE8\uFED4\uFEB6  \uFEA7\uFE8E\u0635 =\uFEAD\uFEE7\uFB93
+        \uFED7\uFEAE\uFEE3\uFEB0 "
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q10
+      Right_Head_ID: C1L0Q10
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFE8D"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q10
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE3\uFEEE\uFED3\uFED6 \uFE91\uFE8E\uFEB7\uFBFF\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
+      Right_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
+      Ministers: []
