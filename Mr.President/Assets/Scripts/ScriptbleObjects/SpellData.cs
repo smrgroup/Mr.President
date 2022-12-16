@@ -65,6 +65,6 @@ public class Spell
 [System.Serializable]
 public class MinistersID
 {
-    public int id;
+    public string id;
 }
 

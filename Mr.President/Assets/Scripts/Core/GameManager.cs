@@ -10,9 +10,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    [Tooltip("PreFabs")]
+    [Header("PreFabs")]
     public GameObject CardsArea;
     public GameObject BackGroundPlay;
+    [Header("Animation")]
+    public Animator Loading;
+
 
     public GameObject BackCardPrefab;
     public GameObject CardPrefab;
@@ -79,6 +82,12 @@ public class GameManager : MonoBehaviour
     IEnumerator intialCardArea()
     {
 
+        yield return new WaitForSeconds(1f);
+
+        Loading.SetBool("start",true);
+
+        yield return new WaitForSeconds(1f);
+
         int CardCount = 5;
 
         yield return new WaitForSeconds(0.3f);
@@ -108,9 +117,12 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("header " + CardHead);
 
-
-        if (CardHead >= chapterflow.FindAll(x => x.Available == true).Count)
+        int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
+        if (CardHead >= chapterCards || CardHead == -1)
+        {
+            Debug.Log("End Of Cards");
             return;
+        }
         else
         {
             //get card by header

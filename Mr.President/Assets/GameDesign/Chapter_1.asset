@@ -16,191 +16,96 @@ MonoBehaviour:
   - _Challenge: 0
     _Card: 1
     Available: 1
-    CardID: 0
-    CardType: 1
+    CardID: c1r1
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: c1r1
+      Name: mmad
+      Text: "\uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFB58\uFBFF\uFE8E\u0645 \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: f2
+      Right_Head_ID: f2
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers:
+      - id: 1
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 7
+        Left_value: 0.1
+        Right_value: -0.1
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 0
+      Right_Head_ID: 0
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
   - _Challenge: 0
     _Card: 1
     Available: 1
     CardID: 1
     CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 0
+      Right_Head_ID: 0
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: f1
+      Name: www
+      Text: qqqqq
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: f2
+      Right_Head_ID: f2
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers:
+      - id: 2
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 5
+        Left_value: 0.1
+        Right_value: -0.1
   - _Challenge: 0
     _Card: 1
-    Available: 1
-    CardID: 2
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 3
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 4
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 5
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 6
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 7
-    CardType: 1
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 8
-    CardType: 1
-  StartCard:
-    ID: 0
-    Name: 
-    Text: "\uFB90\uFE8E\uFEAD\u062A \uFEB7\uFEAE\uFEED\u0639"
-    Image: {fileID: 21300000, guid: 2f64862dc8229c34e82b72a870146719, type: 3}
-    CardType: 0
-    Left_Head_ID: 0
-    Right_Head_ID: 0
-    Left_Choose_Text: LEFT
-    Right_Choose_Text: RIGHT
-    SpellRewardID: -1
-    Ministers: []
-  RandomCards: []
-  SimpleCards: []
-  FastCards:
-  - ID: 0
-    Name: Intro-0
-    Text: "\uFEB3\uFE8E\u0644...\u0660\u0663\u0660\u0662 "
-    Image: {fileID: 0}
-    CardType: 0
-    Left_Head_ID: 1
-    Right_Head_ID: 1
-    Left_Choose_Text: ...
-    Right_Choose_Text: ...
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 1
-    Name: Intro-1
-    Text: "\uFEB7\uFEE4\uFE8E \uFE91\uFEEA \uFECB\uFEE8\uFEEE\uFE8E\uFEE7 \uFEAD\uFE8B\uFBFF\uFEB2
-      \uFE9F\uFEE4\uFEEC\uFEEE\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\u0628
-      \uFEB7\uFEAA\uFBFE\uFEAA \uFEED\uFEC7\uFBFF\uFED4\uFEEA \uFEB7\uFEE4\uFE8E
-      \uFE91\uFEAE\uFED7\uFEAE\uFE8D\uFEAE \uFBFE\uFECB\uFEAA\uFE8D\uFEDF\uFE96 \uFE8D\uFEB3\uFE96"
-    Image: {fileID: 0}
-    CardType: 0
-    Left_Head_ID: 2
-    Right_Head_ID: 2
-    Left_Choose_Text: ...
-    Right_Choose_Text: ...
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 2
-    Name: Intro-2
-    Text: "\uFE8D\uFB90\uFE9C\uFEAE\uFBFE\uFE96 \uFEE3\uFEAE\uFEAA\uFEE3 \uFE8D\uFEAF
-      \uFEB7\uFEE4\uFE8E \uFEA3\uFEE4\uFE8E\uFBFE\uFE96\uFB90\uFEAE\uFEA9\uFEE7\uFEAA
-      \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFE8D\uFEE7\uFE98\uFEC8\uFE8E\u0631 \uFBFF\uFB58\uFEB8\uFEAE\uFED3\uFE96\uFB90\uFEB8\uFEEE\u0631
-      \uFEAD\uFE8D \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
-    Image: {fileID: 0}
-    CardType: 0
-    Left_Head_ID: 3
-    Right_Head_ID: 3
-    Left_Choose_Text: ...
-    Right_Choose_Text: ...
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 3
-    Name: Intro-3
-    Text: "\uFE8D\uFEE3\uFE8E \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\uFE97\uFBFD\uFEA9\uFEAD
-      \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFBFF\uFEAE \uFEA7\uFEEE\uFE8D\uFEEB\uFBFF\uFEAA
-      \uFEA9\uFE8D\uFEB7\uFE96..."
-    Image: {fileID: 0}
-    CardType: 0
-    Left_Head_ID: 4
-    Right_Head_ID: 4
-    Left_Choose_Text: ...
-    Right_Choose_Text: ...
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 4
-    Name: Monshi-1
-    Text: "\uFB58\uFBFF\uFEAE\uFEED\uFEB0\uFBFD \uFEB7\uFEE4\uFE8E \uFEAD\uFEED \uFEA9\uFEAD
-      \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\uFE91\uFE8E\u062A \uFE97\uFE92\uFEAE\uFBFE\uFB8F
-      \uFEE3\uFBFE\uFB95\uFEE2 \uFE8D\uFEED\uFEE3\uFEAA\u0645 \uFE97\uFE8E \uFEE7\uFB91\uFE8E\uFE97\uFBFD
-      \uFEAD\uFEED \uFE91\uFEEA \uFEB7\uFEE4\uFE8E \uFE8D\uFECB\uFEE0\uFE8E\u0645
-      \uFB90\uFEE8\uFEE2"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 5
-    Right_Head_ID: 5
-    Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
-    Right_Choose_Text: "\u061F\uFBFD\uFE97\uFE8E\uFB91\uFEE7 \uFEEA\uFB7C"
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 5
-    Name: Monshi-2
-    Text: "\uFE8D\uFEB7\uFEA8\uFE8E\u0635 \uFEAD\uFEEE\uFBFE \uFEBB\uFED4\uFEA4\uFEEA
-      \uFEED\uFEAF\uFEAD\uFE8D \uFEEB\uFE8E\u06CC \uFEA9\uFEED\uFEDF\uFE96 \uFEB7\uFEE4\uFE8E
-      \uFEEB\uFEB4\uFE98\uFEE8\uFEAA"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 6
-    Right_Head_ID: 6
-    Left_Choose_Text: "\uFE8E\uFEEB\uFE8D"
-    Right_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 6
-    Name: Monshi-3
-    Text: "\uFEA9\uFEAD \uFEBB\uFEEE\uFEAD\uFE97\uFBFD\uFB90\uFEEA \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
-      \uFEEB\uFEAE \uFBFE\uFB8F \uFE8D\uFEAF \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEA
-      \u0660\uFBFE\uFE8E \u0660\u0660\u0661 \uFE91\uFEAE\uFEB3\uFEAA \uFEA9\uFEED\uFEDF\uFE96
-      \uFEB3\uFED8\uFEEE\u0637 \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 7
-    Right_Head_ID: 8
-    Left_Choose_Text: "\u061F\u0627\uFEAE\uFB7C \uFE8E\uFEE3\uFE8D"
-    Right_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 7
-    Name: Monshi-4
-    Text: "\uFEE3\uFE98\uFE8E\uFEB3\uFED4\uFE8E\uFEE7\uFEEA \uFEED\uFEAF\uFEAD\uFE8D
-      \uFE91\uFEAE \uFE8D\uFBFE\uFEE6 \uFE91\uFE8E\uFEED\uFEAD \uFEEB\uFEB4\uFE98\uFEE8\uFEAA\uFB90
-      \uFEEA \uFEB7\uFEE4\uFE8E \uFE97\uFEEE\uFE8D\uFEE7\uFE8E \uFBFD\uFBFE\uFE8D\uFEA9\uFE8D\uFEAE\uFEEB
-      \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96 \uFEAD\uFE8D \uFEE7\uFEAA\uFE8D\uFEAD\uFBFE\uFEAA"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 8
-    Right_Head_ID: 8
-    Left_Choose_Text: "\uFEAA\uFEE8\uFEEB\uFE8E\uFE92\uFE98\uFEB7\uFE8D \u0631\uFEA9
-      \uFE8E\uFEEC\uFEE7\uFE81"
-    Right_Choose_Text: "\u0631\uFEEE\uFEC4\uFEE8\uFBFE\uFE8D \uFEEA\uFB90"
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 8
-    Name: Monshi-Ending
-    Text: "\uFEE3\uFEEE\uFED3\uFED6 \uFE91\uFE8E\uFEB7\uFBFF\uFEAA"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 0
-    Right_Head_ID: 0
-    Left_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
-    Right_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
-    SpellRewardID: 0
-    Ministers: []
-  - ID: 9
-    Name: Monshi-Ending
-    Text: "\uFEE3\uFEEE\uFED3\uFED6 \uFE91\uFE8E\uFEB7\uFBFF\uFEAA"
-    Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
-    CardType: 0
-    Left_Head_ID: 0
-    Right_Head_ID: 0
-    Left_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
-    Right_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
-    SpellRewardID: 0
-    Ministers: []
+    Available: 0
+    CardID: f2
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 0
+      Right_Head_ID: 0
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: f2
+      Name: www
+      Text: qqqqq
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 0
+      Right_Head_ID: 0
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers:
+      - id: 4
+        Left_value: 0.1
+        Right_value: -0.1
+      - id: 2
+        Left_value: 0.1
+        Right_value: -0.1
