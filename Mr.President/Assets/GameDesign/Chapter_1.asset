@@ -16,39 +16,7 @@ MonoBehaviour:
   - _Challenge: 0
     _Card: 1
     Available: 1
-    CardID: c1r1
-    CardType: 2
-    RandomCards: []
-    SimpleCards:
-      ID: c1r1
-      Name: mmad
-      Text: "\uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFB58\uFBFF\uFE8E\u0645 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
-      Left_Head_ID: f2
-      Right_Head_ID: f2
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 1
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 7
-        Left_value: 0.1
-        Right_value: -0.1
-    FastCards:
-      ID: 
-      Name: 
-      Text: 
-      Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers: []
-  - _Challenge: 0
-    _Card: 1
-    Available: 1
-    CardID: 
+    CardID: C1L0Q1
     CardType: 1
     RandomCards: []
     SimpleCards:
@@ -56,56 +24,2396 @@ MonoBehaviour:
       Name: 
       Text: 
       Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
     FastCards:
-      ID: f1
-      Name: www
-      Text: qqqqq
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: f2
-      Right_Head_ID: f2
-      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
-      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 2
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 5
-        Left_value: 0.1
-        Right_value: -0.1
+      ID: 
+      Name: 
+      Text: "\uFEB3\uFE8E\u0644...\u0660\u0663\u0660\u0662 "
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q2
+      Right_Head_ID: C1L0Q2
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
   - _Challenge: 0
     _Card: 1
-    Available: 0
-    CardID: f2
-    CardType: 2
+    Available: 1
+    CardID: C1L0Q2
+    CardType: 1
     RandomCards: []
     SimpleCards:
       ID: 
       Name: 
       Text: 
       Image: {fileID: 0}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
     FastCards:
-      ID: f2
-      Name: www
-      Text: qqqqq
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: 0
-      Right_Head_ID: 0
+      ID: 
+      Name: 
+      Text: "\uFEB7\uFEE4\uFE8E \uFE91\uFEEA \uFECB\uFEE8\uFEEE\uFE8D\u0646 \uFEAD\uFE8B\uFBFF\uFEB2
+        \uFE9F\uFEE4\uFEEC\uFEEE\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\u0628
+        \uFEB7\uFEAA\uFBFE\uFEAA \uFEED\uFEC7\uFBFF\uFED4\uFEEA \uFEB7\uFEE4\uFE8E
+        \uFE91\uFEAE\uFED7\uFEAE\uFE8D\uFEAD\u06CC \uFECB\uFEAA\uFE8D\uFEDF\uFE96
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q3
+      Right_Head_ID: C1L0Q3
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q3
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
-      Ministers:
-      - id: 4
-        Left_value: 0.1
-        Right_value: -0.1
-      - id: 2
-        Left_value: 0.1
-        Right_value: -0.1
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFB90\uFE9C\uFEAE\uFBFE\uFE96 \uFEE3\uFEAE\uFEA9\u0645 \uFE8D\u0632
+        \uFEB7\uFEE4\uFE8E \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFB90\uFEAE\uFEA9\uFEE7\uFEAA
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFE8D\uFEE7\uFE98\uFEC8\uFE8E\u0631 \uFB58\uFBFF\uFEB8\uFEAE\uFED3\uFE96
+        \uFB90\uFEB8\uFEEE\u0631 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q4
+      Right_Head_ID: C1L0Q4
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q4
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFEE3\uFE8E \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\uFE97\uFBFD \uFEA9\u0631
+        \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFBFF\uFEAE \uFEA7\uFEEE\uFE8D\uFEEB\uFBFF\uFEAA
+        \uFEA9\uFE8D\uFEB7\uFE96..."
+      Image: {fileID: 0}
+      Left_Head_ID: C1L0Q5
+      Right_Head_ID: C1L0Q5
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q5
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFB58\uFBFF\uFEAE\uFEED\uFEAF\u06CC \uFEB7\uFEE4\uFE8E \uFEAD\u0648
+        \uFEA9\u0631 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\uFE91\uFE8E\u062A \uFE97\uFE92\uFEAE\uFBFE\uFB8F
+        \uFEE3\uFBFF\uFB95\uFEE2 \u060C \uFE8D\uFEED\uFEE3\uFEAA\u0645 \uFE97\uFE8E
+        \uFEE7\uFB91\uFE8E\uFE97\uFBFD \uFEAD\u0648 \uFE91\uFEEA \uFEB7\uFEE4\uFE8E
+        \uFE8D\uFECB\uFEE0\uFE8E\u0645 \uFB90\uFEE8\uFEE2"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q6
+      Right_Head_ID: C1L0Q6
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\u061F\uFBFD\uFE97\uFE8E\uFB91\uFEE7 \uFEEA\uFB7C"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q6
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFEB7\uFEA8\uFE8E\u0635 \uFEAD\uFEED\u06CC \uFEBB\uFED4\uFEA4\uFEEA
+        \uFEED\uFEAF\uFEAD\u0627 \uFEEB\uFE8E\u06CC \uFEA9\uFEED\uFEDF\uFE96 \uFEB7\uFEE4\uFE8E
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q7
+      Right_Head_ID: C1L0Q7
+      Left_Choose_Text: "\uFE8E\uFEEB\uFE8D"
+      Right_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q7
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\u0631 \uFEBB\uFEEE\uFEAD\uFE97\uFBFD \uFB90\uFEEA \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEEB\uFEAE \uFBFE\uFB8F \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEA
+        \u0660 \uFBFE\uFE8E \u0660\u0660\u0661 \uFE91\uFEAE\uFEB3\uFEAA \uFEA9\uFEED\uFEDF\uFE96
+        \uFEB3\uFED8\uFEEE\u0637 \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q9
+      Right_Head_ID: C1L0Q8
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\u061F\u0627\uFEAE\uFB7C \uFE8E\uFEE3\uFE8D"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q8
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\u0631 \uFE8D\uFBFE\uFEE6 \uFE91\uFEAE\uFEEB\uFEEA \uFEAF\uFEE3\uFE8E\uFEE7\uFBFD
+        \u060C \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEAE \uFE8D\uFBFE\uFEE6 \uFE91\uFE8E\uFEED\u0631
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA \uFB90\uFEEA \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96
+        \uFEB7\uFEE4\uFE8E \uFEA9\uFEED\uFE8D\u0645 \uFB7C\uFEE8\uFEAA\uFE8D\uFEE7\uFBFD
+        \uFEE7\uFEAA\uFE8D\uFEAD\u062F \u0648 \uFE97\uFEE4\uFE8E\uFBFE\uFEDE \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA
+        \uFEA7\uFEEE\uFEA9\uFEB7\uFE8E\u0646 \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96
+        \uFEAD\u0627 \uFE91\uFEAA\uFEB3\uFE96 \uFE91\uFB95\uFBFF\uFEAE\uFEE7\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q9
+      Right_Head_ID: C1L0Q9
+      Left_Choose_Text: "\uFEE2\uFEE4\uFEE4\uFEE4\uFEE4\uFEEB"
+      Right_Choose_Text: "\uFEAA\uFEE8\uFEEB\uFE8E\uFE92\uFE98\uFEB7\uFE8D \u0631\uFEA9
+        \uFE8E\uFEEC\uFEE7\uFE81"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q9
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFB90\uFE8E\uFEAD\u062A \uFEEB\uFE8E\u06CC \uFE91\uFE8E\uFEAF\u06CC
+        \uFB7C\uFEEC\uFE8E\u0631 \uFEA9\uFEB3\uFE98\uFEEA \uFEEB\uFEB4\uFE98\uFEE8\uFEAA 
+        \uFECB\uFE8E\uFEA9\u06CC = \uFEAD\uFEE7\uFB93 \uFEA7\uFE8E\uFB90\uFEB4\uFE98\uFEAE\u06CC 
+        \uFEE3\uFEEC\uFEE2 = \uFEAD\uFEE7\uFB93 \uFE81\uFE91\uFBFD  \uFEA9\uFE8D\uFEB3\uFE98\uFE8E\uFEE7\uFBFD
+        = \uFEAD\uFEE7\uFB93 \uFE91\uFEE8\uFED4\uFEB6  \uFEA7\uFE8E\u0635 =\uFEAD\uFEE7\uFB93
+        \uFED7\uFEAE\uFEE3\uFEB0 "
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L0Q10
+      Right_Head_ID: C1L0Q10
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFE8D"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L0Q10
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE3\uFEEE\uFED3\uFED6 \uFE91\uFE8E\uFEB7\uFBFF\uFEAA"
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Left_Head_ID: C1L1Q1
+      Right_Head_ID: C1L1Q1
+      Left_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
+      Right_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\uFEA9\uFEEB\uFE8E\u06CC \uFEE7\uFED4\uFE98\uFBFD
+        \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFB90\uFEEA
+        \uFEA9\u0631 \uFEA9\uFEED\uFEAD\u0647 \uFED7\uFE92\uFEDE \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFEB7\uFEAA\u0647 \u060C\uFEE3\uFEEE\uFEAD\u062F \uFE97\uFE8E\uFBFE\uFBFF\uFEAA
+        \uFB90\uFE8E\uFE91\uFBFF\uFEE8\uFEEA \uFED3\uFECC\uFEE0\uFBFD \uFEE7\uFBFF\uFEB4\uFE96
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFBFF\uFB95\uFEEE\uFBFE\uFEE8\uFEAA
+        \uFE8D\uFBFE\uFEE6 \uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\u062F \uFEEB\uFE8E
+        \uFB90\uFEE0\uFE8E\uFEEB\uFE92\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFE8D\uFEE7\uFEAA "
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
+        \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
+        \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA \uFEED\uFEBF\uFECC\uFBFF\uFE96 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
+        \uFEB3\uFB91\uFEEE\u062A \uFEE3\uFBFF\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE91\uFEEA
+        \uFE97\uFEA4\uFEEE\uFEDF\uFE8E\u062A \uFEED\uFE8D\uFB90\uFEE8\uFEB6 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
+        \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFEEA\uFE91 \uFE8E\uFEEC\uFEE8\uFE97 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Right_Choose_Text: "\uFEEA\uFED8\uFEC4\uFEE8\uFEE3 \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFBFD\uFEE3\uFE8E\uFEE4\uFE97 \uFEEA\uFE91 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEE7\uFED4\uFEA0\uFE8E\u0631 \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
+        \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
+        \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \u0646\uFE8E\uFB94\uFEAA\uFBFE\uFEA9 \uFE90\uFBFF\uFEB3\uFE81 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96
+        \uFEE7\uFED4\uFE96 \u060C \uFB58\uFE8E\uFEDF\uFE8E\uFBFE\uFEB8\uFB95\uFE8E\u0647
+        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE97\uFECC\uFEE4\uFBFF\uFEAE\uFE8D\u062A
+        \u0648 \uFEE7\uFB95\uFEEA \uFEA9\uFE8D\uFEAD\u06CC \uFE91\uFBFF\uFEB8\uFE98\uFEAE\u06CC
+        \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
+        \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
+        \u0646\uFE8D\uFEEE\uFE97 \uFE8E\uFE91"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAA\uFEDF\uFBFF\uFEDE \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u060C
+        \uFEE3\uFBFF\uFEB0\uFE8D\u0646 \uFEE3\uFEEC\uFE8E\uFE9F\uFEAE\u062A \uFE91\uFEEA
+        \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFB58\uFBFF\uFEAA\u0627
+        \uFB90\uFEAE\uFEA9\u0647 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFB7C\uFEEA \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA
+        \uFE8D\u06CC \uFEA9\uFE8D\uFEAD\u062F\u061F"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAF\uFE8E\uFEB4\uFE91 \u0631\uFE8D\uFEEE\uFBFE\uFEA9
+        \uFE8E\uFEEB \u0632\uFEAE\uFEE3 \u0631\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFEE6\uFBFE\uFEAE\uFE9F\uFE8E\uFEEC\uFEE3 \u06CC\uFE8D\uFEAE\uFE91 \uFBFD\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\uFEA9\uFEEB\uFE8E\u06CC \uFEE7\uFED4\uFE98\uFBFD
+        \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFB90\uFEEA
+        \uFEA9\u0631 \uFEA9\uFEED\uFEAD\u0647 \uFED7\uFE92\uFEDE \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFEB7\uFEAA\u0647 \u060C\uFEE3\uFEEE\uFEAD\u062F \uFE97\uFE8E\uFBFE\uFBFF\uFEAA
+        \uFB90\uFE8E\uFE91\uFBFF\uFEE8\uFEEA \uFED3\uFECC\uFEE0\uFBFD \uFEE7\uFBFF\uFEB4\uFE96
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFBFF\uFB95\uFEEE\uFBFE\uFEE8\uFEAA
+        \uFE8D\uFBFE\uFEE6 \uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\u062F \uFEEB\uFE8E
+        \uFB90\uFEE0\uFE8E\uFEEB\uFE92\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFE8D\uFEE7\uFEAA "
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
+        \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
+        \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA \uFEED\uFEBF\uFECC\uFBFF\uFE96 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
+        \uFEB3\uFB91\uFEEE\u062A \uFEE3\uFBFF\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE91\uFEEA
+        \uFE97\uFEA4\uFEEE\uFEDF\uFE8E\u062A \uFEED\uFE8D\uFB90\uFEE8\uFEB6 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
+        \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFEEA\uFE91 \uFE8E\uFEEC\uFEE8\uFE97 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Right_Choose_Text: "\uFEEA\uFED8\uFEC4\uFEE8\uFEE3 \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFBFD\uFEE3\uFE8E\uFEE4\uFE97 \uFEEA\uFE91 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEE7\uFED4\uFEA0\uFE8E\u0631 \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
+        \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
+        \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \u0646\uFE8E\uFB94\uFEAA\uFBFE\uFEA9 \uFE90\uFBFF\uFEB3\uFE81 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96
+        \uFEE7\uFED4\uFE96 \u060C \uFB58\uFE8E\uFEDF\uFE8E\uFBFE\uFEB8\uFB95\uFE8E\u0647
+        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE97\uFECC\uFEE4\uFBFF\uFEAE\uFE8D\u062A
+        \u0648 \uFEE7\uFB95\uFEEA \uFEA9\uFE8D\uFEAD\u06CC \uFE91\uFBFF\uFEB8\uFE98\uFEAE\u06CC
+        \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
+        \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
+        \u0646\uFE8D\uFEEE\uFE97 \uFE8E\uFE91"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAA\uFEDF\uFBFF\uFEDE \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u060C
+        \uFEE3\uFBFF\uFEB0\uFE8D\u0646 \uFEE3\uFEEC\uFE8E\uFE9F\uFEAE\u062A \uFE91\uFEEA
+        \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFB58\uFBFF\uFEAA\u0627
+        \uFB90\uFEAE\uFEA9\u0647 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFB7C\uFEEA \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA
+        \uFE8D\u06CC \uFEA9\uFE8D\uFEAD\u062F\u061F"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAF\uFE8E\uFEB4\uFE91 \u0631\uFE8D\uFEEE\uFBFE\uFEA9
+        \uFE8E\uFEEB \u0632\uFEAE\uFEE3 \u0631\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFEE6\uFBFE\uFEAE\uFE9F\uFE8E\uFEEC\uFEE3 \u06CC\uFE8D\uFEAE\uFE91 \uFBFD\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1Q3
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\uFEA9\uFEEB\uFE8E\u06CC \uFEE7\uFED4\uFE98\uFBFD
+        \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFB90\uFEEA
+        \uFEA9\u0631 \uFEA9\uFEED\uFEAD\u0647 \uFED7\uFE92\uFEDE \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFEB7\uFEAA\u0647 \u060C\uFEE3\uFEEE\uFEAD\u062F \uFE97\uFE8E\uFBFE\uFBFF\uFEAA
+        \uFB90\uFE8E\uFE91\uFBFF\uFEE8\uFEEA \uFED3\uFECC\uFEE0\uFBFD \uFEE7\uFBFF\uFEB4\uFE96
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFBFF\uFB95\uFEEE\uFBFE\uFEE8\uFEAA
+        \uFE8D\uFBFE\uFEE6 \uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\u062F \uFEEB\uFE8E
+        \uFB90\uFEE0\uFE8E\uFEEB\uFE92\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFE8D\uFEE7\uFEAA "
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
+        \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
+        \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA \uFEED\uFEBF\uFECC\uFBFF\uFE96 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
+        \uFEB3\uFB91\uFEEE\u062A \uFEE3\uFBFF\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE91\uFEEA
+        \uFE97\uFEA4\uFEEE\uFEDF\uFE8E\u062A \uFEED\uFE8D\uFB90\uFEE8\uFEB6 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
+        \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFEEA\uFE91 \uFE8E\uFEEC\uFEE8\uFE97 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Right_Choose_Text: "\uFEEA\uFED8\uFEC4\uFEE8\uFEE3 \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFBFD\uFEE3\uFE8E\uFEE4\uFE97 \uFEEA\uFE91 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEE7\uFED4\uFEA0\uFE8E\u0631 \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
+        \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
+        \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \u0646\uFE8E\uFB94\uFEAA\uFBFE\uFEA9 \uFE90\uFBFF\uFEB3\uFE81 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96
+        \uFEE7\uFED4\uFE96 \u060C \uFB58\uFE8E\uFEDF\uFE8E\uFBFE\uFEB8\uFB95\uFE8E\u0647
+        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE97\uFECC\uFEE4\uFBFF\uFEAE\uFE8D\u062A
+        \u0648 \uFEE7\uFB95\uFEEA \uFEA9\uFE8D\uFEAD\u06CC \uFE91\uFBFF\uFEB8\uFE98\uFEAE\u06CC
+        \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
+        \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
+        \u0646\uFE8D\uFEEE\uFE97 \uFE8E\uFE91"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAA\uFEDF\uFBFF\uFEDE \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u060C
+        \uFEE3\uFBFF\uFEB0\uFE8D\u0646 \uFEE3\uFEEC\uFE8E\uFE9F\uFEAE\u062A \uFE91\uFEEA
+        \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFB58\uFBFF\uFEAA\u0627
+        \uFB90\uFEAE\uFEA9\u0647 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFB7C\uFEEA \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA
+        \uFE8D\u06CC \uFEA9\uFE8D\uFEAD\u062F\u061F"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAF\uFE8E\uFEB4\uFE91 \u0631\uFE8D\uFEEE\uFBFE\uFEA9
+        \uFE8E\uFEEB \u0632\uFEAE\uFEE3 \u0631\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFEE6\uFBFE\uFEAE\uFE9F\uFE8E\uFEEC\uFEE3 \u06CC\uFE8D\uFEAE\uFE91 \uFBFD\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1Q4
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\uFEA9\uFEEB\uFE8E\u06CC \uFEE7\uFED4\uFE98\uFBFD
+        \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFB90\uFEEA
+        \uFEA9\u0631 \uFEA9\uFEED\uFEAD\u0647 \uFED7\uFE92\uFEDE \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFEB7\uFEAA\u0647 \u060C\uFEE3\uFEEE\uFEAD\u062F \uFE97\uFE8E\uFBFE\uFBFF\uFEAA
+        \uFB90\uFE8E\uFE91\uFBFF\uFEE8\uFEEA \uFED3\uFECC\uFEE0\uFBFD \uFEE7\uFBFF\uFEB4\uFE96
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFBFF\uFB95\uFEEE\uFBFE\uFEE8\uFEAA
+        \uFE8D\uFBFE\uFEE6 \uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\u062F \uFEEB\uFE8E
+        \uFB90\uFEE0\uFE8E\uFEEB\uFE92\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFE8D\uFEE7\uFEAA "
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
+        \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
+        \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA \uFEED\uFEBF\uFECC\uFBFF\uFE96 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
+        \uFEB3\uFB91\uFEEE\u062A \uFEE3\uFBFF\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE91\uFEEA
+        \uFE97\uFEA4\uFEEE\uFEDF\uFE8E\u062A \uFEED\uFE8D\uFB90\uFEE8\uFEB6 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
+        \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFEEA\uFE91 \uFE8E\uFEEC\uFEE8\uFE97 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Right_Choose_Text: "\uFEEA\uFED8\uFEC4\uFEE8\uFEE3 \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFBFD\uFEE3\uFE8E\uFEE4\uFE97 \uFEEA\uFE91 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEE7\uFED4\uFEA0\uFE8E\u0631 \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
+        \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
+        \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \u0646\uFE8E\uFB94\uFEAA\uFBFE\uFEA9 \uFE90\uFBFF\uFEB3\uFE81 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96
+        \uFEE7\uFED4\uFE96 \u060C \uFB58\uFE8E\uFEDF\uFE8E\uFBFE\uFEB8\uFB95\uFE8E\u0647
+        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE97\uFECC\uFEE4\uFBFF\uFEAE\uFE8D\u062A
+        \u0648 \uFEE7\uFB95\uFEEA \uFEA9\uFE8D\uFEAD\u06CC \uFE91\uFBFF\uFEB8\uFE98\uFEAE\u06CC
+        \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
+        \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
+        \u0646\uFE8D\uFEEE\uFE97 \uFE8E\uFE91"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAA\uFEDF\uFBFF\uFEDE \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u060C
+        \uFEE3\uFBFF\uFEB0\uFE8D\u0646 \uFEE3\uFEEC\uFE8E\uFE9F\uFEAE\u062A \uFE91\uFEEA
+        \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFB58\uFBFF\uFEAA\u0627
+        \uFB90\uFEAE\uFEA9\u0647 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFB7C\uFEEA \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA
+        \uFE8D\u06CC \uFEA9\uFE8D\uFEAD\u062F\u061F"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAF\uFE8E\uFEB4\uFE91 \u0631\uFE8D\uFEEE\uFBFE\uFEA9
+        \uFE8E\uFEEB \u0632\uFEAE\uFEE3 \u0631\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFEE6\uFBFE\uFEAE\uFE9F\uFE8E\uFEEC\uFEE3 \u06CC\uFE8D\uFEAE\uFE91 \uFBFD\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1Q5
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\uFEA9\uFEEB\uFE8E\u06CC \uFEE7\uFED4\uFE98\uFBFD
+        \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFB90\uFEEA
+        \uFEA9\u0631 \uFEA9\uFEED\uFEAD\u0647 \uFED7\uFE92\uFEDE \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFEB7\uFEAA\u0647 \u060C\uFEE3\uFEEE\uFEAD\u062F \uFE97\uFE8E\uFBFE\uFBFF\uFEAA
+        \uFB90\uFE8E\uFE91\uFBFF\uFEE8\uFEEA \uFED3\uFECC\uFEE0\uFBFD \uFEE7\uFBFF\uFEB4\uFE96
+        \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFBFF\uFB95\uFEEE\uFBFE\uFEE8\uFEAA
+        \uFE8D\uFBFE\uFEE6 \uFED7\uFEAE\uFE8D\uFEAD\uFEA9\uFE8D\u062F \uFEEB\uFE8E
+        \uFB90\uFEE0\uFE8E\uFEEB\uFE92\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFE8D\uFEE7\uFEAA "
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
+      Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
+        \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
+        \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA \uFEED\uFEBF\uFECC\uFBFF\uFE96 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
+        \uFEB3\uFB91\uFEEE\u062A \uFEE3\uFBFF\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE91\uFEEA
+        \uFE97\uFEA4\uFEEE\uFEDF\uFE8E\u062A \uFEED\uFE8D\uFB90\uFEE8\uFEB6 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
+        \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFEEA\uFE91 \uFE8E\uFEEC\uFEE8\uFE97 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Right_Choose_Text: "\uFEEA\uFED8\uFEC4\uFEE8\uFEE3 \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
+        \uFBFD\uFEE3\uFE8E\uFEE4\uFE97 \uFEEA\uFE91 \uFEB6\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEE7\uFED4\uFEA0\uFE8E\u0631 \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
+        \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
+        \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
+        \u0646\uFE8E\uFB94\uFEAA\uFBFE\uFEA9 \uFE90\uFBFF\uFEB3\uFE81 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96
+        \uFEE7\uFED4\uFE96 \u060C \uFB58\uFE8E\uFEDF\uFE8E\uFBFE\uFEB8\uFB95\uFE8E\u0647
+        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE97\uFECC\uFEE4\uFBFF\uFEAE\uFE8D\u062A
+        \u0648 \uFEE7\uFB95\uFEEA \uFEA9\uFE8D\uFEAD\u06CC \uFE91\uFBFF\uFEB8\uFE98\uFEAE\u06CC
+        \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
+        \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
+        \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
+        \u0646\uFE8D\uFEEE\uFE97 \uFE8E\uFE91"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAA\uFEDF\uFBFF\uFEDE \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFE97\uFEAE\uFEED\uFEAD\uFBFE\uFEB4\uFE98\uFBFD
+        \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u060C
+        \uFEE3\uFBFF\uFEB0\uFE8D\u0646 \uFEE3\uFEEC\uFE8E\uFE9F\uFEAE\u062A \uFE91\uFEEA
+        \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFB58\uFBFF\uFEAA\u0627
+        \uFB90\uFEAE\uFEA9\u0647 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFB7C\uFEEA \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA
+        \uFE8D\u06CC \uFEA9\uFE8D\uFEAD\u062F\u061F"
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAF\uFE8E\uFEB4\uFE91 \u0631\uFE8D\uFEEE\uFBFE\uFEA9
+        \uFE8E\uFEEB \u0632\uFEAE\uFEE3 \u0631\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFEE6\uFBFE\uFEAE\uFE9F\uFE8E\uFEEC\uFEE3 \u06CC\uFE8D\uFEAE\uFE91 \uFBFD\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.1Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA7\uFE92\uFEAE \uFED3\uFEEE\uFEAD\u06CC:  \uFEB3\uFED4\uFBFF\uFEAE
+        \uFEE3\uFE8E \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
+        \uFB90\uFEB8\uFE98\uFEEA \uFEB7\uFEAA \uFED7\uFE8E\uFE97\uFEDE \uFB90\uFBFF\uFEB4\uFE96\u061F"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L1.1Q2
+      Right_Head_ID: C1L1.1Q2
+      Left_Choose_Text: "\u061F\uFBFD\uFB7C"
+      Right_Choose_Text: "\u061F\u0646\uFEA9\uFEAE\uFB90 \uFE96\uFECB\uFEAE\uFE9F
+        \u0631\uFEEE\uFEC3 \uFEEA\uFB7C"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.1Q2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE9F\uFEE8\uFE8E\u0628 \uFEAD\uFE8B\uFBFF\uFEB2 \uFE9F\uFEE4\uFEEC\uFEEE\u0631
+        \uFEA9\uFEED\uFEDF\uFE96 \uFEEB\uFEE8\uFEEE\u0632 \uFEED\uFE8D\uFB90\uFEE8\uFEB8\uFBFD
+        \uFE91\uFEEA \uFE8D\uFBFE\uFEE6 \uFE8D\uFE97\uFED4\uFE8E\u0642 \uFEE7\uFEB8\uFEEE\u0646
+        \uFEE7\uFEAA\uFE8D\uFEA9\u0647. \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFB7C\uFEEA
+        \uFEE3\uFEEE\uFEBF\uFECC\uFBFD \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2\u061F"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L1.2Q1
+      Right_Head_ID: C1L1.2Q1
+      Left_Choose_Text: " \uFEAA\uFBFF\uFEE8\uFB90 \u0645\uFE8E\uFEE0\uFECB\uFE8D
+        \uFEE2\uFBFF\uFE98\uFEB4\uFEEB \uFBFD\uFEDF\uFE8E\uFEE4\uFEB7 \u0631\uFEEE\uFEB8\uFB90
+        \uFEA6\uFEB3\uFE8E\uFB58 \uFEAE\uFEC8\uFE98\uFEE8\uFEE3"
+      Right_Choose_Text: " \uFEAA\uFBFF\uFEE8\uFB90 \u0645\uFE8E\uFEE0\uFECB\uFE8D
+        \uFE96\uFEB3\uFE8D \uFBFD\uFEDF\uFE8E\uFEE4\uFEB7 \u0631\uFEEE\uFEB8\uFB90
+        \uFBFD\uFEE0\uFEBB\uFE8D \uFEAE\uFEBC\uFED8\uFEE3"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.2Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAE\uFEA7\uFBFD \uFE8D\u0632 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6
+        \uFB90\uFEB8\uFEEE\u0631 \uFE91\uFE8E \uFB90\uFEE4\uFE92\uFEEE\u062F \uFE91\uFEAE\u0642
+        \uFEE3\uFEEE\uFE8D\uFE9F\uFEEA \uFEEB\uFEB4\uFE98\uFEE8\uFEAA \uFE91\uFE8E
+        \uFE97\uFEEE\uFEDF\uFBFF\uFEAA \uFE91\uFBFF\uFEB8\uFE98\uFEAE \uFE91\uFEAE\u0642
+        \uFE91\uFEAE \uFEAD\uFEED\u06CC \uFEE7\uFBFF\uFEAE\uFEED\uFB94\uFE8E\u0647
+        \uFEEB\uFE8E \uFED3\uFEB8\uFE8E\u0631 \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFEED\uFE8D\uFEAD\u062F
+        \uFEE3\uFBFF\uFEB8\uFEEE\u062F \uFE8D\uFEE3\uFE8E \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEAD\u0627 \uFEEB\uFEE2 \uFE91\uFE8E\uFBFE\uFEAA
+        \uFEA9\u0631 \uFEE7\uFEC8\uFEAE \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2"
+      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \u0642\uFEAE\uFE91 \uFEAA\uFBFF\uFEDF\uFEEE\uFE97"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFEEB\uFE8E\uFB90 \u0627\uFEAD
+        \u0642\uFEAE\uFE91 \uFEAA\uFBFF\uFEDF\uFEEE\uFE97"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFED3\uFECC\uFE8E\uFEDF\uFBFF\uFE96
+        \uFB90\uFE8E\uFEAD\uFE97\uFEDE \uFEEB\uFE8E \uFEA9\u0631 \uFEB3\uFEC4\uFEA2
+        \uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFEEE\uFE9F\uFE90 \uFB90\uFE8E\uFEEB\uFEB6
+        \uFE8D\uFEE3\uFEE8\uFBFF\uFE96 \u0648 \uFE8D\uFECB\uFE98\uFEE4\uFE8E\u062F
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647 \uFEED\uFEDF\uFBFD \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA
+        \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEE\uFEA9\uFE9F\uFEEA \u0648
+        \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
+        \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D"
+      Right_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
+        \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D \u0645\uFEAA\uFECB"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.2Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEAE\uFEA7\uFBFD \uFE8D\u0632 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6
+        \uFB90\uFEB8\uFEEE\u0631 \uFE91\uFE8E \uFB90\uFEE4\uFE92\uFEEE\u062F \uFE91\uFEAE\u0642
+        \uFEE3\uFEEE\uFE8D\uFE9F\uFEEA \uFEEB\uFEB4\uFE98\uFEE8\uFEAA \uFE91\uFE8E
+        \uFE97\uFEEE\uFEDF\uFBFF\uFEAA \uFE91\uFBFF\uFEB8\uFE98\uFEAE \uFE91\uFEAE\u0642
+        \uFE91\uFEAE \uFEAD\uFEED\u06CC \uFEE7\uFBFF\uFEAE\uFEED\uFB94\uFE8E\u0647
+        \uFEEB\uFE8E \uFED3\uFEB8\uFE8E\u0631 \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFEED\uFE8D\uFEAD\u062F
+        \uFEE3\uFBFF\uFEB8\uFEEE\u062F \uFE8D\uFEE3\uFE8E \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEAD\u0627 \uFEEB\uFEE2 \uFE91\uFE8E\uFBFE\uFEAA
+        \uFEA9\u0631 \uFEE7\uFEC8\uFEAE \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2"
+      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \u0642\uFEAE\uFE91 \uFEAA\uFBFF\uFEDF\uFEEE\uFE97"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFEEB\uFE8E\uFB90 \u0627\uFEAD
+        \u0642\uFEAE\uFE91 \uFEAA\uFBFF\uFEDF\uFEEE\uFE97"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFED3\uFECC\uFE8E\uFEDF\uFBFF\uFE96
+        \uFB90\uFE8E\uFEAD\uFE97\uFEDE \uFEEB\uFE8E \uFEA9\u0631 \uFEB3\uFEC4\uFEA2
+        \uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFEEE\uFE9F\uFE90 \uFB90\uFE8E\uFEEB\uFEB6
+        \uFE8D\uFEE3\uFEE8\uFBFF\uFE96 \u0648 \uFE8D\uFECB\uFE98\uFEE4\uFE8E\u062F
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647 \uFEED\uFEDF\uFBFD \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA
+        \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEE\uFEA9\uFE9F\uFEEA \u0648
+        \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
+        \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D"
+      Right_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
+        \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D \u0645\uFEAA\uFECB"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.3Q1
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: "\uFEB3\uFED4\uFBFF\uFEAE \uFE91\uFEEA \uFED7\uFE98\uFEDE \uFEAD\uFEB3\uFBFF\uFEAA\u0647
+        \u0648 \uFE8D\uFBFE\uFEE6 \uFBFE\uFEEA \uFED3\uFE8E\uFE9F\uFECC\uFEEA \uFE8D\uFEB3\uFE96
+        \uFEE3\uFE8E \uFEE7\uFE92\uFE8E\uFBFE\uFEAA \uFEE3\uFEE8\uFE98\uFEC8\uFEAE
+        \uFEE7\uFE98\uFBFF\uFEA0\uFEEA \uFEE7\uFEEC\uFE8E\uFBFE\uFBFD \uFE91\uFE8E\uFEB7\uFBFF\uFEE2
+        \u060C\uFE91\uFE8E\uFBFE\uFEAA \uFBFE\uFEEA \uFE97\uFBFF\uFEE2 \uFE97\uFEA4\uFED8\uFBFF\uFED8\uFE8E\uFE97\uFBFD
+        \uFE8D\uFECB\uFEB0\uFE8D\u0645 \uFB90\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: C1L1.5Q1
+      Right_Head_ID: C1L1.5Q2
+      Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
+      Right_Choose_Text: "\uFEE2\uFED4\uFEDF\uFE8E\uFEA8\uFEE3"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.4Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE9F\uFEE8\uFB93 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E\uFED3\uFBFF\uFE8E\uFBFE\uFBFD
+        \uFEA9\u0631 \uFEB3\uFEC4\uFEA2 \uFEB7\uFEEC\uFEAE\uFEEB\uFE8E \uFE91\uFE8E\uFEDF\uFE8E\uFB94\uFEAE\uFED3\uFE98\uFEEA
+        \u0648 \uFE91\uFE8E\uFECB\uFE9A \uFB90\uFE8E\uFEEB\uFEB6 \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647\u060C \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647
+        \uFEEB\uFE8E \uFE97\uFEEE\uFEB3\uFEC2 \uFED7\uFEAA\uFEAD\uFE97\uFEE4\uFEE8\uFEAA\uFE8D\u0646
+        \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
+        \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
+        \u06CC\uFEEE\uFEE0\uFE9F"
+      Right_Choose_Text: ")\u063A\uFEED\uFEAD\uFEA9(\uFEE2\uFBFE\uFEAE\uFBFF\uFB95\uFBFF\uFEE3
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \u06CC\uFEEE\uFEE0\uFE9F \uFEAA\uFBFF\uFBFE\uFEEE\uFB95\uFE91
+        \u0645\uFEA9\uFEAE\uFEE3 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFB90\uFE8E\uFEE3\uFBFF\uFEEE\u0646
+        \uFEB3\uFE8E\uFEAF\u06CC\u060C\uFE91\uFEEA \uFE8D\uFEE7\uFEAA\uFE8D\uFEAF\u0647
+        \uFEE3\uFE8E\uFE91\uFED8\uFBFD \uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFEEB\uFE8E
+        \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
+        \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
+        \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
+        \u062B\uFE8D\uFEAA\uFEA3\uFE8D"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEAD\uFE8D\uFEAA\uFEE7 \uFBFD\uFED3\uFE8E\uFB90
+        \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEE3\uFEE8\uFE8E\uFE91\uFECA \uFE81\uFEEB\uFEE6 \uFE9F\uFEAA\uFBFE\uFEAA\u06CC
+        \uFB90\uFEB8\uFED2 \uFEB7\uFEAA\u0647 \uFB90\uFEEA \uFE8D\uFEB3\uFE98\uFEA8\uFEAE\uFE8D\u062C
+        \uFE81\u0646 \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFEAA \uFE91\uFEEA \uFEBB\uFEE8\uFE8E\uFBFE\uFECA
+        \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
+        \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
+        \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
+        \u0627\uFEAD \uFEE6\uFEEB\uFE81 \u0646\uFEAA\uFECC\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB91\uFEE7 \uFBFD\uFEE7\uFE8E\uFE92\uFEBC\uFECB
+        \u0627\uFEAD \u0645\uFEA9\uFEAE\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.4Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE9F\uFEE8\uFB93 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E\uFED3\uFBFF\uFE8E\uFBFE\uFBFD
+        \uFEA9\u0631 \uFEB3\uFEC4\uFEA2 \uFEB7\uFEEC\uFEAE\uFEEB\uFE8E \uFE91\uFE8E\uFEDF\uFE8E\uFB94\uFEAE\uFED3\uFE98\uFEEA
+        \u0648 \uFE91\uFE8E\uFECB\uFE9A \uFB90\uFE8E\uFEEB\uFEB6 \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647\u060C \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647
+        \uFEEB\uFE8E \uFE97\uFEEE\uFEB3\uFEC2 \uFED7\uFEAA\uFEAD\uFE97\uFEE4\uFEE8\uFEAA\uFE8D\u0646
+        \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
+        \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
+        \u06CC\uFEEE\uFEE0\uFE9F"
+      Right_Choose_Text: ")\u063A\uFEED\uFEAD\uFEA9(\uFEE2\uFBFE\uFEAE\uFBFF\uFB95\uFBFF\uFEE3
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \u06CC\uFEEE\uFEE0\uFE9F \uFEAA\uFBFF\uFBFE\uFEEE\uFB95\uFE91
+        \u0645\uFEA9\uFEAE\uFEE3 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFB90\uFE8E\uFEE3\uFBFF\uFEEE\u0646
+        \uFEB3\uFE8E\uFEAF\u06CC\u060C\uFE91\uFEEA \uFE8D\uFEE7\uFEAA\uFE8D\uFEAF\u0647
+        \uFEE3\uFE8E\uFE91\uFED8\uFBFD \uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFEEB\uFE8E
+        \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
+        \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
+        \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
+        \u062B\uFE8D\uFEAA\uFEA3\uFE8D"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEAD\uFE8D\uFEAA\uFEE7 \uFBFD\uFED3\uFE8E\uFB90
+        \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEE3\uFEE8\uFE8E\uFE91\uFECA \uFE81\uFEEB\uFEE6 \uFE9F\uFEAA\uFBFE\uFEAA\u06CC
+        \uFB90\uFEB8\uFED2 \uFEB7\uFEAA\u0647 \uFB90\uFEEA \uFE8D\uFEB3\uFE98\uFEA8\uFEAE\uFE8D\u062C
+        \uFE81\u0646 \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFEAA \uFE91\uFEEA \uFEBB\uFEE8\uFE8E\uFBFE\uFECA
+        \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
+        \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
+        \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
+        \u0627\uFEAD \uFEE6\uFEEB\uFE81 \u0646\uFEAA\uFECC\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB91\uFEE7 \uFBFD\uFEE7\uFE8E\uFE92\uFEBC\uFECB
+        \u0627\uFEAD \u0645\uFEA9\uFEAE\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.4Q3
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE9F\uFEE8\uFB93 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E\uFED3\uFBFF\uFE8E\uFBFE\uFBFD
+        \uFEA9\u0631 \uFEB3\uFEC4\uFEA2 \uFEB7\uFEEC\uFEAE\uFEEB\uFE8E \uFE91\uFE8E\uFEDF\uFE8E\uFB94\uFEAE\uFED3\uFE98\uFEEA
+        \u0648 \uFE91\uFE8E\uFECB\uFE9A \uFB90\uFE8E\uFEEB\uFEB6 \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647\u060C \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647
+        \uFEEB\uFE8E \uFE97\uFEEE\uFEB3\uFEC2 \uFED7\uFEAA\uFEAD\uFE97\uFEE4\uFEE8\uFEAA\uFE8D\u0646
+        \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
+        \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
+        \u06CC\uFEEE\uFEE0\uFE9F"
+      Right_Choose_Text: ")\u063A\uFEED\uFEAD\uFEA9(\uFEE2\uFBFE\uFEAE\uFBFF\uFB95\uFBFF\uFEE3
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \u06CC\uFEEE\uFEE0\uFE9F \uFEAA\uFBFF\uFBFE\uFEEE\uFB95\uFE91
+        \u0645\uFEA9\uFEAE\uFEE3 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFB90\uFE8E\uFEE3\uFBFF\uFEEE\u0646
+        \uFEB3\uFE8E\uFEAF\u06CC\u060C\uFE91\uFEEA \uFE8D\uFEE7\uFEAA\uFE8D\uFEAF\u0647
+        \uFEE3\uFE8E\uFE91\uFED8\uFBFD \uFEBB\uFEE8\uFE8E\uFBFE\uFECA \uFEEB\uFE8E
+        \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
+        \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
+        \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
+        \u062B\uFE8D\uFEAA\uFEA3\uFE8D"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEAD\uFE8D\uFEAA\uFEE7 \uFBFD\uFED3\uFE8E\uFB90
+        \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFEE3\uFEE8\uFE8E\uFE91\uFECA \uFE81\uFEEB\uFEE6 \uFE9F\uFEAA\uFBFE\uFEAA\u06CC
+        \uFB90\uFEB8\uFED2 \uFEB7\uFEAA\u0647 \uFB90\uFEEA \uFE8D\uFEB3\uFE98\uFEA8\uFEAE\uFE8D\u062C
+        \uFE81\u0646 \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFEAA \uFE91\uFEEA \uFEBB\uFEE8\uFE8E\uFBFE\uFECA
+        \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
+        \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
+        \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
+        \u0627\uFEAD \uFEE6\uFEEB\uFE81 \u0646\uFEAA\uFECC\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB91\uFEE7 \uFBFD\uFEE7\uFE8E\uFE92\uFEBC\uFECB
+        \u0627\uFEAD \u0645\uFEA9\uFEAE\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.5Q1
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: "\uFEC3\uFE92\uFED6 \uFE97\uFEA4\uFED8\uFBFF\uFED8\uFE8E\u062A \uFEE3\uFE8E
+        \uFE91\uFEEA \uFE8D\uFBFE\uFEE6 \uFEE7\uFE98\uFBFF\uFEA0\uFEEA \uFEAD\uFEB3\uFBFF\uFEAA\uFBFE\uFEE2
+        \uFB90\uFEEA \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEE3\uFEB4\uFE8C\uFEEE\u0644
+        \uFED7\uFE98\uFEDE \uFEB3\uFED4\uFBFF\uFEAE \uFEE3\uFE8E \uFE91\uFEEE\uFEA9\u0647"
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: C1L1.7Q1
+      Right_Head_ID: C1L1.7Q2
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFE96\uFEE3\uFE8D\uFEAE\uFECF
+        \uFE96\uFEB3\uFE8D\uFEEE\uFEA7\uFEAD\uFEA9"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062C\uFE8D\uFEAE\uFEA7\uFE8D
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \uFEAE\uFBFF\uFED4\uFEB3 \u0627\uFEAD\uFEEE\uFED3"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.5Q2
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFB94\uFEAE \uFE97\uFBFF\uFEE2 \uFE97\uFEA4\uFED8\uFBFF\uFED8\uFE8E\uFE97\uFBFD
+        \uFE8D\uFEAD\uFEB3\uFE8E\u0644 \uFEE7\uFEE4\uFBFF\uFB91\uFEE8\uFBFF\uFEAA
+        \uFEA3\uFEAA\uFE8D\uFED7\uFEDE \uFE97\uFBFF\uFEE2 \uFEE3\uFEAC\uFE8D\uFB90\uFEAE\u0647
+        \uFB90\uFEE8\uFEE8\uFEAA\u0647 \uFE8D\u06CC \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631
+        \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFE97\uFEB8\uFB91\uFBFF\uFEDE \uFE91\uFEAA\uFEEB\uFBFF\uFEAA"
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: C1L1.7Q3
+      Right_Head_ID: C1L1.6Q1
+      Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
+      Right_Choose_Text: "\uFEE2\uFED4\uFEDF\uFE8E\uFEA8\uFEE3"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.6Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFEE3\uFECC\uFEE0\uFEE4\uFBFF\uFEE6 \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA
+        \uFE91\uFED8\uFBFF\uFEEA \uFE8D\uFED7\uFEB8\uFE8E\u0631 \uFE9F\uFE8E\uFEE3\uFECC\uFEEA
+        \uFE8D\u0632 \uFEA3\uFED8\uFEEE\u0642 \uFB90\uFEE4\uFE98\uFEAE\u06CC \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\uFEA9\uFE8D\u0631
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA\u060C \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA
+        \uFE91\uFEEA \uFE81\uFEE7\uFEEC\uFE8E \uFEEB\uFEE2 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD
+        \uFB90\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \u0642\uFEEE\uFED8\uFEA3"
+      Right_Choose_Text: "\u062F\uFEAD\uFE8D\uFEA9 \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFBFE\uFEAF \uFEEA\uFEE8\uFBFE\uFEB0\uFEEB \uFEE6\uFBFE\uFE8D"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A
+        \u060C \uFE91\uFE8E\uFECB\uFE9A \uFEB7\uFEAA\u0647 \uFE97\uFE8E \uFE91\uFEB4\uFBFF\uFE8E\uFEAD\u06CC
+        \uFE8D\u0632 \uFB90\uFE8E\uFEAD\uFEA7\uFE8E\uFEE7\uFEEA \uFEEB\uFE8E \uFEED\uFEAD\uFEB7\uFB91\uFEB4\uFE98\uFEEA
+        \uFEB7\uFEEE\uFEE7\uFEAA \uFBFE\uFE8E \uFEBF\uFEAE\u0631 \uFB90\uFEE8\uFEE8\uFEAA
+        \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFEE7\uFEC8\uFE8E\uFEAD\u062A \uFE91\uFEAE
+        \uFEAD\uFEED\u06CC \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
+        \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFBFD\uFE97\uFE8D\uFEA9\uFEAD\uFE8D\uFEED \u06CC\uFE8E\uFEEB\uFE8E\uFEDF\uFE8E\uFB90
+        \u062A\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFBFD\uFEE0\uFEA7\uFE8D\uFEA9  \u062A\uFE8E\uFEDF\uFEEE\uFEBC\uFEA4\uFEE3
+        \uFE96\uFBFF\uFED4\uFBFF\uFB90"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.6Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFEE3\uFECC\uFEE0\uFEE4\uFBFF\uFEE6 \uFEE7\uFEB4\uFE92\uFE96 \uFE91\uFEEA
+        \uFE91\uFED8\uFBFF\uFEEA \uFE8D\uFED7\uFEB8\uFE8E\u0631 \uFE9F\uFE8E\uFEE3\uFECC\uFEEA
+        \uFE8D\u0632 \uFEA3\uFED8\uFEEE\u0642 \uFB90\uFEE4\uFE98\uFEAE\u06CC \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\uFEA9\uFE8D\u0631
+        \uFEEB\uFEB4\uFE98\uFEE8\uFEAA\u060C \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA
+        \uFE91\uFEEA \uFE81\uFEE7\uFEEC\uFE8E \uFEEB\uFEE2 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD
+        \uFB90\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81 \u0642\uFEEE\uFED8\uFEA3"
+      Right_Choose_Text: "\u062F\uFEAD\uFE8D\uFEA9 \uFE96\uFEDF\uFEED\uFEA9 \u06CC\uFE8D\uFEAE\uFE91
+        \u06CC\uFEA9\uFE8E\uFBFE\uFEAF \uFEEA\uFEE8\uFBFE\uFEB0\uFEEB \uFEE6\uFBFE\uFE8D"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A
+        \u060C \uFE91\uFE8E\uFECB\uFE9A \uFEB7\uFEAA\u0647 \uFE97\uFE8E \uFE91\uFEB4\uFBFF\uFE8E\uFEAD\u06CC
+        \uFE8D\u0632 \uFB90\uFE8E\uFEAD\uFEA7\uFE8E\uFEE7\uFEEA \uFEEB\uFE8E \uFEED\uFEAD\uFEB7\uFB91\uFEB4\uFE98\uFEEA
+        \uFEB7\uFEEE\uFEE7\uFEAA \uFBFE\uFE8E \uFEBF\uFEAE\u0631 \uFB90\uFEE8\uFEE8\uFEAA
+        \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFEE7\uFEC8\uFE8E\uFEAD\u062A \uFE91\uFEAE
+        \uFEAD\uFEED\u06CC \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
+        \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFBFD\uFE97\uFE8D\uFEA9\uFEAD\uFE8D\uFEED \u06CC\uFE8E\uFEEB\uFE8E\uFEDF\uFE8E\uFB90
+        \u062A\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFBFD\uFEE0\uFEA7\uFE8D\uFEA9  \u062A\uFE8E\uFEDF\uFEEE\uFEBC\uFEA4\uFEE3
+        \uFE96\uFBFF\uFED4\uFBFF\uFB90"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.7Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE97\uFEE8\uFEB6 \uFEA9\u0631
+        \uFEAD\uFEED\uFE8D\uFE91\uFEC2 \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD!!!
+        \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFECF\uFEAE\uFE8D\uFEE3\uFE96
+        \uFB58\uFEAC\uFBFE\uFEAE\uFED3\uFE98\uFEEA \uFEE7\uFEB8\uFEAA!!!"
+      Image: {fileID: 0}
+      Left_Head_ID: C1L1.8Q1
+      Right_Head_ID: C1L1.8Q1
+      Left_Choose_Text: "\uFE96\uFEB3\uFE8D \u0647\uFEAE\uFEA8\uFEB4\uFEE3 \uFE8E\uFECC\uFED7\uFE8D\uFEED
+        \uFEE6\uFBFE\uFE8D"
+      Right_Choose_Text: "\u0645\uFEA9\uFEB0\uFBFF\uFEE3 \u0633\uFEAA\uFEA3"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.7Q2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEB3\uFEA8\uFEE8\uFB95\uFEEE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD: 
+        \uFE8D\uFEA7\uFEAE\uFE8D\u062C \uFEB3\uFED4\uFEAE\uFE8D\u06CC \uFEE3\uFE8E
+        \uFEE7\uFEB8\uFE8E\u0646 \uFEA9\uFEEB\uFEE8\uFEAA\u0647 \uFEBF\uFECC\uFED2
+        \uFEA9\uFBFE\uFB59\uFEE0\uFEE4\uFE8E\uFEB3\uFBFD \uFE81\uFEE7\uFEEC\uFE8E\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
+      Left_Head_ID: C1L1.8Q1
+      Right_Head_ID: C1L1.8Q1
+      Left_Choose_Text: "\u062F\uFEEE\uFE91 \u0646\uFEEE\uFEB8\uFED8\uFEA3"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEA9\uFEAE\uFB91\uFEE7 \uFBFD\uFEEB\uFE8E\uFE92\uFE98\uFEB7\uFE8D
+        \u0631\uFE8E\uFB90 \uFE8E\uFEE3"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L1.7Q3
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE97\uFEE8\uFEB6 \uFE91\uFEAA\uFEE7\uFE92\uFE8E\u0644
+        \uFEB7\uFB91\uFEB4\uFE96 \uFEA9\u0631 \uFEE3\uFEAC\uFE8D\uFB90\uFEAE\uFE8D\u062A"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L1.8Q1
+      Right_Head_ID: C1L1.8Q1
+      Left_Choose_Text: "\uFEAA\uFEB7 \uFEAA\uFEEB\uFE8D\uFEEE\uFEA7 \uFBFD\uFB94\uFEAD\uFEB0\uFE91
+        \uFEDE\uFB91\uFEB8\uFEE3 \uFEE6\uFBFE\uFE8D"
+      Right_Choose_Text: "\u0646\uFE8D\uFEEE\uFEA8\uFBFF\uFEE4\uFEE7 \uFBFD\uFEE7\uFE8E\uFBFE\uFE8E\uFB58
+        \uFE8E\uFEEC\uFEE7\uFEED\uFE8D"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L1.8Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEAD\uFEE3\uFEB0 \uFE8D\uFEAD\uFEAF\uFEEB\uFE8E \uFEA9\u0631 \uFEB3\uFE8E\uFEDF\uFEEC\uFE8E\u06CC
+        \uFB94\uFEAC\uFEB7\uFE98\uFEEA \uFEE3\uFEA4\uFE92\uFEEE\uFE91\uFBFF\uFE96
+        \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEAE\uFEA9\u0647
+        \u060C\uFECB\uFEE0\uFE8E\uFED7\uFEEA \uFEE3\uFEAE\uFEA9\u0645 \uFE91\uFEEA
+        \uFEB3\uFEAE\uFEE3\uFE8E\uFBFE\uFEEA \uFB94\uFEB0\uFE8D\uFEAD\u06CC \uFEA9\u0631
+        \uFE81\uFEE7\uFEEC\uFE8E\u060C\uFEBF\uFEAE\uFE91\uFEEA \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC
+        \uFE91\uFEEA \uFEA9\uFEED\uFEDF\uFE96 \uFEED\uFE8D\uFEAD\u062F \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2Q2
+      Right_Head_ID: C1L2Q2
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0639\uFEEE\uFEE8\uFEE4\uFEE3
+        \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81"
+      Right_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \u0644\uFEAE\uFE98\uFEE8\uFB90
+        \u06CC\uFE8D\uFEAE\uFE91 \uFEE6\uFBFF\uFEE7\uFE8D\uFEEE\uFED7 \uFECA\uFEBF\uFEED"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2Q2
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: "\uFB94\uFED4\uFE96 \u0648 \uFB94\uFEEE \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
+        \uFE91\uFBFD \uFED3\uFE8E\uFBFE\uFEAA\u0647 \uFE8D\uFEB3\uFE96  \uFE91\uFE8E
+        \uFEA3\uFEE4\uFEE0\uFEEA \uFEB3\uFE8E\uFBFE\uFE92\uFEAE\u06CC \uFE91\uFEEA
+        \uFEAF\uFBFE\uFEAE\uFEB3\uFE8E\uFEA7\uFE96 \uFEEB\uFE8E \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2
+        \uFE9F\uFEAA\uFBFE\uFE98\uFEE4\uFE8E\u0646 \uFEAD\u0627 \uFEE7\uFEB8\uFE8E\u0646
+        \uFEA9\uFEEB\uFBFF\uFEE2"
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: C1L2.1Q1
+      Right_Head_ID: C1L2.1Q2
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFE8E\uFEEC\uFEE7\uFE81
+        \uFEEA\uFE91"
+      Right_Choose_Text: "\u062F\uFEEE\uFEB8\uFBFF\uFEE3 \uFEB6\uFEE8\uFE97 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \uFE9A\uFECB\uFE8E\uFE91 \uFEE6\uFBFE\uFE8D"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2Q1
+    CardType: 2
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: "\uFEAD\uFEB7\uFEAA \uFB90\uFE8E\uFEAD\uFEA7\uFE8E\uFEE7\uFEEA \uFEEB\uFE8E\u06CC
+        \uFE97\uFEEE\uFEDF\uFBFF\uFEAA \uFEA7\uFEEE\uFEA9\uFEAD\u0648 \u060C \uFE91\uFE8E\uFECB\uFE9A
+        \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFED3\uFEAE\uFEED\uFEB7\uFEB8\uFE8E\u0646
+        \uFEB7\uFEAA\u0647 \u060C \uFE91\uFE8E\uFBFE\uFEAA \uFEE3\uFE8E\uFEDF\uFBFF\uFE8E\u062A
+        \uFE8D\uFBFE\uFEE6 \uFB90\uFE8E\uFEAD\uFEA7\uFE8E\uFEE7\uFEEA \uFEEB\uFE8E
+        \uFEAD\u0627 \uFE91\uFBFF\uFEB8\uFE98\uFEAE \uFB90\uFEE8\uFBFF\uFEE2 \uFEED\uFEDF\uFBFD
+        \uFE8D\uFEA3\uFE98\uFEE4\uFE8E\u0644 \uFEA9\uFE8D\uFEAD\u062F \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEE7\uFBFF\uFEB0 \uFED7\uFBFF\uFEE4\uFE96 \uFEE3\uFEA4\uFEBC\uFEEE\u0644
+        \uFEAD\u0627 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEEB\uFEE8\uFEAA"
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: C1L2.2Q1
+      Right_Head_ID: C1L2.2Q1
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
+        \u0627\uFEAD \u0646\uFE8E\uFEB8\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
+      Right_Choose_Text: "\uFE96\uFEB3\uFE8D \uFEAE\uFE97 \uFEE2\uFEEC\uFEE3 \u0645\uFEA9\uFEAE\uFEE3
+        \uFE96\uFBFE\uFE8E\uFEBF\uFEAD"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L2.1Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA3\uFEE4\uFEE0\uFE8E\u062A \uFEB3\uFE8E\uFBFE\uFE92\uFEAE\u06CC
+        \uFE91\uFE8E\uFECB\uFE9A \uFEB3\uFED8\uFEEE\u0637 \uFEEB\uFEEE\uFE8D\uFB58\uFBFF\uFEE4\uFE8E\u06CC
+        \uFEED\uFEAF\uFBFE\uFEAE \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
+        \uFEB7\uFEAA\u0647 \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEE7\uFEE8\uFEAA
+        \uFB90\uFEEA \uFEE3\uFED8\uFEBC\uFEAE \uFEE3\uFE8E \uFEEB\uFEB4\uFE98\uFBFF\uFEE2
+        \u060C\uFE91\uFE8E\uFBFE\uFEAA \uFEC3\uFE92\uFBFF\uFECC\uFBFD \uFEAD\uFED3\uFE98\uFE8E\u0631
+        \uFB90\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.1Q3
+      Right_Head_ID: C1L2.1Q3
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u06CC\uFEA9\uFEAD\uFEAA\uFEE4\uFEEB
+        \u0632\uFE8D\uFEAE\uFE91\uFE8D"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEAA\uFEE7 \u0646\uFE8E\uFEB8\uFEE7
+        \uFBFD\uFEB8\uFEE8\uFB90\uFE8D\uFEED"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 0
+    CardID: C1L2.1Q2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEB3\uFED8\uFEEE\u0637 \uFEEB\uFEEE\uFE8D\uFB58\uFBFF\uFEE4\uFE8E\u06CC
+        \uFEED\uFEAF\uFBFE\uFEAE \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
+        \uFE81\uFBFE\uFE8E \uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFE97\uFEE0\uFE8E\uFED3\uFBFD
+        \uFE8D\uFEB3\uFE96\u061F\u061F\u061F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.1Q3
+      Right_Head_ID: C1L2.1Q3
+      Left_Choose_Text: "\u061F\uFBFD\uFB7C"
+      Right_Choose_Text: "\u061F\uFBFD\uFB7C"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.1Q3
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEEB\uFEEE\uFE8D\uFB58\uFBFF\uFEE4\uFE8E\u06CC \uFEED\uFEAF\uFBFE\uFEAE
+        \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEB3\uFED8\uFEEE\u0637
+        \uFB90\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFEE7\uFB95\uFEB8\uFE96 \uFE8D\uFE97\uFEEC\uFE8E\u0645
+        \uFE91\uFEEA \uFEB3\uFEE4\uFE96 \uFEE3\uFE8E\uFEB3\uFE96"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.2Q1
+      Right_Head_ID: C1L2.2Q1
+      Left_Choose_Text: "\uFEE2\uFBFE\uFEA9\uFEAE\uFB91\uFEE7 \u06CC\uFEAD\uFE8E\uFB90
+        \uFE8E\uFEE3"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFE90\uFBFE\uFEAC\uFB91\uFE97
+        \u0627\uFEAD \u062A\uFE8E\uFECC\uFBFE\uFE8E\uFEB7"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.2Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFB94\uFEAE\uFEED\u0647 \uFEEB\uFE8E\u06CC TBGL \uFEA9\u0631 \uFEEB\uFBFF\uFB7B
+        \uFEA9\uFEED\uFEAD\u0647 \uFE8D\u0632 \uFEAD\uFBFE\uFE8E\uFEB3\uFE96 \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC
+        \uFEE3\uFEEE\uFEAD\u062F \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFED7\uFEAE\uFE8D\u0631
+        \uFEE7\uFB95\uFEAE\uFED3\uFE98\uFEE6 \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
+        \uFE8D\u0632 \uFEE3\uFE8E \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFEA3\uFEE4\uFE8E\uFBFE\uFE96
+        \uFE8D\u0632 \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE3 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
+      Right_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE4\uFEE7 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEA7\uFBFF\uFEAE\u0627 \uFE91\uFBFF\uFEE4\uFE8E\uFEAD\u06CC
+        \uFEED\uFE8D\uFB94\uFBFF\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFEA9\u0631 \uFE9F\uFEE8\uFEEE\u0628
+        \uFB90\uFEB8\uFEEE\u0631 \uFBFE\uFE8E\uFED3\uFE96 \uFEB7\uFEAA\u0647 \u0648
+        \uFEA9\uFE8D\uFEE7\uFEB8\uFEE4\uFEE8\uFEAA\uFE8D\u0646 \uFEA9\uFEAD\uFEE3\uFE8E\uFEE7\uFBFD
+        \uFE91\uFEAE\uFE8D\u06CC \uFE81\u0646 \uFB58\uFBFF\uFEAA\u0627 \uFEE7\uFB91\uFEAE\uFEA9\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFBFD\uFE98\uFEB7\uFE8D\uFEAA\uFEEC\uFE91 \u06CC\uFE8E\uFEEB \uFEDE\uFB91\uFE97\uFEED\uFEAE\uFB58"
+      Right_Choose_Text: "\uFE96\uFEB4\uFBFF\uFEE7 \uFBFD\uFEE4\uFEEC\uFEE3 \u0639\uFEEE\uFEBF\uFEEE\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.2Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFB94\uFEAE\uFEED\u0647 \uFEEB\uFE8E\u06CC TBGL \uFEA9\u0631 \uFEEB\uFBFF\uFB7B
+        \uFEA9\uFEED\uFEAD\u0647 \uFE8D\u0632 \uFEAD\uFBFE\uFE8E\uFEB3\uFE96 \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC
+        \uFEE3\uFEEE\uFEAD\u062F \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFED7\uFEAE\uFE8D\u0631
+        \uFEE7\uFB95\uFEAE\uFED3\uFE98\uFEE6 \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
+        \uFE8D\u0632 \uFEE3\uFE8E \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFEA3\uFEE4\uFE8E\uFBFE\uFE96
+        \uFE8D\u0632 \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE3 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
+      Right_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE4\uFEE7 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFE8D\uFEA7\uFBFF\uFEAE\u0627 \uFE91\uFBFF\uFEE4\uFE8E\uFEAD\u06CC
+        \uFEED\uFE8D\uFB94\uFBFF\uFEAE\uFEA9\uFE8D\uFEAD\u06CC \uFEA9\u0631 \uFE9F\uFEE8\uFEEE\u0628
+        \uFB90\uFEB8\uFEEE\u0631 \uFBFE\uFE8E\uFED3\uFE96 \uFEB7\uFEAA\u0647 \u0648
+        \uFEA9\uFE8D\uFEE7\uFEB8\uFEE4\uFEE8\uFEAA\uFE8D\u0646 \uFEA9\uFEAD\uFEE3\uFE8E\uFEE7\uFBFD
+        \uFE91\uFEAE\uFE8D\u06CC \uFE81\u0646 \uFB58\uFBFF\uFEAA\u0627 \uFEE7\uFB91\uFEAE\uFEA9\uFEE7\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
+        \uFBFD\uFE98\uFEB7\uFE8D\uFEAA\uFEEC\uFE91 \u06CC\uFE8E\uFEEB \uFEDE\uFB91\uFE97\uFEED\uFEAE\uFB58"
+      Right_Choose_Text: "\uFE96\uFEB4\uFBFF\uFEE7 \uFBFD\uFEE4\uFEEC\uFEE3 \u0639\uFEEE\uFEBF\uFEEE\uFEE3"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.3Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFE97\uFEE8\uFEB6 \uFEEB\uFE8E\u06CC \uFE91\uFEEE\uFE9F\uFEEE\u062F
+        \uFE81\uFEE3\uFEAA\u0647 \uFEE3\uFE8E \uFEAD\u0627 \uFE91\uFEEA \uFEB3\uFEE4\uFE96
+        \uFE9F\uFEE8\uFB93 \uFEE3\uFBFF\uFB91\uFEB8\uFE8E\uFEE7\uFEAA\u060C \uFEA9\u0631
+        \uFEE3\uFEAE\u0632 \uFEEB\uFE8E\u06CC \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEE7\uFBFF\uFEAE\uFEED\uFEEB\uFE8E\u06CC
+        \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFEA9\u0631
+        \uFEA3\uFE8E\u0644 \uFE81\uFEE3\uFE8E\uFEA9\u0647 \uFEB7\uFEAA\u0646 \uFEEB\uFEB4\uFE98\uFEE6"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.3Q2
+      Right_Head_ID: C1L2.3Q2
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.3Q2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFEA7\uFEEE\uFEA9\uFEE3\uFEEE\u0646
+        \uFEAD\u0648 \uFE91\uFEAE\uFE8D\u06CC \uFE9F\uFEE8\uFB93 \uFE81\uFEE3\uFE8E\uFEA9\u0647
+        \uFB90\uFEE8\uFBFF\uFEE2 \uFEEB\uFBFF\uFB7B \uFEAD\uFE8D\u0647 \uFEA9\uFBFE\uFB95\uFEEA
+        \uFE8D\u06CC \uFEE7\uFBFF\uFEB4\uFE96"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.4Q1
+      Right_Head_ID: C1L2.4Q1
+      Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91 \u0647\uFE8E\uFE92\uFE98\uFEB7\uFE8D
+        \uFEEA\uFB90 \u0645\uFEAD\uFE8D\uFEED\uFEAA\uFBFF\uFEE3\uFE8D"
+      Right_Choose_Text: "\uFEE2\uFBFF\uFEB8\uFE91 \u0647\uFEA9\uFE8E\uFEE3\uFE81
+        \uFEAA\uFBFE\uFE8E\uFE91 \uFE8E\uFEE3"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.4Q1
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEA8\uFE8E\uFEC3\uFEAE \uFE91\uFEAA\uFEEB\uFBFD \uFEEB\uFE8E\u06CC
+        \uFED3\uFEAE\uFE8D\uFEED\uFE8D\u0646 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFEA0\uFE92\uFEEE\u0631
+        \uFE91\uFEEA \uFEBB\uFE8E\uFEA9\uFEAD\uFE8D\u062A \uFEB3\uFEEE\uFEA7\uFE96
+        \uFEB7\uFEAA\u0647 \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEEE\uFEBF\uFEEE\u0639
+        \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
+        \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
+        \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFE96\uFEA7\uFEEE\uFEB3 \uFE96\uFEE4\uFBFF\uFED7"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEB7\uFE8E\uFE91 \uFEEA\uFE98\uFEB7\uFE8D\uFEAA\uFEE7
+        \u06CC\uFEAD\uFE8E\uFB90 \uFE8E\uFEEB \uFE96\uFEE4\uFBFF\uFED7 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB94\uFEAE\uFEED\uFEEB\uFB8F \uFEEB\uFE8E\uFBFE\uFBFD \uFEEB\uFEE4\uFEAE\uFE8D\uFEB3\uFE98\uFE8E
+        \uFE91\uFE8E \uFEB3\uFBFF\uFE8E\uFEB3\uFE96 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E
+        \u060C \uFEA9\u0631 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE81\uFE91\uFBFD \uFEA9\u0631
+        \uFEA3\uFE8E\u0644 \uFEE3\uFE92\uFE8E\uFEAD\uFEAF\u0647 \uFE91\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFE8E\u06CC \uFB90\uFEB8\uFEEE\uFEAD\uFEB7\uFE8E\u0646 \uFEEB\uFEB4\uFE98\uFEE8\uFEAA
+        \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
+        \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Right_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFBFE\uFB91\uFBFD \uFE8D\u0632 \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\u062A
+        \uFE91\uFEB0\uFEAD\uFB94\uFBFD \uFB90\uFEEA \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFE8E
+        \uFE91\uFEEA \uFE81\u0646 \uFEA9\uFB7C\uFE8E\u0631 \uFEB7\uFEAA\u0647 \u060C\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
+        \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
+        \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
+      Right_Choose_Text: "\u0645\uFEAD\uFEEE\uFE97 \u0644\uFEAE\uFE98\uFEE8\uFB90"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.4Q2
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEA8\uFE8E\uFEC3\uFEAE \uFE91\uFEAA\uFEEB\uFBFD \uFEEB\uFE8E\u06CC
+        \uFED3\uFEAE\uFE8D\uFEED\uFE8D\u0646 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFEA0\uFE92\uFEEE\u0631
+        \uFE91\uFEEA \uFEBB\uFE8E\uFEA9\uFEAD\uFE8D\u062A \uFEB3\uFEEE\uFEA7\uFE96
+        \uFEB7\uFEAA\u0647 \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEEE\uFEBF\uFEEE\u0639
+        \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
+        \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
+        \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFE96\uFEA7\uFEEE\uFEB3 \uFE96\uFEE4\uFBFF\uFED7"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEB7\uFE8E\uFE91 \uFEEA\uFE98\uFEB7\uFE8D\uFEAA\uFEE7
+        \u06CC\uFEAD\uFE8E\uFB90 \uFE8E\uFEEB \uFE96\uFEE4\uFBFF\uFED7 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB94\uFEAE\uFEED\uFEEB\uFB8F \uFEEB\uFE8E\uFBFE\uFBFD \uFEEB\uFEE4\uFEAE\uFE8D\uFEB3\uFE98\uFE8E
+        \uFE91\uFE8E \uFEB3\uFBFF\uFE8E\uFEB3\uFE96 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E
+        \u060C \uFEA9\u0631 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE81\uFE91\uFBFD \uFEA9\u0631
+        \uFEA3\uFE8E\u0644 \uFEE3\uFE92\uFE8E\uFEAD\uFEAF\u0647 \uFE91\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFE8E\u06CC \uFB90\uFEB8\uFEEE\uFEAD\uFEB7\uFE8E\u0646 \uFEEB\uFEB4\uFE98\uFEE8\uFEAA
+        \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
+        \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Right_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFBFE\uFB91\uFBFD \uFE8D\u0632 \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\u062A
+        \uFE91\uFEB0\uFEAD\uFB94\uFBFD \uFB90\uFEEA \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFE8E
+        \uFE91\uFEEA \uFE81\u0646 \uFEA9\uFB7C\uFE8E\u0631 \uFEB7\uFEAA\u0647 \u060C\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
+        \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
+        \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
+      Right_Choose_Text: "\u0645\uFEAD\uFEEE\uFE97 \u0644\uFEAE\uFE98\uFEE8\uFB90"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.4Q3
+    CardType: 0
+    RandomCards:
+    - ID: 
+      Name: 
+      Text: "\uFE91\uFEA8\uFE8E\uFEC3\uFEAE \uFE91\uFEAA\uFEEB\uFBFD \uFEEB\uFE8E\u06CC
+        \uFED3\uFEAE\uFE8D\uFEED\uFE8D\u0646 \u060C \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFEA0\uFE92\uFEEE\u0631
+        \uFE91\uFEEA \uFEBB\uFE8E\uFEA9\uFEAD\uFE8D\u062A \uFEB3\uFEEE\uFEA7\uFE96
+        \uFEB7\uFEAA\u0647 \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEEE\uFEBF\uFEEE\u0639
+        \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
+        \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
+        \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
+        \u0627\uFEAD \uFE96\uFEA7\uFEEE\uFEB3 \uFE96\uFEE4\uFBFF\uFED7"
+      Right_Choose_Text: "\uFEAA\uFBFF\uFEB7\uFE8E\uFE91 \uFEEA\uFE98\uFEB7\uFE8D\uFEAA\uFEE7
+        \u06CC\uFEAD\uFE8E\uFB90 \uFE8E\uFEEB \uFE96\uFEE4\uFBFF\uFED7 \uFEEA\uFE91"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFB94\uFEAE\uFEED\uFEEB\uFB8F \uFEEB\uFE8E\uFBFE\uFBFD \uFEEB\uFEE4\uFEAE\uFE8D\uFEB3\uFE98\uFE8E
+        \uFE91\uFE8E \uFEB3\uFBFF\uFE8E\uFEB3\uFE96 \uFEEB\uFE8E\u06CC \uFEE3\uFE8E
+        \u060C \uFEA9\u0631 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE81\uFE91\uFBFD \uFEA9\u0631
+        \uFEA3\uFE8E\u0644 \uFEE3\uFE92\uFE8E\uFEAD\uFEAF\u0647 \uFE91\uFE8E \uFEA9\uFEED\uFEDF\uFE96
+        \uFEEB\uFE8E\u06CC \uFB90\uFEB8\uFEEE\uFEAD\uFEB7\uFE8E\u0646 \uFEEB\uFEB4\uFE98\uFEE8\uFEAA
+        \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
+        \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
+        \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Right_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \u06CC\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFE8D
+        \u06CC\uFE8E\uFEEB \uFB8F\uFEE4\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
+      Ministers: []
+    - ID: 
+      Name: 
+      Text: "\uFBFE\uFB91\uFBFD \uFE8D\u0632 \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\u062A
+        \uFE91\uFEB0\uFEAD\uFB94\uFBFD \uFB90\uFEEA \uFEA9\uFEED\uFEDF\uFE96 \uFEE3\uFE8E
+        \uFE91\uFEEA \uFE81\u0646 \uFEA9\uFB7C\uFE8E\u0631 \uFEB7\uFEAA\u0647 \u060C\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
+        \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
+        \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
+        \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
+      Right_Choose_Text: "\u0645\uFEAD\uFEEE\uFE97 \u0644\uFEAE\uFE98\uFEE8\uFB90"
+      Ministers: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE3\uFEAE\u0632 \uFEE3\uFE8E \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631
+        \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEE3\uFEAE\uFEAF\u06CC \uFB90\uFEEE\uFEEB\uFEB4\uFE98\uFE8E\uFEE7\uFBFD
+        \uFE8D\uFEB3\uFE96  \u0648 \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFE91\uFEEA
+        \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\uFE97\uFBFD \uFB90\uFEEA \uFEE3\uFBFF\uFEB4\uFE8E\uFEAF\uFBFE\uFEE2
+        \uFEA9\uFED7\uFE96 \uFB90\uFEE8\uFBFF\uFEE2"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q2
+      Right_Head_ID: C1L2.5Q2
+      Left_Choose_Text: "\uFE90\uFEA7"
+      Right_Choose_Text: "\uFE90\uFEA7"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\uFEB7\uFEE4\uFEE6 \uFEE3\uFEA0\uFEEC\uFEB0 \uFE91\uFEEA \uFE8D\uFEAD\uFE97\uFEB6
+        \uFEAD\uFE91\uFE8E\uFE97\uFBFF\uFB8F \uFE8D\uFEB3\uFE96\u060C\uFEE3\uFE8E
+        \uFE91\uFE8E\uFBFE\uFEAA \uFED7\uFEAA\uFEAD\u062A \uFB90\uFE8E\uFED3\uFBFD
+        \uFE91\uFEAE\uFE8D\u06CC \uFEB7\uFB91\uFEB4\uFE96 \uFEA9\uFE8D\uFEA9\u0646
+        \uFE8D\uFBFE\uFEE6 \uFEAD\uFE91\uFE8E\u062A \uFEEB\uFE8E \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
+        \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q3
+      Right_Head_ID: C1L2.5Q3
+      Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q3
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEA9\u0631 \uFED7\uFEAA\u0645 \uFE8D\uFEED\u0644 \u060C \uFE91\uFEAE\uFE8D\u06CC
+        \uFE81\uFEE3\uFE8E\uFEA9\u0647 \uFEB7\uFEAA\u0646 \uFEA9\u0631 \uFE9F\uFEE8\uFB93
+        \uFE91\uFE8E\uFBFE\uFEAA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE97\uFEEE\uFEDF\uFBFF\uFEAA\uFE8D\u062A
+        \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFEAD\u0627 \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
+        \uFE91\uFE8E\uFEB7\uFBFF\uFEE2 \uFE97\uFE8E \uFEB3\uFEE0\uFE8E\u062D \uFEEB\uFE8E\u06CC
+        \uFB90\uFE8E\uFED3\uFBFD \uFEA9\uFE8D\uFEB7\uFE98\uFEEA \uFE91\uFE8E\uFEB7\uFBFF\uFEE2 "
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q4
+      Right_Head_ID: C1L2.5Q4
+      Left_Choose_Text: "\uFE96\uFEB4\uFBFF\uFEE7 \uFBFD\uFEE0\uFB91\uFEB8\uFEE3"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEAD\uFE8D\uFEAA\uFEE7 \uFBFD\uFED3\uFE8E\uFB90
+        \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q4
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE3\uFE8E \uFEA9\u0631 \uFE91\uFEAE\uFEA7\uFBFD \uFE8D\u0632 \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A
+        \uFB90\uFEE4\uFE92\uFEEE\u062F \uFEA9\uFE8D\uFEAD\uFBFE\uFEE2 \u0648 \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2
+        \uFE81\uFEE7\uFEEC\uFE8E \uFEAD\u0627 \uFE8D\u0632 \uFB90\uFEB8\uFEEE\u0631
+        \uFEEB\uFE8E\u06CC \uFEA9\uFBFE\uFB95\uFEEA \uFEA7\uFEAE\uFBFE\uFEAA\uFE8D\uFEAD\u06CC
+        \uFB90\uFEE8\uFBFF\uFEE2 "
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q5
+      Right_Head_ID: C1L2.5Q5
+      Left_Choose_Text: "\uFEEA\uFEB8\uFE91 \u06CC\uFEAD\uFE8D\uFEAA\uFBFE\uFEAE\uFEA7"
+      Right_Choose_Text: "\u0645\uFEAD\uFE8D\uFEAA\uFEE7 \uFEAA\uFBFE\uFEAE\uFEA7
+        \uFEEA\uFE91 \uFBFD\uFEE0\uFBFE\uFE8E\uFEE4\uFE97"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q5
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFED3\uFEAE\uFEE3\uFE8E\uFEE7\uFEAA\uFEEB\uFE8E\u0646 \uFE91\uFEA8\uFE8E\uFEC3\uFEAE
+        \uFED7\uFEAA\uFBFE\uFEE4\uFBFD \uFE91\uFEEE\uFEA9\u0646 \uFE97\uFB91\uFEE8\uFEEE\uFEDF\uFEEE\uFB8A\u06CC
+        \uFEB3\uFEE0\uFE8E\u062D \uFEEB\uFE8E \uFB94\uFEE0\uFEEA \uFEE3\uFEE8\uFEAA
+        \uFE8D\uFEE7\uFEAA\u060C\uFE91\uFE8E \uFEB3\uFEAE\uFEE3\uFE8E\uFBFE\uFEEA
+        \uFB94\uFEB0\uFE8D\uFEAD\u06CC \uFEAD\uFEED\u06CC \uFE97\uFEEE\uFEB3\uFECC\uFEEA
+        \uFEEB\uFEEE\u0634 \uFEE3\uFEBC\uFEE8\uFEEE\uFECB\uFBFD \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\u0646
+        \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A \uFEAD\u0627 \uFE91\uFEEA \uFEAD\uFEED\u0632
+        \uFB90\uFEAE\u062F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q6
+      Right_Head_ID: C1L2.5Q6
+      Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
+      Right_Choose_Text: "\uFEE2\uFBFE\uFEAD\uFE8D\uFEAA\uFEE7 \uFBFD\uFED3\uFE8E\uFB90
+        \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q6
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\u0645\u0627 \u0648\u0642\u062A \u0632\u06CC\u0627\u062F\u06CC \u0628\u0631\u0627\u06CC
+        \u062A\u0648\u0633\u0639\u0647 \u0647\u0645\u0647 \u0628\u062E\u0634 \u0647\u0627\u06CC
+        \u0646\u0638\u0627\u0645\u06CC \u0646\u062F\u0627\u0631\u06CC\u0645 \u0648
+        \u0641\u0642\u0637 \u0645\u06CC\u062A\u0648\u0646\u06CC\u0645 \u0631\u0648\u06CC
+        \u0646\u06CC\u0631\u0648\u06CC \u0632\u0645\u06CC\u0646\u06CC \u06CC\u0627
+        \u0646\u06CC\u0631\u0648\u06CC \u0647\u0648\u0627\u06CC\u06CC \u0648\u0642\u062A
+        \u0628\u0632\u0627\u0631\u06CC\u0645"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q7
+      Right_Head_ID: C1L2.5Q8
+      Left_Choose_Text: "\u061F \uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
+      Right_Choose_Text: "\u061F \uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q7
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE7\uFBFF\uFEAE\uFEED\u06CC \uFEAF\uFEAD\uFEEB\uFBFD \uFEE7\uFBFF\uFEAE\uFEED\u06CC
+        \uFE8D\uFEBB\uFEE0\uFBFD \uFEE3\uFE8E \uFE8D\uFEB3\uFE96 \uFEED\uFEDF\uFBFD
+        \uFEA9\u0631 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6 \uFB90\uFEEE\uFEEB\uFEB4\uFE98\uFE8E\uFEE7\uFBFD
+        \uFB90\uFE8E\uFEAD\uFE8D\uFBFE\uFBFD \uFB7C\uFEE8\uFEAA\uFE8D\uFEE7\uFBFD
+        \uFEE7\uFEAA\uFE8D\uFEAD\u062F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q8
+      Right_Head_ID: C1L2.6Q1
+      Left_Choose_Text: "\u061F\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
+      Right_Choose_Text: "\uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFEED\uFEAE\uFBFF\uFEE7
+        \uFEEA\uFECC\uFEB3\uFEEE\uFE97"
+      Ministers: []
+  - _Challenge: 0
+    _Card: 1
+    Available: 1
+    CardID: C1L2.5Q8
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: "\uFEE7\uFBFF\uFEAE\uFEED\u06CC \uFEEB\uFEEE\uFE8D\uFBFE\uFBFD \uFEE7\uFBFF\uFEAE\uFEED\u06CC
+        \uFB58\uFEB8\uFE98\uFBFF\uFE92\uFE8E\uFEE7\uFBFD \uFEE3\uFE8E \uFE8D\uFEB3\uFE96 
+        \u0648 \uFEA9\u0631 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6 \uFB90\uFEEE\uFEEB\uFEB4\uFE98\uFE8E\uFEE7\uFBFD
+        \uFB90\uFE8E\uFEAD\uFE91\uFEAE\u062F \uFEA9\uFE8D\uFEAD\u062F"
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: C1L2.5Q7
+      Right_Head_ID: C1L2.62Q1
+      Left_Choose_Text: "\u061F \uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
+      Right_Choose_Text: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFEED\uFEAE\uFBFF\uFEE7
+        \uFEEA\uFECC\uFEB3\uFEEE\uFE97"
+      Ministers: []

@@ -115,8 +115,6 @@ public class GameManager : MonoBehaviour
     public void CreateCard()
     {
 
-        Debug.Log("header " + CardHead);
-
         int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
         if (CardHead >= chapterCards || CardHead == -1)
         {
@@ -125,11 +123,12 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            //get card by header
-            CarrentCard = chapterflow[CardHead];
 
             //get Card type
             carddetails = GetNextCard();
+
+            //get card by header
+            CarrentCard = chapterflow[CardHead];
 
             //init card
             PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
@@ -156,6 +155,8 @@ public class GameManager : MonoBehaviour
             while(!chapterflow[CardHead].Available)
                 CardHead++;
         }
+
+        Debug.Log("header : " + CardHead + " CardID : " + chapterflow[CardHead].CardID);
 
         string next_cardid = chapterflow[CardHead].CardID;
         CardType next_cardtype = chapterflow[CardHead].CardType;
