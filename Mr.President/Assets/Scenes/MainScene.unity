@@ -716,7 +716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &208285750
 RectTransform:
   m_ObjectHideFlags: 0
@@ -921,6 +921,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1caea49f8ae03cf4dae05631ee81248b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &273726338 stripped
@@ -1181,6 +1187,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_6
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b5b7d2c5f13be7d42972486b6943e9b4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &382008708 stripped
@@ -2443,6 +2455,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_8
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 834e3f9b0a7f1a54a8a0b2131c8de2bb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &530098011 stripped
@@ -2634,6 +2652,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_7
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 32c40d9d9cfcb564e9b9a9cbe4d6ebc1,
+        type: 3}
     - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Color.a
@@ -4147,6 +4171,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eee295a6fb05f404284ba9a81cbe4b6f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &1231636268 stripped
@@ -4282,6 +4312,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 918d74485373a98468a21cadeccefa67,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &1244166122 stripped
@@ -5398,6 +5434,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_9
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8cf5429be266e9645885949e4c75cda3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &1534126091 stripped
@@ -6049,6 +6091,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d006afb78980f094cb1600bb82db658c,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &2020644164 stripped
@@ -6399,6 +6447,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minister_10
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e589321def7eb44cbb123007453cee2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!224 &2097803969 stripped
@@ -6519,57 +6573,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_Type
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_Maskable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_FillMethod
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_FillOrigin
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330433, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_FillClockwise
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: id
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: value
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
       value: Minister_1
       objectReference: {fileID: 0}
-    - target: {fileID: 8687287674450577086, guid: 255e905997e089840b12a79be04d5f7e,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255e905997e089840b12a79be04d5f7e, type: 3}
 --- !u!1001 &8712777219116205272
