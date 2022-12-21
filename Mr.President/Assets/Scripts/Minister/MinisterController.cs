@@ -9,8 +9,8 @@ public class MinisterController : MonoBehaviour
     //[ReadOnlyAttribute]
     public string id;
     public float value = 0.5f;
-    Image borderfill;
-
+    public Image borderfill;
+ 
     bool startfill = true;
     bool setnewvalue = false;
 
@@ -18,7 +18,6 @@ public class MinisterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        borderfill = GetComponent<Image>();
         StartCoroutine(StartFill());
     }
 
@@ -36,11 +35,10 @@ public class MinisterController : MonoBehaviour
     IEnumerator StartFill()
     {
 
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(2f);
 
         while (borderfill.fillAmount < 0.5f)
         {
-            Debug.Log(value);
             yield return new WaitForSeconds(0.0015f);
             borderfill.fillAmount += 0.005f;
             if (borderfill.fillAmount > value)
