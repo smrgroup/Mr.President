@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChapterFlow:
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q1
     CardType: 1
@@ -39,8 +39,8 @@ MonoBehaviour:
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers: []
-  - _Challenge: 0
-    _Card: 1
+  - _Challenge: 1
+    Challenge: {fileID: 11400000, guid: 306a263c8a02cec439a65211d03d8e28, type: 2}
     Available: 1
     CardID: C1L0Q2
     CardType: 1
@@ -70,7 +70,7 @@ MonoBehaviour:
       Right_Choose_Text: ...
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q3
     CardType: 1
@@ -99,7 +99,7 @@ MonoBehaviour:
       Right_Choose_Text: ...
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q4
     CardType: 1
@@ -127,7 +127,7 @@ MonoBehaviour:
       Right_Choose_Text: ...
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q5
     CardType: 1
@@ -157,7 +157,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u061F\uFBFD\uFE97\uFE8E\uFB91\uFEE7 \uFEEA\uFB7C"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q6
     CardType: 1
@@ -185,7 +185,7 @@ MonoBehaviour:
       Right_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q7
     CardType: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u061F\u0627\uFEAE\uFB7C \uFE8E\uFEE3\uFE8D"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q8
     CardType: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
         \uFE8E\uFEEC\uFEE7\uFE81"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q9
     CardType: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
       Right_Choose_Text: "\uFE8E\uFEEB\uFE8D"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q10
     CardType: 1
@@ -304,7 +304,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u0646\uFEEE\uFEE8\uFEE4\uFEE3"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1Q1
     CardType: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1Q2
     CardType: 0
@@ -524,7 +524,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1Q3
     CardType: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1Q4
     CardType: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1Q5
     CardType: 0
@@ -854,7 +854,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.1Q1
     CardType: 1
@@ -883,7 +883,7 @@ MonoBehaviour:
         \u0631\uFEEE\uFEC3 \uFEEA\uFB7C"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.1Q2
     CardType: 1
@@ -917,7 +917,7 @@ MonoBehaviour:
         \uFBFD\uFEE0\uFEBB\uFE8D \uFEAE\uFEBC\uFED8\uFEE3"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.2Q1
     CardType: 0
@@ -979,7 +979,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.2Q2
     CardType: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.3Q1
     CardType: 2
@@ -1072,7 +1072,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.4Q1
     CardType: 0
@@ -1149,7 +1149,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.4Q2
     CardType: 0
@@ -1226,7 +1226,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.4Q3
     CardType: 0
@@ -1303,7 +1303,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.5Q1
     CardType: 2
@@ -1334,7 +1334,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.5Q2
     CardType: 2
@@ -1364,7 +1364,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.6Q1
     CardType: 0
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.6Q2
     CardType: 0
@@ -1486,7 +1486,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.7Q1
     CardType: 1
@@ -1516,7 +1516,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u0645\uFEA9\uFEB0\uFBFF\uFEE3 \u0633\uFEAA\uFEA3"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.7Q2
     CardType: 1
@@ -1546,7 +1546,7 @@ MonoBehaviour:
         \u0631\uFE8E\uFB90 \uFE8E\uFEE3"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L1.7Q3
     CardType: 1
@@ -1575,7 +1575,7 @@ MonoBehaviour:
         \uFE8E\uFEEC\uFEE7\uFEED\uFE8D"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L1.8Q1
     CardType: 1
@@ -1609,7 +1609,7 @@ MonoBehaviour:
         \u06CC\uFE8D\uFEAE\uFE91 \uFEE6\uFBFF\uFEE7\uFE8D\uFEEE\uFED7 \uFECA\uFEBF\uFEED"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2Q2
     CardType: 2
@@ -1642,7 +1642,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2Q1
     CardType: 2
@@ -1678,7 +1678,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L2.1Q1
     CardType: 1
@@ -1712,7 +1712,7 @@ MonoBehaviour:
         \uFBFD\uFEB8\uFEE8\uFB90\uFE8D\uFEED"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 0
     CardID: C1L2.1Q2
     CardType: 1
@@ -1741,7 +1741,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u061F\uFBFD\uFB7C"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.1Q3
     CardType: 1
@@ -1772,7 +1772,7 @@ MonoBehaviour:
         \u0627\uFEAD \u062A\uFE8E\uFECC\uFBFE\uFE8E\uFEB7"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.2Q1
     CardType: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.2Q2
     CardType: 0
@@ -1880,7 +1880,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.3Q1
     CardType: 1
@@ -1911,7 +1911,7 @@ MonoBehaviour:
       Right_Choose_Text: ...
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.3Q2
     CardType: 1
@@ -1942,7 +1942,7 @@ MonoBehaviour:
         \uFEAA\uFBFE\uFE8E\uFE91 \uFE8E\uFEE3"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.4Q1
     CardType: 0
@@ -2017,7 +2017,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.4Q2
     CardType: 0
@@ -2092,7 +2092,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.4Q3
     CardType: 0
@@ -2167,7 +2167,7 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q1
     CardType: 1
@@ -2197,7 +2197,7 @@ MonoBehaviour:
       Right_Choose_Text: "\uFE90\uFEA7"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q2
     CardType: 1
@@ -2228,7 +2228,7 @@ MonoBehaviour:
       Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q3
     CardType: 1
@@ -2260,7 +2260,7 @@ MonoBehaviour:
         \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q4
     CardType: 1
@@ -2291,7 +2291,7 @@ MonoBehaviour:
         \uFEEA\uFE91 \uFBFD\uFEE0\uFBFE\uFE8E\uFEE4\uFE97"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q5
     CardType: 1
@@ -2325,7 +2325,7 @@ MonoBehaviour:
         \uFEEA\uFE9F\uFEA9\uFEEE\uFE91"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q6
     CardType: 1
@@ -2357,7 +2357,7 @@ MonoBehaviour:
       Right_Choose_Text: "\u061F \uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q7
     CardType: 1
@@ -2388,7 +2388,7 @@ MonoBehaviour:
         \uFEEA\uFECC\uFEB3\uFEEE\uFE97"
       Ministers: []
   - _Challenge: 0
-    _Card: 1
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L2.5Q8
     CardType: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1c4ec8b77c2f645a5610fd33ff7a3d, type: 3}
+  m_Name: Challenge_1
+  m_EditorClassIdentifier: 
+  SliderValue: 25
+  PointTargetTowin: 75
+  PointTargetToLoss: 10
+  WinText: "\uFEB7\uFEE4\uFE8E \uFE91\uFEAE\uFEE7\uFEAA\uFEE9 \uFEB7\uFEAA\uFBFE\uFEAA"
+  LoseText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+  Win_Spell_ID: 
+  Lose_Spell_ID: 
+  Cards:
+  - Text: "\uFB90\uFE8E\uFEAD\u062A \uFEB7\uFEAE\uFEED\u0639 "
+    Image: {fileID: 0}
+    LeftText: ...
+    RightText: ...
+  - Text: "\uFB90\uFE8E\uFEAD\u062A \uFB58\uFE8E\uFBFE\uFE8E\u0646"
+    Image: {fileID: 0}
+    LeftText: ...
+    RightText: ...

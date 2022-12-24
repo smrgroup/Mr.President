@@ -21,9 +21,9 @@ public class MinistersManager : MonoBehaviour
         
     }
 
-    IEnumerator loadministers()
+    public IEnumerator loadministers(float interval = 1.0f)
     { 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(interval);
         TopTweens.OpenCloseObjectAnimation();
         LeftTweens.OpenCloseObjectAnimation();
         RightTweens.OpenCloseObjectAnimation();
