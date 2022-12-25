@@ -21,8 +21,8 @@ public class GameManager : MonoBehaviour
     public GameObject CardPrefab;
 
     //current card data
-    public  CardData cardsdata;
-    public  CardData Clonecardsdata;
+    public CardData cardsdata;
+    public CardData Clonecardsdata;
 
     private Chapter CarrentCard;
     private CardDetails carddetails;
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     private List<GameObject> backcardsPrefabs;
     private GameObject PlayableCard;
     private Card_Controller card_Controller;
-    private TextManager textarea;
+    public TextManager textarea;
 
     public List<MinisterController> ministers = new List<MinisterController>();
 
@@ -42,10 +42,15 @@ public class GameManager : MonoBehaviour
 
     public List<Chapter> chapterflow = new List<Chapter>();
 
+    public ChallengeManager challengeManager;
+    public bool ActiveChallenge;
+
     // Start is called before the first frame update
     void Start()
     {
         StaticData.gameManager = this;
+
+        challengeManager = GetComponent<ChallengeManager>();
 
         //init CardArea
         backcardsPrefabs = new List<GameObject>();
@@ -75,7 +80,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     #region CardController
@@ -84,7 +89,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        Loading.SetBool("start",true);
+        Loading.SetBool("start", true);
 
         yield return new WaitForSeconds(1f);
 
@@ -94,7 +99,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < CardCount; i++)
         {
-            GameObject Bcard = Instantiate(BackCardPrefab,CardsArea.transform);
+            GameObject Bcard = Instantiate(BackCardPrefab, CardsArea.transform);
             backcardsPrefabs.Add(Bcard);
             yield return new WaitForSeconds(0.3f);
             backcardsPrefabs[i].GetComponent<EasyTween>().OpenCloseObjectAnimation();
@@ -124,27 +129,52 @@ public class GameManager : MonoBehaviour
         else
         {
 
-            //get Card type
-            carddetails = GetNextCard();
+            // check for challenge
+            ///if TRUE Cut Of From flow and move Player To Challenge
+            if (chapterflow[CardHead]._Challenge)
+            {
+                this.SetactiveChallenge(true);
+                challengeManager.StartChallnage(chapterflow[CardHead].Challenge);
+            }
+            else
+            {
+                //get Card type
+                carddetails = GetNextCard();
 
-            //get card by header
-            CarrentCard = chapterflow[CardHead];
+                //get card by header
+                CarrentCard = chapterflow[CardHead];
 
-            //init card
-            PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
+                //init card
+                PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
 
-            //fill data
-            Text[] ChooseCardTexts = PlayableCard.GetComponentsInChildren<Text>();
-            ChooseCardTexts[0].text = carddetails.Left_Choose_Text;
-            ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
-            PlayableCard.name = carddetails.Name;
-            PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
-            PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
-            textarea.typemsg(carddetails.Text);
-            CardDragController.OnDragedCard.AddListener(CardDragEvent);
-            CardHead++;
+                //fill data
+                Text[] ChooseCardTexts = PlayableCard.GetComponentsInChildren<Text>();
+                ChooseCardTexts[0].text = carddetails.Left_Choose_Text;
+                ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
+                PlayableCard.name = carddetails.Name;
+                PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+                PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
+                textarea.typemsg(carddetails.Text);
+                CardDragController.OnDragedCard.AddListener(CardDragEvent);
+                CardHead++;
+            }
+
 
         }
+    }
+
+    public void SetactiveChallenge(bool active)
+    {
+        ActiveChallenge = active;
+
+        // Challnge Done Move On FLow
+        if (!active)
+        {
+            CardHead++;
+            CreateCard();
+        }
+    
+       
     }
 
     private CardDetails GetNextCard()

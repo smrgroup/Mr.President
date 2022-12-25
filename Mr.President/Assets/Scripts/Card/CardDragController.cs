@@ -38,8 +38,8 @@ public class CardDragController : MonoBehaviour
     [Tooltip("Card Help Text")]
     public GameObject LeftText;
     public GameObject RightText;
-    private EasyTween LeftTween;
-    private EasyTween RightTween;
+    protected EasyTween LeftTween;
+    protected EasyTween RightTween;
 
 
     [Tooltip("Card Flip")]
@@ -79,13 +79,13 @@ public class CardDragController : MonoBehaviour
 
     }
 
-    private void Awake()
+    public virtual void Awake()
     {
         OnDragedCard = new UnityEvent<State>();
     }
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
 
         Tweens = GetComponent<EasyTween>();
@@ -115,7 +115,7 @@ public class CardDragController : MonoBehaviour
     }
 
 
-    public void CardMovement()
+    public virtual void CardMovement()
     {
         if (Input.touchCount > 1 || IsDraging == false)
         {
@@ -161,7 +161,7 @@ public class CardDragController : MonoBehaviour
         }
     }
 
-    public void HideCardTexts()
+    public virtual void HideCardTexts()
     {
         if (LeftTween.IsObjectOpened()) LeftTween.OpenCloseObjectAnimation();
         if (RightTween.IsObjectOpened()) RightTween.OpenCloseObjectAnimation();
@@ -219,7 +219,7 @@ public class CardDragController : MonoBehaviour
         StartCoroutine(RLMoveAwait(0.2f, gameObject));
     }
 
-    void SignMinisters(bool state = true)
+    public virtual void SignMinisters(bool state = true)
     {
         if (state)
         {
@@ -246,7 +246,7 @@ public class CardDragController : MonoBehaviour
        
     }
 
-    IEnumerator RLMoveAwait(float second , GameObject obj)
+    public virtual IEnumerator RLMoveAwait(float second , GameObject obj)
     {
         yield return new WaitForSeconds(second);
         Destroy(obj);

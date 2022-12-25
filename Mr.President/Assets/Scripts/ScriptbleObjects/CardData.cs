@@ -55,20 +55,24 @@ public class Chapter
 {
 
     public bool _Challenge = false;
-    public bool _Card = true;
 
     [Header("-------------------------------------------------------")]
 
+    //if Flow Is Challenge
+    [DrawIf("_Challenge", true)]
+    public Challenges Challenge;
+
+
     //if Flow Is Card
-    [DrawIf("_Card", true)] 
+    [DrawIf("_Challenge", false)] 
     public bool Available = true;
 
     [DrawIf("Available",true)]
-    [DrawIf("_Card", true)]
+    [DrawIf("_Challenge", false)]
     public string CardID;
     
     [DrawIf("Available", true)]
-    [DrawIf("_Card", true)]
+    [DrawIf("_Challenge", false)]
     public CardType CardType;
 
     [Space(10)]
