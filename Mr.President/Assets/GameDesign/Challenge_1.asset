@@ -24,7 +24,23 @@ MonoBehaviour:
     Image: {fileID: 0}
     LeftText: ...
     RightText: ...
+    LeftValue: 0
+    RightValue: 0
+  - Text: "\uFB7C\uFB57 \uFBFE\uFE8E \uFEAD\uFE8D\uFEB3\uFE96 "
+    Image: {fileID: 0}
+    LeftText: "\uFB57\uFB7C"
+    RightText: "\uFE96\uFEB3\uFE8D\uFEAD"
+    LeftValue: -20
+    RightValue: 10
+  - Text: "\uFB7C\uFB57 \uFBFE\uFE8E \uFEAD\uFE8D\uFEB3\uFE96 "
+    Image: {fileID: 0}
+    LeftText: "\uFB57\uFB7C"
+    RightText: "\uFE96\uFEB3\uFE8D\uFEAD"
+    LeftValue: 5
+    RightValue: 7
   - Text: "\uFB90\uFE8E\uFEAD\u062A \uFB58\uFE8E\uFBFE\uFE8E\u0646"
     Image: {fileID: 0}
     LeftText: ...
     RightText: ...
+    LeftValue: 0
+    RightValue: 0

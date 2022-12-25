@@ -327,6 +327,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardPrefab: {fileID: 5145668556334396181, guid: e01162940233dc648b4c1ce1ba1b978a,
     type: 3}
+  CenterNotifPrefab: {fileID: 3887881290956581964, guid: b3ed881b45c111c47a065e252b6f8b38,
+    type: 3}
+  CenterNotiftweens: []
   challenge_Slider: {fileID: 2073304793}
 --- !u!1001 &101724033
 PrefabInstance:
@@ -1649,26 +1652,17 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 2
-          outSlope: 2
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.69855857
-          value: 1.0241333
-          inSlope: 0.6223388
-          outSlope: 0.6223388
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0
-          outSlope: 0
+          inSlope: 2
+          outSlope: 2
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -1729,7 +1723,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 1
+    animationDuration: 0.7
 --- !u!1001 &467070404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2092,26 +2086,17 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 2
-          outSlope: 2
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.69855857
-          value: 1.0241333
-          inSlope: 0.6223388
-          outSlope: 0.6223388
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0
-          outSlope: 0
+          inSlope: 2
+          outSlope: 2
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -2217,7 +2202,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 1
+    animationDuration: 0.7
 --- !u!1 &488997479
 GameObject:
   m_ObjectHideFlags: 0
@@ -4951,26 +4936,17 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 2
-          outSlope: 2
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.69855857
-          value: 1.0241333
-          inSlope: 0.6223388
-          outSlope: 0.6223388
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0
-          outSlope: 0
+          inSlope: 2
+          outSlope: 2
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -5013,7 +4989,7 @@ MonoBehaviour:
     ExitEvents:
       m_PersistentCalls:
         m_Calls: []
-    animationDuration: 1
+    animationDuration: 0.7
 --- !u!1 &1520068510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,10 +6136,10 @@ RectTransform:
   m_Father: {fileID: 1520068511}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.028, y: 0.77255905}
+  m_AnchorMin: {x: 0, y: 0.8496274}
   m_AnchorMax: {x: 0.98042774, y: 0.97800004}
-  m_AnchoredPosition: {x: -4.6499023, y: 0.6088867}
-  m_SizeDelta: {x: -8.23999, y: -5.23999}
+  m_AnchoredPosition: {x: 11.5, y: 34.5}
+  m_SizeDelta: {x: -31.23999, y: 79.76001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073304793
 MonoBehaviour:
@@ -6211,7 +6187,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 100
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6275,8 +6251,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.69855857
-          value: 1.0241333
+          time: 0.7043874
+          value: 1.0903412
           inSlope: 0.6223388
           outSlope: 0.6223388
           tangentMode: 0
@@ -6309,7 +6285,7 @@ MonoBehaviour:
           outWeight: 0
         - serializedVersion: 3
           time: 0.69855857
-          value: 1.0241333
+          value: 1.0974976
           inSlope: 0.6223388
           outSlope: 0.6223388
           tangentMode: 0

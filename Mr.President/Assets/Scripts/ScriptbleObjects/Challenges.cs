@@ -29,5 +29,6 @@ public class NewsCard
     public Sprite Image;
     public string LeftText;
     public string RightText;
-
+    public float LeftValue;
+    public float RightValue;
 }
