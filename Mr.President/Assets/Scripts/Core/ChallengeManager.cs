@@ -109,6 +109,7 @@ public class ChallengeManager : MonoBehaviour
 
     private IEnumerator SetNewValue(float newval)
     {
+        Debug.Log("income value : " + newval);
         newval = (challenge_Slider.value + newval);
         while (challenge_Slider.value != newval)
         {
@@ -131,22 +132,23 @@ public class ChallengeManager : MonoBehaviour
 
     private void SetChallengeResult()
     {
-        GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform.position , StaticData.gameManager.BackGroundPlay.transform.rotation, StaticData.gameManager.BackGroundPlay.transform);
+        GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform.position, StaticData.gameManager.BackGroundPlay.transform.rotation, StaticData.gameManager.BackGroundPlay.transform);
         CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
-        CenterNotifcontroller.PlayIn("ﭘﺎﯾﺎن", new Color32(241, 184, 33, 255));
 
         if (challenge_Slider.value >= challenge.PointTargetTowin)
         {
             Debug.Log("Challenge Win");
+            CenterNotifcontroller.PlayIn("ﭘﯿﺮﻭﺯی", new Color32(241, 184, 33, 255));
             Spell spell = spelldata.Spells.Find(x => x.Id == challenge.Win_Spell_ID);
             SpellController.addspellItem(spell);
         }
         else
         {
+            Debug.Log("Challenge Lose");
+            CenterNotifcontroller.PlayIn("ﺑﺎﺧﺘﯽ", new Color32(241, 33, 47, 255));
             Spell spell = spelldata.Spells.Find(x => x.Id == challenge.Lose_Spell_ID);
             SpellController.addspellItem(spell);
             SpellController.SetspellActive(spell);
-            Debug.Log("Challenge Lose");
         }
     }
 }
