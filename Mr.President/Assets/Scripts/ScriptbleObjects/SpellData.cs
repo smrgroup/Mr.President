@@ -8,28 +8,6 @@ public class SpellData : ScriptableObject
 {
     public List<Spell> Spells = new List<Spell>();
 
-    private void OnValidate()
-    {
-        setIds(Spells);
-    }
-
-    private void setIds(List<Spell> list)
-    {
-        if (list.Count > 1)
-        {
-            list[0].Id = 0;
-            for (int i = 1; i < list.Count; i++)
-            {
-                list[i].Id = list[i - 1].Id + 1;
-            }
-        }
-        else
-        if (list.Count == 1)
-        {
-            list[0].Id = 0;
-        }
-    }
-
 }
 
 [System.Serializable]
@@ -39,7 +17,7 @@ public class Spell
     [Header("IS PowerUp")]
     public bool IsPowrUp = false;
     [Space(15)]
-    public int Id;
+    public string Id;
     public string Name;
     [Space(10)]
     [Header("choose Spell Type")]

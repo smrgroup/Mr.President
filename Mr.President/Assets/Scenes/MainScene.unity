@@ -329,7 +329,8 @@ MonoBehaviour:
     type: 3}
   CenterNotifPrefab: {fileID: 3887881290956581964, guid: b3ed881b45c111c47a065e252b6f8b38,
     type: 3}
-  CenterNotiftweens: []
+  CenterNotifcontroller: {fileID: 0}
+  spelldata: {fileID: 11400000, guid: 981ed2d2dafa5f64c9148127c32cd7e2, type: 2}
   challenge_Slider: {fileID: 2073304793}
 --- !u!1001 &101724033
 PrefabInstance:
@@ -738,7 +739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &208285750
 RectTransform:
   m_ObjectHideFlags: 0

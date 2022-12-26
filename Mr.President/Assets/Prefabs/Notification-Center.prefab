@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -7}
+  m_AnchoredPosition: {x: 0, y: -7}
   m_SizeDelta: {x: 906, y: 534.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3887881289155653307
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFB7C\uFE8E\uFEDF\uFEB6"
+  m_text: "\uFB58\uFE8E\uFBFE\uFE8E\u0646"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: 338e73d7e461b854091805e6c2c6635b, type: 2}
   m_sharedMaterial: {fileID: 806891715068541236, guid: 338e73d7e461b854091805e6c2c6635b,
@@ -89,8 +89,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280400113
-  m_fontColor: {r: 0.94509804, g: 0.72156864, b: 0.12941177, a: 1}
+    rgba: 2210033
+  m_fontColor: {r: 0.94509804, g: 0.72156864, b: 0.12941177, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 271.4
-  m_fontSizeBase: 271.4
+  m_fontSize: 270
+  m_fontSizeBase: 270
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 3887881290956581958}
   - component: {fileID: 3887881290956581953}
   - component: {fileID: 3887881290956581959}
+  - component: {fileID: 1454850193409096018}
   m_Layer: 5
   m_Name: Notification-Center
   m_TagString: Untagged
@@ -178,7 +179,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3887881290956581964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.15643448, w: 0.98768836}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -189,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 840.1, y: 534.93}
+  m_AnchoredPosition: {x: 0.000030518, y: 0}
+  m_SizeDelta: {x: 906, y: 534.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3887881290956581952
 CanvasRenderer:
@@ -232,7 +233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFB7C\uFE8E\uFEDF\uFEB6"
+  m_text: "\uFB58\uFE8E\uFBFE\uFE8E\u0646"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: 338e73d7e461b854091805e6c2c6635b, type: 2}
   m_sharedMaterial: {fileID: 806891715068541236, guid: 338e73d7e461b854091805e6c2c6635b,
@@ -242,8 +243,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 0
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -260,8 +261,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 271.4
-  m_fontSizeBase: 271.4
+  m_fontSize: 270
+  m_fontSizeBase: 270
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -561,8 +562,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: 0, y: 1556, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: 0, y: 0, z: 0}
-      EndWorldPos: {x: 0, y: 0, z: 0}
+      StartWorldPos: {x: 453, y: 2516, z: 0}
+      EndWorldPos: {x: 453, y: 960, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -613,3 +614,18 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     animationDuration: 0.5
+--- !u!114 &1454850193409096018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887881290956581964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09448562742b3e1428c3a8cf48623103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CenterNotiftweens: []
+  text: {fileID: 3887881289155653285}
+  Shadowtext: {fileID: 3887881290956581954}

@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SliderValue: 25
   PointTargetTowin: 75
-  PointTargetToLoss: 10
   WinText: "\uFEB7\uFEE4\uFE8E \uFE91\uFEAE\uFEE7\uFEAA\uFEE9 \uFEB7\uFEAA\uFBFE\uFEAA"
   LoseText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
-  Win_Spell_ID: 
-  Lose_Spell_ID: 
+  Win_Spell_ID: goodspell1
+  Lose_Spell_ID: badspell1
   Cards:
   - Text: "\uFB90\uFE8E\uFEAD\u062A \uFEB7\uFEAE\uFEED\u0639 "
     Image: {fileID: 0}

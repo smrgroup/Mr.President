@@ -35,7 +35,6 @@ public class ChallengeCardDragController : CardDragController
         yield return new WaitForSeconds(second);
         Destroy(obj);
         Debug.Log("RLMoveAwait");
-        Debug.Log(state);
         OnDragedChallengeCard.Invoke(state);
     }
 

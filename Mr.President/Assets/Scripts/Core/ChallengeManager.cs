@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,13 +9,16 @@ public class ChallengeManager : MonoBehaviour
 
     public GameObject CardPrefab;
     public GameObject CenterNotifPrefab;
-    public EasyTween[] CenterNotiftweens;
-
+    public CenterNotificationController CenterNotifcontroller;
+    public SpellData spelldata;
 
 
     private MinistersManager ministersManager;
     private GameObject ChallengeCard;
     private Challenges challenge;
+
+    private SpellController SpellController;
+
 
     private int challenge_Head = 0;
 
@@ -26,6 +29,7 @@ public class ChallengeManager : MonoBehaviour
     void Start()
     {
         ministersManager = FindObjectOfType<MinistersManager>();
+        SpellController = FindObjectOfType<SpellController>();
     }
 
     // Update is called once per frame
@@ -36,7 +40,7 @@ public class ChallengeManager : MonoBehaviour
     public void StartChallnage(Challenges challenge)
     {
         GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform);
-        CenterNotiftweens = CenterNotif.GetComponents<EasyTween>();
+        CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
         this.challenge = challenge;
         Debug.Log("Start Challenge " + challenge.name);
         challenge_Slider.value = challenge.SliderValue;
@@ -48,9 +52,8 @@ public class ChallengeManager : MonoBehaviour
         if (!backtoflow)
         {
 
-            CenterNotiftweens[0].OpenCloseObjectAnimation();
+            CenterNotifcontroller.PlayIn("ﭼﺎﻟﺶ", new Color32(241, 184, 33, 255));
             yield return new WaitForSeconds(1f);
-            CenterNotiftweens[1].OpenCloseObjectAnimation();
             StartCoroutine(ministersManager.loadministers(0));
             yield return new WaitForSeconds(0);
             challenge_Slider.GetComponent<EasyTween>().OpenCloseObjectAnimation();
@@ -68,6 +71,7 @@ public class ChallengeManager : MonoBehaviour
 
         if (challenge_Head >= challenge.Cards.Count)
         {
+            SetChallengeResult();
             Debug.Log("End Of Challnge");
             StartCoroutine(ChallengeUI(true));
             StaticData.gameManager.SetactiveChallenge(false);
@@ -82,7 +86,7 @@ public class ChallengeManager : MonoBehaviour
             Text[] ChooseCardTexts = ChallengeCard.GetComponentsInChildren<Text>();
             ChooseCardTexts[0].text = challenge.Cards[challenge_Head].LeftText;
             ChooseCardTexts[1].text = challenge.Cards[challenge_Head].RightText;
-            ChallengeCard.GetComponent<Image>().sprite = challenge.Cards[challenge_Head].Image;     
+            ChallengeCard.GetComponent<Image>().sprite = challenge.Cards[challenge_Head].Image;
 
         }
 
@@ -91,7 +95,6 @@ public class ChallengeManager : MonoBehaviour
 
     private void CardDragEvent(State state)
     {
-        Debug.Log("lets create new card " + state);
         if (state == State.Left)
         {
             StartCoroutine(SetNewValue(challenge.Cards[challenge_Head].LeftValue));
@@ -124,5 +127,26 @@ public class ChallengeManager : MonoBehaviour
             }
         }
 
+    }
+
+    private void SetChallengeResult()
+    {
+        GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform.position , StaticData.gameManager.BackGroundPlay.transform.rotation, StaticData.gameManager.BackGroundPlay.transform);
+        CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
+        CenterNotifcontroller.PlayIn("ﭘﺎﯾﺎن", new Color32(241, 184, 33, 255));
+
+        if (challenge_Slider.value >= challenge.PointTargetTowin)
+        {
+            Debug.Log("Challenge Win");
+            Spell spell = spelldata.Spells.Find(x => x.Id == challenge.Win_Spell_ID);
+            SpellController.addspellItem(spell);
+        }
+        else
+        {
+            Spell spell = spelldata.Spells.Find(x => x.Id == challenge.Lose_Spell_ID);
+            SpellController.addspellItem(spell);
+            SpellController.SetspellActive(spell);
+            Debug.Log("Challenge Lose");
+        }
     }
 }

@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spells:
   - IsPowrUp: 0
-    Id: 0
-    Name: spell
+    Id: badspell1
+    Name: badspell1
     Percent_Effect: 1
     PercentEffect: 0.1
     Count_Effect: 0
     CountEffect: 0.1
     Percent_to_Spell: 5
-    Times_to_Spell: 2
+    Times_to_Spell: -2
     SpecialMinisters: []
     Cards_Count: 2
   - IsPowrUp: 1
-    Id: 1
-    Name: spell_up
+    Id: goodspell1
+    Name: goodspell1
     Percent_Effect: 0
     PercentEffect: 0.1
     Count_Effect: 1
     CountEffect: 0.1
     Percent_to_Spell: 7
-    Times_to_Spell: 2
+    Times_to_Spell: 0
     SpecialMinisters: []
     Cards_Count: 2

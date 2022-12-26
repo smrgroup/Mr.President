@@ -72,7 +72,7 @@ public class SpellController : MonoBehaviour
         baseCardCount = spell.Cards_Count;
         IsActiveSpell = true;
         Activespell = spell;
-        Debug.Log("Spell Actived");
+        Debug.Log("Spell Actived " + spell.Id);
     }
 
     void destroyspell()

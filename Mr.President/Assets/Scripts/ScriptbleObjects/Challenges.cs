@@ -8,7 +8,6 @@ public class Challenges : ScriptableObject
     public float SliderValue;
     [Space(5)]
     public float PointTargetTowin;
-    public float PointTargetToLoss;
     [Space(5)]
     public string WinText;
     public string LoseText;
