@@ -22,6 +22,9 @@ public class ChallengeManager : MonoBehaviour
 
     private int challenge_Head = 0;
 
+    private IEnumerator fillslider;
+    private float actualval = 0;
+
 
     //slider Challenge_1
     public Slider challenge_Slider;
@@ -35,6 +38,10 @@ public class ChallengeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (actualval != challenge_Slider.value)
+        {
+            challenge_Slider.value = Mathf.Lerp(challenge_Slider.value, actualval, Time.deltaTime);
+        }
     }
 
     public void StartChallnage(Challenges challenge)
@@ -44,6 +51,7 @@ public class ChallengeManager : MonoBehaviour
         this.challenge = challenge;
         Debug.Log("Start Challenge " + challenge.name);
         challenge_Slider.value = challenge.SliderValue;
+        actualval = challenge_Slider.value;
         StartCoroutine(ChallengeUI());
     }
 
@@ -97,34 +105,36 @@ public class ChallengeManager : MonoBehaviour
     {
         if (state == State.Left)
         {
-            StartCoroutine(SetNewValue(challenge.Cards[challenge_Head].LeftValue));
+            actualval = actualval + challenge.Cards[challenge_Head].LeftValue;
         }
         else if (state == State.Right)
         {
-            StartCoroutine(SetNewValue(challenge.Cards[challenge_Head].RightValue));
+            actualval = actualval + challenge.Cards[challenge_Head].RightValue;
         }
+
+        Debug.Log("Actual VALUE :  " + actualval);
+
         challenge_Head++;
         CreateChallengeCard();
     }
 
-    private IEnumerator SetNewValue(float newval)
+    private IEnumerator SetNewValue()
     {
-        Debug.Log("income value : " + newval);
-        newval = (challenge_Slider.value + newval);
-        while (challenge_Slider.value != newval)
+        Debug.Log("income value : " + actualval);
+        while (challenge_Slider.value != actualval)
         {
             yield return new WaitForSeconds(0.0015f);
-            if (challenge_Slider.value < newval)
+            if (challenge_Slider.value < actualval)
             {
                 challenge_Slider.value += 0.1f;
-                if (challenge_Slider.value >= newval)
-                    challenge_Slider.value = newval;
+                if (challenge_Slider.value >= actualval)
+                    challenge_Slider.value = actualval;
             }
             else
             {
                 challenge_Slider.value -= 0.1f;
-                if (challenge_Slider.value <= newval)
-                    challenge_Slider.value = newval;
+                if (challenge_Slider.value <= actualval)
+                    challenge_Slider.value = actualval;
             }
         }
 
