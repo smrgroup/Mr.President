@@ -129,6 +129,10 @@ public class GameManager : MonoBehaviour
         else
         {
 
+            //get Card type
+            carddetails = GetNextCard();
+
+
             // check for challenge
             ///if TRUE Cut Of From flow and move Player To Challenge
             if (chapterflow[CardHead]._Challenge)
@@ -136,28 +140,26 @@ public class GameManager : MonoBehaviour
                 this.SetactiveChallenge(true);
                 challengeManager.StartChallnage(chapterflow[CardHead].Challenge);
             }
-            else
-            {
-                //get Card type
-                carddetails = GetNextCard();
 
-                //get card by header
-                CarrentCard = chapterflow[CardHead];
+            if (carddetails == null) return;
 
-                //init card
-                PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
+            //get card by header
+            CarrentCard = chapterflow[CardHead];
 
-                //fill data
-                Text[] ChooseCardTexts = PlayableCard.GetComponentsInChildren<Text>();
-                ChooseCardTexts[0].text = carddetails.Left_Choose_Text;
-                ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
-                PlayableCard.name = carddetails.Name;
-                PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
-                PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
-                textarea.typemsg(carddetails.Text);
-                CardDragController.OnDragedCard.AddListener(CardDragEvent);
-                CardHead++;
-            }
+            //init card
+            PlayableCard = Instantiate(CardPrefab, CardsArea.transform);
+
+            //fill data
+            Text[] ChooseCardTexts = PlayableCard.GetComponentsInChildren<Text>();
+            ChooseCardTexts[0].text = carddetails.Left_Choose_Text;
+            ChooseCardTexts[1].text = carddetails.Right_Choose_Text;
+            PlayableCard.name = carddetails.Name;
+            PlayableCard.GetComponent<Image>().sprite = carddetails.Image;
+            PlayableCard.GetComponent<CardDragController>().card_details = carddetails;
+            textarea.typemsg(carddetails.Text);
+            CardDragController.OnDragedCard.AddListener(CardDragEvent);
+            CardHead++;
+
 
 
         }
@@ -173,16 +175,16 @@ public class GameManager : MonoBehaviour
             CardHead++;
             CreateCard();
         }
-    
-       
+
+
     }
 
     private CardDetails GetNextCard()
     {
 
         if (!chapterflow[CardHead].Available)
-        {    
-            while(!chapterflow[CardHead].Available)
+        {
+            while (!chapterflow[CardHead].Available)
                 CardHead++;
         }
 
@@ -197,7 +199,10 @@ public class GameManager : MonoBehaviour
         }
         else if (next_cardtype == CardType.Fast)
         {
-            return cardsdata.ChapterFlow[CardHead].FastCards;
+            if (cardsdata.ChapterFlow[CardHead]._Challenge)
+                return null;
+            else
+                return cardsdata.ChapterFlow[CardHead].FastCards;
         }
         else if (next_cardtype == CardType.simple)
         {
@@ -221,11 +226,11 @@ public class GameManager : MonoBehaviour
         {
             if (dragstate == State.Left)
             {
-                    CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Left_Head_ID);
+                CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Left_Head_ID);
             }
             else if (dragstate == State.Right)
             {
-                    CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Right_Head_ID);
+                CardHead = chapterflow.FindIndex(card => card.CardID == carddetails.Right_Head_ID);
             }
         }
         else
@@ -244,15 +249,15 @@ public class GameManager : MonoBehaviour
 
     private void AddMinistersEffect()
     {
-        
-            for (int i = 0; i < carddetails.Ministers.Count; i++)
-            {
-              MinisterController minister = ministers.Find(x => x.id == carddetails.Ministers[i].id);
+
+        for (int i = 0; i < carddetails.Ministers.Count; i++)
+        {
+            MinisterController minister = ministers.Find(x => x.id == carddetails.Ministers[i].id);
             if (dragstate == State.Left)
             {
                 if (spellcontroller.IsActiveSpell)
                 {
-                    spellcontroller.addAffect(carddetails.ID,carddetails.Ministers.Count, minister,carddetails.Ministers[i].Left_value);
+                    spellcontroller.addAffect(carddetails.ID, carddetails.Ministers.Count, minister, carddetails.Ministers[i].Left_value);
                 }
                 minister.setvalue(carddetails.Ministers[i].Left_value);
             }
@@ -260,7 +265,7 @@ public class GameManager : MonoBehaviour
             {
                 if (spellcontroller.IsActiveSpell)
                 {
-                    spellcontroller.addAffect(carddetails.ID,carddetails.Ministers.Count, minister, carddetails.Ministers[i].Right_value);
+                    spellcontroller.addAffect(carddetails.ID, carddetails.Ministers.Count, minister, carddetails.Ministers[i].Right_value);
                 }
                 minister.setvalue(carddetails.Ministers[i].Right_value);
             }
@@ -270,7 +275,7 @@ public class GameManager : MonoBehaviour
 
     public CardDetails GetRandomCard()
     {
-       int rnd = Random.Range(0, cardsdata.ChapterFlow[CardHead].RandomCards.Count);
+        int rnd = Random.Range(0, cardsdata.ChapterFlow[CardHead].RandomCards.Count);
         return cardsdata.ChapterFlow[CardHead].RandomCards[rnd];
     }
     #endregion

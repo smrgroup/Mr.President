@@ -12,34 +12,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1c4ec8b77c2f645a5610fd33ff7a3d, type: 3}
   m_Name: Challenge_1
   m_EditorClassIdentifier: 
-  SliderValue: 25
+  SliderValue: 50
   PointTargetTowin: 75
   WinText: "\uFEB7\uFEE4\uFE8E \uFE91\uFEAE\uFEE7\uFEAA\uFEE9 \uFEB7\uFEAA\uFBFE\uFEAA"
   LoseText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
   Win_Spell_ID: goodspell1
   Lose_Spell_ID: badspell1
-  Cards:
-  - Text: "\uFB90\uFE8E\uFEAD\u062A \uFEB7\uFEAE\uFEED\u0639 "
-    Image: {fileID: 0}
-    LeftText: ...
-    RightText: ...
-    LeftValue: 0
-    RightValue: 0
-  - Text: "\uFB7C\uFB57 \uFBFE\uFE8E \uFEAD\uFE8D\uFEB3\uFE96 "
-    Image: {fileID: 0}
-    LeftText: "\uFB57\uFB7C"
-    RightText: "\uFE96\uFEB3\uFE8D\uFEAD"
-    LeftValue: -20
-    RightValue: 10
-  - Text: "\uFB7C\uFB57 \uFBFE\uFE8E \uFEAD\uFE8D\uFEB3\uFE96 "
-    Image: {fileID: 0}
-    LeftText: "\uFB57\uFB7C"
-    RightText: "\uFE96\uFEB3\uFE8D\uFEAD"
-    LeftValue: 5
-    RightValue: 7
-  - Text: "\uFB90\uFE8E\uFEAD\u062A \uFB58\uFE8E\uFBFE\uFE8E\u0646"
-    Image: {fileID: 0}
-    LeftText: ...
-    RightText: ...
-    LeftValue: 0
-    RightValue: 0
+  ChallengeFlow:
+  - CardID: f1
+    CardType: 0
+    Available: 1
+    SimpleCards:
+      CardID: f1
+      Text: f1
+      Image: {fileID: 0}
+      LeftText: f1
+      RightText: f1
+      LeftValue: 4
+      RightValue: 4
+      Left_Head_ID: f4
+      Right_Head_ID: f4
+    FastCards:
+      CardID: f1
+      Text: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      Image: {fileID: 0}
+      LeftText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      RightText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: f2
+      Right_Head_ID: f2
+  - CardID: f2
+    CardType: 1
+    Available: 1
+    SimpleCards:
+      CardID: 
+      Text: 
+      Image: {fileID: 0}
+      LeftText: 
+      RightText: 
+      LeftValue: 0
+      RightValue: 0
+      Left_Head_ID: 
+      Right_Head_ID: 
+    FastCards:
+      CardID: f2
+      Text: f2
+      Image: {fileID: 0}
+      LeftText: f2
+      RightText: f2
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: f4
+      Right_Head_ID: f3
+  - CardID: f3
+    CardType: 1
+    Available: 1
+    SimpleCards:
+      CardID: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      Text: 
+      Image: {fileID: 0}
+      LeftText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      RightText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: f
+      Right_Head_ID: 
+    FastCards:
+      CardID: f3
+      Text: f3
+      Image: {fileID: 0}
+      LeftText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      RightText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: 
+      Right_Head_ID: 
+  - CardID: f4
+    CardType: 1
+    Available: 1
+    SimpleCards:
+      CardID: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      Text: 
+      Image: {fileID: 0}
+      LeftText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      RightText: "\uFE91\uFE8E\uFEA7\uFE98\uFBFD \uFECB\uFEB0\uFBFE\uFEB0\uFEE1"
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: f
+      Right_Head_ID: 
+    FastCards:
+      CardID: f4
+      Text: f4
+      Image: {fileID: 0}
+      LeftText: f4
+      RightText: f4
+      LeftValue: 10
+      RightValue: 15
+      Left_Head_ID: 
+      Right_Head_ID: 

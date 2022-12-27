@@ -68,7 +68,6 @@ public class Chapter
     public bool Available = true;
 
     [DrawIf("Available",true)]
-    [DrawIf("_Challenge", false)]
     public string CardID;
     
     [DrawIf("Available", true)]
@@ -108,5 +107,4 @@ public enum CardType
     Random,
     Fast,
     simple,
-    StartCard,
 }
