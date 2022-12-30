@@ -38,7 +38,10 @@ MonoBehaviour:
       Right_Head_ID: C1L0Q2
       Left_Choose_Text: ...
       Right_Choose_Text: ...
-      Ministers: []
+      Ministers:
+      - id: Niroo
+        Left_value: 0.2
+        Right_value: -0.2
   - _Challenge: 0
     Challenge: {fileID: 11400000, guid: 306a263c8a02cec439a65211d03d8e28, type: 2}
     Available: 1
@@ -68,7 +71,10 @@ MonoBehaviour:
       Right_Head_ID: C1L0Q3
       Left_Choose_Text: ...
       Right_Choose_Text: ...
-      Ministers: []
+      Ministers:
+      - id: Niroo
+        Left_value: 0.2
+        Right_value: -0.2
   - _Challenge: 0
     Challenge: {fileID: 0}
     Available: 1
@@ -97,7 +103,10 @@ MonoBehaviour:
       Right_Head_ID: C1L0Q4
       Left_Choose_Text: ...
       Right_Choose_Text: ...
-      Ministers: []
+      Ministers:
+      - id: Niroo
+        Left_value: 0.2
+        Right_value: -0.2
   - _Challenge: 0
     Challenge: {fileID: 0}
     Available: 1
