@@ -125,9 +125,12 @@ public class GameManager : MonoBehaviour
 
     public void CreateCard()
     {
+        // end Game by minister
+        if (ENDofGame == true)
+            return;
 
         int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
-        if (CardHead >= chapterCards || CardHead == -1 || ENDofGame == true)
+        if ((CardHead >= chapterCards || CardHead == -1))
         {
             ChapterEnd();
             return;
@@ -307,9 +310,10 @@ public class GameManager : MonoBehaviour
             ENDcard.name = "ENDCARD-"+TargetministerEndCount;
             ENDcard.GetComponent<Image>().sprite = Targetminister.GameoverCards[TargetministerEndCount].Image;
             textarea.typemsg(Targetminister.GameoverCards[TargetministerEndCount].message);
-            TargetministerEndCount++;
-            ChapterEnd();
+            TargetministerEndCount++;         
         }
+        else
+            ChapterEnd();
     }
 
     void ChapterEnd()
