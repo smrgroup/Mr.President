@@ -29,3 +29,10 @@ public class MinistersManager : MonoBehaviour
         RightTweens.OpenCloseObjectAnimation();
     }
 }
+
+[System.Serializable]
+public class Minister_GameOverCard
+{
+    public Sprite Image;
+    public string message;
+}

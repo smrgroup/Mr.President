@@ -10,15 +10,19 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
+    public bool ENDofGame = false;
+
     [Header("PreFabs")]
     public GameObject CardsArea;
     public GameObject BackGroundPlay;
     [Header("Animation")]
     public Animator Loading;
+    public Animator EndGame;
 
 
     public GameObject BackCardPrefab;
     public GameObject CardPrefab;
+    public GameObject EndCardPrefab;
 
     //current card data
     public CardData cardsdata;
@@ -75,6 +79,8 @@ public class GameManager : MonoBehaviour
         if (Application.platform == RuntimePlatform.Android)
             Application.targetFrameRate = 100;
 
+        MinisterController.OnEndOfMinister.AddListener(OnministerEnd);
+
     }
 
     // Update is called once per frame
@@ -121,9 +127,9 @@ public class GameManager : MonoBehaviour
     {
 
         int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
-        if (CardHead >= chapterCards || CardHead == -1)
+        if (CardHead >= chapterCards || CardHead == -1 || ENDofGame == true)
         {
-            Debug.Log("End Of Cards");
+            ChapterEnd();
             return;
         }
         else
@@ -280,7 +286,38 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-    #region Spells
+    #region EndGame
+    MinisterController Targetminister;
+    int TargetministerEndCount = 0;
+
+    void OnministerEnd(string MinisterID)
+    {
+        Debug.Log("END OF THE GAME BY MINISTERID : " + MinisterID);
+        Targetminister = ministers.Find(minister => minister.id == MinisterID);
+        createMinisterEndsCard();
+        ENDofGame = true;
+    }
+
+    public void createMinisterEndsCard()
+    {
+        if (TargetministerEndCount != Targetminister.GameoverCards.Count)
+        {
+            //init card
+            GameObject ENDcard = Instantiate(EndCardPrefab, CardsArea.transform);
+            ENDcard.name = "ENDCARD-"+TargetministerEndCount;
+            ENDcard.GetComponent<Image>().sprite = Targetminister.GameoverCards[TargetministerEndCount].Image;
+            textarea.typemsg(Targetminister.GameoverCards[TargetministerEndCount].message);
+            TargetministerEndCount++;
+            ChapterEnd();
+        }
+    }
+
+    void ChapterEnd()
+    {
+        EndGame.SetBool("play", true);
+        ENDofGame = true;
+    }
+
 
     #endregion
 

@@ -13,11 +13,11 @@ public class CardDragController : MonoBehaviour
 {
 
     [Tooltip("Card Target Positions")]
-    Vector3 _startPosition;
+    protected Vector3 _startPosition;
     public Vector3 _RightPosition;
     public Vector3 _LeftPosition;
 
-    Vector3 _startPositionLocal;
+    protected Vector3 _startPositionLocal;
 
     Vector3 _offsetToMouse;
     float _zDistanceToCamera;
@@ -28,7 +28,7 @@ public class CardDragController : MonoBehaviour
     private Vector3 currentAngle;
     protected State state;
 
-    private Rigidbody2D rig;
+    protected Rigidbody2D rig;
     public EasyTween Tweens;
 
     [Tooltip("Card Movement Curve")]
@@ -169,7 +169,7 @@ public class CardDragController : MonoBehaviour
         RightTween.ChangeSetState(false);
     }
 
-    void FlipCard()
+    public void FlipCard()
     {
         StartCoroutine(CalculateFlip());
     }

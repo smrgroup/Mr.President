@@ -1,7 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class MinisterController : MonoBehaviour
@@ -10,15 +12,20 @@ public class MinisterController : MonoBehaviour
     public string id;
     public float value = 0.5f;
     public Image borderfill;
- 
+
     bool startfill = true;
     bool setnewvalue = false;
+    float time = 0;
 
+    public static UnityEvent<string> OnEndOfMinister;
+
+    public List<Minister_GameOverCard> GameoverCards;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(StartFill());
+        OnEndOfMinister = new UnityEvent<string>();
     }
 
     // Update is called once per frame
@@ -26,9 +33,14 @@ public class MinisterController : MonoBehaviour
     {
         if (setnewvalue && value != borderfill.fillAmount)
         {
-            borderfill.fillAmount = Mathf.Lerp(borderfill.fillAmount, value, Time.deltaTime);
+            time += Time.deltaTime;
+            borderfill.fillAmount = Mathf.Lerp(borderfill.fillAmount, value, time);
             if (value == borderfill.fillAmount)
+            { 
                 setnewvalue = false;
+                time = 0;
+            }
+
         }
     }
 
@@ -59,6 +71,9 @@ public class MinisterController : MonoBehaviour
         setnewvalue = true;
         if (value > 1)
             value = 1;
+
+        if (value == 0 || value == 1)
+            OnEndOfMinister.Invoke(this.id);
     }
 
 

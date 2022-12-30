@@ -43,6 +43,8 @@ public class ChallengeManager : MonoBehaviour
     {
         ministersManager = FindObjectOfType<MinistersManager>();
         SpellController = FindObjectOfType<SpellController>();
+
+        actualval = (int)challenge_Slider.value;
     }
 
     // Update is called once per frame
@@ -51,7 +53,6 @@ public class ChallengeManager : MonoBehaviour
         if (actualval != (int)challenge_Slider.value)
         {
             Setslidernewvalue();
-            Debug.Log("Update");
             if (FindDifference(actualval, challenge_Slider.value) <= 0.1)
                 challenge_Slider.value = actualval;
         }

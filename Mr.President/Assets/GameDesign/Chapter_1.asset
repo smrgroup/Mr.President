@@ -39,7 +39,7 @@ MonoBehaviour:
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers:
-      - id: Niroo
+      - id: Eghtesad
         Left_value: 0.2
         Right_value: -0.2
   - _Challenge: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers:
-      - id: Niroo
+      - id: Eghtesad
         Left_value: 0.2
         Right_value: -0.2
   - _Challenge: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers:
-      - id: Niroo
+      - id: Eghtesad
         Left_value: 0.2
         Right_value: -0.2
   - _Challenge: 0
