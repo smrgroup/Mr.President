@@ -17,6 +17,11 @@ public class Challenges : ScriptableObject
     public string Lose_Spell_ID;
 
     [Space(5)]
+    public string Chapter_HID_Win;
+    public string Chapter_HID_Lose;
+
+
+    [Space(5)]
     public List<Challengflow> ChallengeFlow = new List<Challengflow>();
 }
 
