@@ -39,9 +39,36 @@ MonoBehaviour:
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers:
+      - id: Niroo
+        Left_value: 0
+        Right_value: 0
       - id: Eghtesad
-        Left_value: 0.2
-        Right_value: -0.2
+        Left_value: 0
+        Right_value: 0
+      - id: Nature
+        Left_value: 0
+        Right_value: 0
+      - id: Khareje
+        Left_value: 0
+        Right_value: 0
+      - id: Sanat
+        Left_value: 0
+        Right_value: 0
+      - id: R&D
+        Left_value: 0
+        Right_value: 0
+      - id: Farhang
+        Left_value: 0
+        Right_value: 0
+      - id: Behdasht
+        Left_value: 0
+        Right_value: 0
+      - id: Refah
+        Left_value: 0
+        Right_value: 0
+      - id: Defa
+        Left_value: 0
+        Right_value: 0
   - _Challenge: 0
     Challenge: {fileID: 11400000, guid: 306a263c8a02cec439a65211d03d8e28, type: 2}
     Available: 1
@@ -71,10 +98,7 @@ MonoBehaviour:
       Right_Head_ID: C1L0Q3
       Left_Choose_Text: ...
       Right_Choose_Text: ...
-      Ministers:
-      - id: Eghtesad
-        Left_value: 0.2
-        Right_value: -0.2
+      Ministers: []
   - _Challenge: 0
     Challenge: {fileID: 0}
     Available: 1
@@ -103,10 +127,7 @@ MonoBehaviour:
       Right_Head_ID: C1L0Q4
       Left_Choose_Text: ...
       Right_Choose_Text: ...
-      Ministers:
-      - id: Eghtesad
-        Left_value: 0.2
-        Right_value: -0.2
+      Ministers: []
   - _Challenge: 0
     Challenge: {fileID: 0}
     Available: 1
@@ -334,7 +355,16 @@ MonoBehaviour:
       Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
       Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
         \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
-      Ministers: []
+      Ministers:
+      - id: Eghtesad
+        Left_value: -0.1
+        Right_value: 0.05
+      - id: Khareje
+        Left_value: -0.15
+        Right_value: 0.1
+      - id: Sanat
+        Left_value: -0.05
+        Right_value: 0.05
     - ID: 
       Name: 
       Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
