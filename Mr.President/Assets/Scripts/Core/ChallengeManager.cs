@@ -89,6 +89,11 @@ public class ChallengeManager : MonoBehaviour
         CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
         this.challenge = challenge;
         // make clone of CardsData for Save Main Data
+        if (this.challenge == null)
+        {
+            Debug.LogError("No Challenge added to Start");
+        }
+
         Clonechallenge = Instantiate(this.challenge);
         Debug.Log("Start Challenge " + challenge.name);
         challenge_Slider.value = challenge.SliderValue;
@@ -124,7 +129,6 @@ public class ChallengeManager : MonoBehaviour
             SetChallengeResult();
             Debug.Log("End Of Challnge");
             StartCoroutine(ChallengeUI(true));
-            StaticData.gameManager.SetactiveChallenge(false);
             return;
         }
         {
@@ -252,6 +256,7 @@ public class ChallengeManager : MonoBehaviour
             CenterNotifcontroller.PlayIn("ﭘﯿﺮﻭﺯی", new Color32(241, 184, 33, 255));
             Spell spell = spelldata.Spells.Find(x => x.Id == Clonechallenge.Win_Spell_ID);
             SpellController.addspellItem(spell);
+            StaticData.gameManager.SetactiveChallenge(false,Clonechallenge.Chapter_HID_Win);
         }
         else
         {
@@ -260,6 +265,7 @@ public class ChallengeManager : MonoBehaviour
             Spell spell = spelldata.Spells.Find(x => x.Id == Clonechallenge.Lose_Spell_ID);
             SpellController.addspellItem(spell);
             SpellController.SetspellActive(spell);
+            StaticData.gameManager.SetactiveChallenge(false, Clonechallenge.Chapter_HID_Lose);
         }
     }
 }

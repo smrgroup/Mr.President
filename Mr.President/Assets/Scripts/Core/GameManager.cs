@@ -129,7 +129,8 @@ public class GameManager : MonoBehaviour
         if (ENDofGame == true)
             return;
 
-        int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
+        //int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
+        int chapterCards = chapterflow.Count - 1;
         if ((CardHead >= chapterCards || CardHead == -1))
         {
             ChapterEnd();
@@ -174,14 +175,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SetactiveChallenge(bool active)
+    public void SetactiveChallenge(bool active , string cardID = "xxx")
     {
         ActiveChallenge = active;
 
         // Challnge Done Move On FLow
         if (!active)
         {
-            CardHead++;
+            if (cardID == "xxx")
+                CardHead++;
+            else
+                CardHead = chapterflow.FindIndex(card => card.CardID == cardID);
+
             CreateCard();
         }
 
