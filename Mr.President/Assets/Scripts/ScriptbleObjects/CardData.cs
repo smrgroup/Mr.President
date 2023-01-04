@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Chapter_", menuName = "ScriptableObjects/NewChapter", order = 1)]
@@ -12,7 +13,12 @@ public class CardData : ScriptableObject
 
     private void OnValidate()
     {
-      
+
+        for (int i = 0; i < ChapterFlow.Count; i++)
+        {
+            ChapterFlow[i].elementName = ChapterFlow[i].CardID;
+        }
+
     }
 }
 
@@ -53,6 +59,8 @@ public class CardDetails
 [System.Serializable]
 public class Chapter
 {
+    [HideInInspector]
+    public string elementName;
 
     public bool _Challenge = false;
 
