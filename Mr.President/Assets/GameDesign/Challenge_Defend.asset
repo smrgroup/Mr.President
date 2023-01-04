@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Challenge_Defend
   m_EditorClassIdentifier: 
   SliderValue: 50
-  PointTargetTowin: 75
+  PointTargetTowin: 49
   WinText: "\uFB58\uFBFF\uFEAE\uFEED\uFEAF\u06CC \uFEA9\u0631 \uFE8D\uFEAD\uFE97\uFED8\uFE8E
     \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A \uFEAF\uFEAD\uFEEB\uFBFD"
   LoseText: "\uFEB7\uFB91\uFEB4\uFE96 \uFEA9\u0631 \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A
     \uFEAF\uFEAD\uFEEB\uFBFD"
-  Win_Spell_ID: goodspell1
-  Lose_Spell_ID: badspell1
+  Win_Spell_ID: goodspell2
+  Lose_Spell_ID: goodspell3
   Chapter_HID_Win: C1L4.1Q1
   Chapter_HID_Lose: C1L4.2Q1
   ChallengeFlow:

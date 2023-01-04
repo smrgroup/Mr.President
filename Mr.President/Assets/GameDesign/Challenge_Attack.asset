@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Challenge_Attack
   m_EditorClassIdentifier: 
   SliderValue: 50
-  PointTargetTowin: 50
+  PointTargetTowin: 49
   WinText: "\uFEE3\uFED8\uFE8E\uFEED\uFEE3\uFE96 \uFE97\uFEA4\uFEB4\uFBFF\uFEE6 \uFE91\uFEAE\uFE8D\uFEE7\uFB95\uFBFF\uFEB0
     \uFEE7\uFBFF\uFEAE\uFEED\uFEEB\uFE8E\u06CC \uFEA9\uFED3\uFE8E\uFECB\uFBFD\u060C\uFE91\uFE8E\uFECB\uFE9A
     \uFEB7\uFB91\uFEB4\uFE98\uFEEA \uFEB7\uFEAA\u0646 \uFE97\uFEEC\uFE8E\uFE9F\uFEE2
@@ -33,8 +33,8 @@ MonoBehaviour:
     \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC\u060C\uFEE3\uFEA0\uFE92\uFEEE\u0631 \uFE91\uFEEA
     \uFEE3\uFEAC\uFE8D\uFB90\uFEAE\uFE8D\u062A \uFEB7\uFEAA\uFBFE\uFEE2 \uFB90\uFEB8\uFEEE\u0631
     \uFEB3\uFED8\uFEEE\u0637 \uFB90\uFEAE\u062F"
-  Win_Spell_ID: goodspell1
-  Lose_Spell_ID: badspell1
+  Win_Spell_ID: goodspell2
+  Lose_Spell_ID: goodspell3
   Chapter_HID_Win: C1L4.1Q1
   Chapter_HID_Lose: C1L4.2Q1
   ChallengeFlow:

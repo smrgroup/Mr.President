@@ -18,8 +18,8 @@ MonoBehaviour:
     \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A \uFEAF\uFEAD\uFEEB\uFBFD"
   LoseText: "\uFEB7\uFB91\uFEB4\uFE96 \uFEA9\u0631 \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A
     \uFEAF\uFEAD\uFEEB\uFBFD"
-  Win_Spell_ID: goodspell1
-  Lose_Spell_ID: badspell1
+  Win_Spell_ID: badspell1
+  Lose_Spell_ID: goodspell1
   Chapter_HID_Win: C1L2.7Q1
   Chapter_HID_Lose: C1L2.7Q1
   ChallengeFlow:
