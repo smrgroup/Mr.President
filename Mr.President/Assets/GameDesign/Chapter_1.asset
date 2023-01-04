@@ -15,6 +15,62 @@ MonoBehaviour:
   ChapterFlow:
   - _Challenge: 0
     Challenge: {fileID: 0}
+    Available: 0
+    CardID: C1L0Q0
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 0}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: "\uFEAE\uFBFF\uFEA7"
+      Right_Choose_Text: "\uFEEA\uFEE0\uFE91"
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: Jump
+      Image: {fileID: 0}
+      Left_Head_ID: C1L2.5Q6
+      Right_Head_ID: C1L2.5Q6
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
+      Ministers:
+      - id: Niroo
+        Left_value: 0
+        Right_value: 0
+      - id: Eghtesad
+        Left_value: 0
+        Right_value: 0
+      - id: Nature
+        Left_value: 0
+        Right_value: 0
+      - id: Khareje
+        Left_value: 0
+        Right_value: 0
+      - id: Sanat
+        Left_value: 0
+        Right_value: 0
+      - id: R&D
+        Left_value: 0
+        Right_value: 0
+      - id: Farhang
+        Left_value: 0
+        Right_value: 0
+      - id: Behdasht
+        Left_value: 0
+        Right_value: 0
+      - id: Refah
+        Left_value: 0
+        Right_value: 0
+      - id: Defa
+        Left_value: 0
+        Right_value: 0
+  - _Challenge: 0
+    Challenge: {fileID: 0}
     Available: 1
     CardID: C1L0Q1
     CardType: 1
@@ -150,7 +206,7 @@ MonoBehaviour:
       Text: "\uFE8D\uFEE3\uFE8E \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\uFE97\uFBFD \uFEA9\u0631
         \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFBFF\uFEAE \uFEA7\uFEEE\uFE8D\uFEEB\uFBFF\uFEAA
         \uFEA9\uFE8D\uFEB7\uFE96..."
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: C1L0Q5
       Right_Head_ID: C1L0Q5
       Left_Choose_Text: ...
@@ -374,7 +430,7 @@ MonoBehaviour:
         \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
         \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
         \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
@@ -388,7 +444,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
         \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
         \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
-      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
@@ -407,7 +463,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
         \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
@@ -474,7 +530,16 @@ MonoBehaviour:
       Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
       Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
         \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
-      Ministers: []
+      Ministers:
+      - id: Eghtesad
+        Left_value: -0.1
+        Right_value: 0.05
+      - id: Khareje
+        Left_value: -0.15
+        Right_value: 0.1
+      - id: Sanat
+        Left_value: -0.05
+        Right_value: 0.05
     - ID: 
       Name: 
       Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
@@ -484,7 +549,7 @@ MonoBehaviour:
         \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
         \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
         \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
@@ -498,7 +563,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
         \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
         \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
-      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
@@ -517,7 +582,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
         \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
@@ -584,7 +649,16 @@ MonoBehaviour:
       Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
       Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
         \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
-      Ministers: []
+      Ministers:
+      - id: Eghtesad
+        Left_value: -0.1
+        Right_value: 0.05
+      - id: Khareje
+        Left_value: -0.15
+        Right_value: 0.1
+      - id: Sanat
+        Left_value: -0.05
+        Right_value: 0.05
     - ID: 
       Name: 
       Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
@@ -594,7 +668,7 @@ MonoBehaviour:
         \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
         \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
         \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
@@ -608,7 +682,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
         \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
         \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
-      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
@@ -627,7 +701,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
         \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
@@ -694,7 +768,16 @@ MonoBehaviour:
       Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
       Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
         \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
-      Ministers: []
+      Ministers:
+      - id: Eghtesad
+        Left_value: -0.1
+        Right_value: 0.05
+      - id: Khareje
+        Left_value: -0.15
+        Right_value: 0.1
+      - id: Sanat
+        Left_value: -0.05
+        Right_value: 0.05
     - ID: 
       Name: 
       Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
@@ -704,7 +787,7 @@ MonoBehaviour:
         \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
         \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
         \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
@@ -718,7 +801,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
         \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
         \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
-      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
@@ -737,7 +820,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
         \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
@@ -804,7 +887,16 @@ MonoBehaviour:
       Left_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7 \uFEEE\uFED0\uFEDF"
       Right_Choose_Text: "\uFE8E\uFEEB\uFEA9\uFE8D\uFEA9\uFEAD\uFE8D\uFEAE\uFED7
         \uFEEA\uFE91 \u06CC\uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED"
-      Ministers: []
+      Ministers:
+      - id: Eghtesad
+        Left_value: -0.1
+        Right_value: 0.05
+      - id: Khareje
+        Left_value: -0.15
+        Right_value: 0.1
+      - id: Sanat
+        Left_value: -0.05
+        Right_value: 0.05
     - ID: 
       Name: 
       Text: "\uFB90\uFEB8\uFEEE\u0631 \uFEE3\uFE8E \uFE97\uFE8E \uFE8D\uFEDF\uFE8E\u0646
@@ -814,7 +906,7 @@ MonoBehaviour:
         \uFEE7\uFEE4\uFBFF\uFEAA\uFE8D\uFEA9\u0647\u060C\uFE81\uFBFE\uFE8E \uFEA9\uFEED\uFEDF\uFE96
         \uFEEB\uFEE4\uFBFF\uFEE6 \uFEAD\uFEED\uFBFE\uFEEA \uFEAD\u0627 \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA
         \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFEA9\uFEEB\uFEAA\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0631\uFEEE\uFEB8\uFB90 \uFEAA\uFEBF \u062A\uFE8E\uFEDF\uFEEE\uFEA4\uFE97
@@ -828,7 +920,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB58\uFE8E\uFBFE\uFE98\uFEA8\uFE96 \uFB90\uFEB8\uFEEE\u0631
         \uFE9F\uFEE8\uFEEE\uFE91\uFBFD \u0660\u0660\u0661 \uFB90\uFEB8\uFE98\uFEEA
         \u0648 \uFEAF\uFEA7\uFEE4\uFBFD \uFE91\uFEAE \uFE9F\uFE8E\u06CC \uFB94\uFEAC\uFE8D\uFEB7\uFE96"
-      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0644\uFE8E\uFEB3\uFEAD\uFE8D
@@ -847,7 +939,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \u0648 \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFE98\uFEE0\uFEB0\u0645
         \uFE91\uFEEA \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFE8E\uFB90 \uFBFD\uFEE0\uFECC\uFED3
@@ -945,7 +1037,7 @@ MonoBehaviour:
         \uFE91\uFEEA \uFE8D\uFBFE\uFEE6 \uFE8D\uFE97\uFED4\uFE8E\u0642 \uFEE7\uFEB8\uFEEE\u0646
         \uFEE7\uFEAA\uFE8D\uFEA9\u0647. \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFB7C\uFEEA
         \uFEE3\uFEEE\uFEBF\uFECC\uFBFD \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: C1L1.2Q1
       Right_Head_ID: C1L1.2Q1
       Left_Choose_Text: " \uFEAA\uFBFF\uFEE8\uFB90 \u0645\uFE8E\uFEE0\uFECB\uFE8D
@@ -972,7 +1064,7 @@ MonoBehaviour:
         \uFEE3\uFBFF\uFEB8\uFEEE\u062F \uFE8D\uFEE3\uFE8E \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
         \uFEE3\uFEAE\uFEA9\u0645 \uFEAD\u0627 \uFEEB\uFEE2 \uFE91\uFE8E\uFBFE\uFEAA
         \uFEA9\u0631 \uFEE7\uFEC8\uFEAE \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2"
-      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
@@ -989,7 +1081,7 @@ MonoBehaviour:
         \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647 \uFEED\uFEDF\uFBFD \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA
         \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEE\uFEA9\uFE9F\uFEEA \u0648
         \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
@@ -1034,7 +1126,7 @@ MonoBehaviour:
         \uFEE3\uFBFF\uFEB8\uFEEE\u062F \uFE8D\uFEE3\uFE8E \uFEAD\uFEBF\uFE8E\uFBFE\uFE96
         \uFEE3\uFEAE\uFEA9\u0645 \uFEAD\u0627 \uFEEB\uFEE2 \uFE91\uFE8E\uFBFE\uFEAA
         \uFEA9\u0631 \uFEE7\uFEC8\uFEAE \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2"
-      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
@@ -1051,7 +1143,7 @@ MonoBehaviour:
         \uFEE3\uFEAE\uFEA9\u0645 \uFEB7\uFEAA\u0647 \uFEED\uFEDF\uFBFD \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA
         \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFEEE\uFEA9\uFE9F\uFEEA \u0648
         \uFE91\uFEAE\uFEE7\uFE8E\uFEE3\uFEEA \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFEEB\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEB2\uFBFF\uFEE0\uFB58 \uFEEA\uFE9F\uFEA9\uFEEE\uFE91
@@ -1094,7 +1186,7 @@ MonoBehaviour:
         \uFEE7\uFE98\uFBFF\uFEA0\uFEEA \uFEE7\uFEEC\uFE8E\uFBFE\uFBFD \uFE91\uFE8E\uFEB7\uFBFF\uFEE2
         \u060C\uFE91\uFE8E\uFBFE\uFEAA \uFBFE\uFEEA \uFE97\uFBFF\uFEE2 \uFE97\uFEA4\uFED8\uFBFF\uFED8\uFE8E\uFE97\uFBFD
         \uFE8D\uFECB\uFEB0\uFE8D\u0645 \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: C1L1.5Q1
       Right_Head_ID: C1L1.5Q2
       Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
@@ -1126,7 +1218,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
         \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
         \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
@@ -1143,7 +1235,7 @@ MonoBehaviour:
         \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
         \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
         \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
@@ -1159,7 +1251,7 @@ MonoBehaviour:
         \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
         \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
         \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
@@ -1203,7 +1295,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
         \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
         \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
@@ -1220,7 +1312,7 @@ MonoBehaviour:
         \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
         \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
         \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
@@ -1236,7 +1328,7 @@ MonoBehaviour:
         \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
         \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
         \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
@@ -1280,7 +1372,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFEE8\uFE98\uFEAE\u0644 \uFEE3\uFBFF\uFEB8\uFEEE\u062F
         \u0648 \uFE91\uFEAE\uFEA7\uFEEE\uFEAD\u062F \uFE91\uFE8E \uFE81\uFEE7\uFEEC\uFE8E
         \uFEEB\uFEB0\uFBFE\uFEE8\uFEEA \uFEA9\uFE8D\uFEAD\u062F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFE\uFEAE\uFBFF\uFB95\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81
@@ -1297,7 +1389,7 @@ MonoBehaviour:
         \uFEAD\uFEB7\uFEAA \uFEE7\uFB91\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFBFE\uFEE6
         \uFE91\uFEEA \uFEBF\uFEAE\u0631 \uFEA3\uFEE4\uFEDE \u0648 \uFEE7\uFED8\uFEDE
         \u0648 \uFE97\uFEAE\uFE8D\uFE91\uFEAE\u06CC \uFB90\uFEB8\uFEEE\u0631 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAE\uFE98\uFEB8\uFBFF\uFE91 \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
@@ -1313,7 +1405,7 @@ MonoBehaviour:
         \uFEE3\uFE8E \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFEAA  \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
         \uFE81\u0646 \uFEE3\uFEE8\uFEC4\uFED8\uFEEA \uFE97\uFEE4\uFE8E\uFBFE\uFEE0\uFBFD
         \uFE91\uFEEA \uFEEB\uFEE4\uFB91\uFE8E\uFEAD\u06CC \uFEE7\uFEAA\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 920e9e7b1b77d0c4d91d3fac2ea0e003, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u062B\uFE8D\uFEAA\uFEA3\uFE8D
@@ -1416,7 +1508,7 @@ MonoBehaviour:
         \uFEEB\uFEB4\uFE98\uFEE8\uFEAA\u060C \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA
         \uFE91\uFEEA \uFE81\uFEE7\uFEEC\uFE8E \uFEEB\uFEE2 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD
         \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
@@ -1433,7 +1525,7 @@ MonoBehaviour:
         \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFEE7\uFEC8\uFE8E\uFEAD\u062A \uFE91\uFEAE
         \uFEAD\uFEED\u06CC \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
         \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
@@ -1477,7 +1569,7 @@ MonoBehaviour:
         \uFEEB\uFEB4\uFE98\uFEE8\uFEAA\u060C \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA
         \uFE91\uFEEA \uFE81\uFEE7\uFEEC\uFE8E \uFEEB\uFEE2 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD
         \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
@@ -1494,7 +1586,7 @@ MonoBehaviour:
         \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFEE7\uFEC8\uFE8E\uFEAD\u062A \uFE91\uFEAE
         \uFEAD\uFEED\u06CC \uFEED\uFE8D\uFEAD\uFEA9\uFE8D\u062A \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
         \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
@@ -1639,7 +1731,7 @@ MonoBehaviour:
         \uFEB3\uFEAE\uFEE3\uFE8E\uFBFE\uFEEA \uFB94\uFEB0\uFE8D\uFEAD\u06CC \uFEA9\u0631
         \uFE81\uFEE7\uFEEC\uFE8E\u060C\uFEBF\uFEAE\uFE91\uFEEA \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC
         \uFE91\uFEEA \uFEA9\uFEED\uFEDF\uFE96 \uFEED\uFE8D\uFEAD\u062F \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: C1L2Q2
       Right_Head_ID: C1L2Q2
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0639\uFEEE\uFEE8\uFEE4\uFEE3
@@ -1662,7 +1754,7 @@ MonoBehaviour:
         \uFEAF\uFBFE\uFEAE\uFEB3\uFE8E\uFEA7\uFE96 \uFEEB\uFE8E \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2
         \uFE9F\uFEAA\uFBFE\uFE98\uFEE4\uFE8E\u0646 \uFEAD\u0627 \uFEE7\uFEB8\uFE8E\u0646
         \uFEA9\uFEEB\uFBFF\uFEE2"
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.1Q1
       Right_Head_ID: C1L2.1Q2
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFE8E\uFEEC\uFEE7\uFE81
@@ -1699,8 +1791,8 @@ MonoBehaviour:
         \uFEE7\uFBFF\uFEB0 \uFED7\uFBFF\uFEE4\uFE96 \uFEE3\uFEA4\uFEBC\uFEEE\u0644
         \uFEAD\u0627 \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFEA9\uFEEB\uFEE8\uFEAA"
       Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: C1L2.2Q1
-      Right_Head_ID: C1L2.2Q1
+      Left_Head_ID: C1L2.1Q2
+      Right_Head_ID: C1L2.1Q2
       Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFEB6\uFBFE\uFE8D\uFEB0\uFED3\uFE8D
         \u0627\uFEAD \u0646\uFE8E\uFEB8\uFE97\uFE8E\uFBFF\uFEDF\uFE8E\uFEE3"
       Right_Choose_Text: "\uFE96\uFEB3\uFE8D \uFEAE\uFE97 \uFEE2\uFEEC\uFEE3 \u0645\uFEA9\uFEAE\uFEE3
@@ -1742,7 +1834,7 @@ MonoBehaviour:
         \uFB90\uFEEA \uFEE3\uFED8\uFEBC\uFEAE \uFEE3\uFE8E \uFEEB\uFEB4\uFE98\uFBFF\uFEE2
         \u060C\uFE91\uFE8E\uFBFE\uFEAA \uFEC3\uFE92\uFBFF\uFECC\uFBFD \uFEAD\uFED3\uFE98\uFE8E\u0631
         \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: C1L2.1Q3
       Right_Head_ID: C1L2.1Q3
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u06CC\uFEA9\uFEAD\uFEAA\uFEE4\uFEEB
@@ -1773,7 +1865,7 @@ MonoBehaviour:
         \uFEED\uFEAF\uFBFE\uFEAE \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
         \uFE81\uFBFE\uFE8E \uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFE97\uFEE0\uFE8E\uFED3\uFBFD
         \uFE8D\uFEB3\uFE96\u061F\u061F\u061F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 0}
       Left_Head_ID: C1L2.1Q3
       Right_Head_ID: C1L2.1Q3
       Left_Choose_Text: "\u061F\uFBFD\uFB7C"
@@ -1802,7 +1894,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEB3\uFED8\uFEEE\u0637
         \uFB90\uFEAE\uFEA9\u0647 \u0648 \uFE8D\uFEE7\uFB95\uFEB8\uFE96 \uFE8D\uFE97\uFEEC\uFE8E\u0645
         \uFE91\uFEEA \uFEB3\uFEE4\uFE96 \uFEE3\uFE8E\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: C1L2.2Q1
       Right_Head_ID: C1L2.2Q1
       Left_Choose_Text: "\uFEE2\uFBFE\uFEA9\uFEAE\uFB91\uFEE7 \u06CC\uFEAD\uFE8E\uFB90
@@ -1824,7 +1916,7 @@ MonoBehaviour:
         \uFEE7\uFB95\uFEAE\uFED3\uFE98\uFEE6 \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
         \uFE8D\u0632 \uFEE3\uFE8E \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFEA3\uFEE4\uFE8E\uFBFE\uFE96
         \uFE8D\u0632 \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE3 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
@@ -1837,7 +1929,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFBFE\uFE8E\uFED3\uFE96 \uFEB7\uFEAA\u0647 \u0648
         \uFEA9\uFE8D\uFEE7\uFEB8\uFEE4\uFEE8\uFEAA\uFE8D\u0646 \uFEA9\uFEAD\uFEE3\uFE8E\uFEE7\uFBFD
         \uFE91\uFEAE\uFE8D\u06CC \uFE81\u0646 \uFB58\uFBFF\uFEAA\u0627 \uFEE7\uFB91\uFEAE\uFEA9\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
@@ -1878,7 +1970,7 @@ MonoBehaviour:
         \uFEE7\uFB95\uFEAE\uFED3\uFE98\uFEE6 \uFE8D\uFEE3\uFE8E \uFEE3\uFEAE\uFEA9\u0645
         \uFE8D\u0632 \uFEE3\uFE8E \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFEA3\uFEE4\uFE8E\uFBFE\uFE96
         \uFE8D\u0632 \uFE8D\uFBFE\uFEE6 \uFB94\uFEAE\uFEED\u0647 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: cf98154f1e7e2f844a09affd743d78c0, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEE2\uFBFF\uFEE8\uFB91\uFBFF\uFEE3 \uFE96\uFBFE\uFE8E\uFEE4\uFEA3"
@@ -1891,7 +1983,7 @@ MonoBehaviour:
         \uFB90\uFEB8\uFEEE\u0631 \uFBFE\uFE8E\uFED3\uFE96 \uFEB7\uFEAA\u0647 \u0648
         \uFEA9\uFE8D\uFEE7\uFEB8\uFEE4\uFEE8\uFEAA\uFE8D\u0646 \uFEA9\uFEAD\uFEE3\uFE8E\uFEE7\uFBFD
         \uFE91\uFEAE\uFE8D\u06CC \uFE81\u0646 \uFB58\uFBFF\uFEAA\u0627 \uFEE7\uFB91\uFEAE\uFEA9\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEE6\uFBFF\uFBFF\uFECC\uFE97
@@ -1943,7 +2035,7 @@ MonoBehaviour:
         \uFEE3\uFEAE\u0632 \uFEEB\uFE8E\u06CC \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD \uFEE7\uFBFF\uFEAE\uFEED\uFEEB\uFE8E\u06CC
         \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFEA9\u0631
         \uFEA3\uFE8E\u0644 \uFE81\uFEE3\uFE8E\uFEA9\u0647 \uFEB7\uFEAA\u0646 \uFEEB\uFEB4\uFE98\uFEE6"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.3Q2
       Right_Head_ID: C1L2.3Q2
       Left_Choose_Text: ...
@@ -1972,7 +2064,7 @@ MonoBehaviour:
         \uFEAD\u0648 \uFE91\uFEAE\uFE8D\u06CC \uFE9F\uFEE8\uFB93 \uFE81\uFEE3\uFE8E\uFEA9\u0647
         \uFB90\uFEE8\uFBFF\uFEE2 \uFEEB\uFBFF\uFB7B \uFEAD\uFE8D\u0647 \uFEA9\uFBFE\uFB95\uFEEA
         \uFE8D\u06CC \uFEE7\uFBFF\uFEB4\uFE96"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.4Q1
       Right_Head_ID: C1L2.4Q1
       Left_Choose_Text: "\uFEEA\uFEB7\uFE8E\uFE91 \u0647\uFE8E\uFE92\uFE98\uFEB7\uFE8D
@@ -1995,7 +2087,7 @@ MonoBehaviour:
         \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
         \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
@@ -2013,7 +2105,7 @@ MonoBehaviour:
         \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
         \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
         \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
@@ -2029,7 +2121,7 @@ MonoBehaviour:
         \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
         \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
         \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
@@ -2070,7 +2162,7 @@ MonoBehaviour:
         \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
         \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
@@ -2088,7 +2180,7 @@ MonoBehaviour:
         \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
         \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
         \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
@@ -2104,7 +2196,7 @@ MonoBehaviour:
         \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
         \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
         \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
@@ -2145,7 +2237,7 @@ MonoBehaviour:
         \uFE91\uFE8E\uFECB\uFE9A \uFEE7\uFEB8\uFEAA\u0647 \uFE97\uFE8E \uFEE3\uFEBC\uFEAE\u0641
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFB90\uFE8E\uFEEB\uFEB6
         \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEE8\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: ec386aacfdb97a14c9f353c8f6df2ad4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEAE\uFE98\uFEB8\uFBFF\uFE91
@@ -2163,7 +2255,7 @@ MonoBehaviour:
         \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEE2 \uFE8D\u0632 \uFE81\uFEE7\uFEEC\uFE8E
         \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFBFE\uFE8E
         \uFE8D\uFED7\uFE98\uFEBC\uFE8E\uFEA9\u06CC \uFE91\uFB91\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEE3\uFE8E\uFEC8\uFEE7
@@ -2179,7 +2271,7 @@ MonoBehaviour:
         \uFE97\uFEEE\uFEAD\u0645 \uFE8D\uFEB3\uFE96 \u060C\uFE91\uFE8E\uFBFE\uFEAA
         \uFE91\uFEAE\uFE8D\u06CC \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFE91\uFE8E
         \uFE81\u0646 \uFB90\uFE8E\uFEAD\u06CC \uFE8D\uFEE7\uFEA0\uFE8E\u0645 \uFEA9\uFEEB\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\u0644\uFEEE\uFB58 \u067E\uFE8E\uFB7C \uFEB6\uFEEB\uFE8E\uFB90"
@@ -2229,7 +2321,7 @@ MonoBehaviour:
         \uFE8D\uFEB3\uFE96  \u0648 \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFE91\uFEEA
         \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\uFE97\uFBFD \uFB90\uFEEA \uFEE3\uFBFF\uFEB4\uFE8E\uFEAF\uFBFE\uFEE2
         \uFEA9\uFED7\uFE96 \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q2
       Right_Head_ID: C1L2.5Q2
       Left_Choose_Text: "\uFE90\uFEA7"
@@ -2260,7 +2352,7 @@ MonoBehaviour:
         \uFE91\uFEAE\uFE8D\u06CC \uFEB7\uFB91\uFEB4\uFE96 \uFEA9\uFE8D\uFEA9\u0646
         \uFE8D\uFBFE\uFEE6 \uFEAD\uFE91\uFE8E\u062A \uFEEB\uFE8E \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
         \uFE91\uFE8E\uFEB7\uFBFF\uFEE2"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q3
       Right_Head_ID: C1L2.5Q3
       Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
@@ -2291,7 +2383,7 @@ MonoBehaviour:
         \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFEAD\u0627 \uFEA9\uFE8D\uFEB7\uFE98\uFEEA
         \uFE91\uFE8E\uFEB7\uFBFF\uFEE2 \uFE97\uFE8E \uFEB3\uFEE0\uFE8E\u062D \uFEEB\uFE8E\u06CC
         \uFB90\uFE8E\uFED3\uFBFD \uFEA9\uFE8D\uFEB7\uFE98\uFEEA \uFE91\uFE8E\uFEB7\uFBFF\uFEE2 "
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q4
       Right_Head_ID: C1L2.5Q4
       Left_Choose_Text: "\uFE96\uFEB4\uFBFF\uFEE7 \uFBFD\uFEE0\uFB91\uFEB8\uFEE3"
@@ -2322,7 +2414,7 @@ MonoBehaviour:
         \uFE81\uFEE7\uFEEC\uFE8E \uFEAD\u0627 \uFE8D\u0632 \uFB90\uFEB8\uFEEE\u0631
         \uFEEB\uFE8E\u06CC \uFEA9\uFBFE\uFB95\uFEEA \uFEA7\uFEAE\uFBFE\uFEAA\uFE8D\uFEAD\u06CC
         \uFB90\uFEE8\uFBFF\uFEE2 "
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q5
       Right_Head_ID: C1L2.5Q5
       Left_Choose_Text: "\uFEEA\uFEB8\uFE91 \u06CC\uFEAD\uFE8D\uFEAA\uFBFE\uFEAE\uFEA7"
@@ -2356,7 +2448,7 @@ MonoBehaviour:
         \uFEEB\uFEEE\u0634 \uFEE3\uFEBC\uFEE8\uFEEE\uFECB\uFBFD \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\u0646
         \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A \uFEAD\u0627 \uFE91\uFEEA \uFEAD\uFEED\u0632
         \uFB90\uFEAE\u062F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q6
       Right_Head_ID: C1L2.5Q6
       Left_Choose_Text: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
@@ -2382,14 +2474,14 @@ MonoBehaviour:
     FastCards:
       ID: 
       Name: 
-      Text: "\u0645\u0627 \u0648\u0642\u062A \u0632\u06CC\u0627\u062F\u06CC \u0628\u0631\u0627\u06CC
-        \u062A\u0648\u0633\u0639\u0647 \u0647\u0645\u0647 \u0628\u062E\u0634 \u0647\u0627\u06CC
-        \u0646\u0638\u0627\u0645\u06CC \u0646\u062F\u0627\u0631\u06CC\u0645 \u0648
-        \u0641\u0642\u0637 \u0645\u06CC\u062A\u0648\u0646\u06CC\u0645 \u0631\u0648\u06CC
-        \u0646\u06CC\u0631\u0648\u06CC \u0632\u0645\u06CC\u0646\u06CC \u06CC\u0627
-        \u0646\u06CC\u0631\u0648\u06CC \u0647\u0648\u0627\u06CC\u06CC \u0648\u0642\u062A
-        \u0628\u0632\u0627\u0631\u06CC\u0645"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Text: "\uFEE3\uFE8E \uFEED\uFED7\uFE96 \uFEAF\uFBFE\uFE8E\uFEA9\u06CC \uFE91\uFEAE\uFE8D\u06CC
+        \uFE97\uFEEE\uFEB3\uFECC\uFEEA \uFEEB\uFEE4\uFEEA \uFE91\uFEA8\uFEB6 \uFEEB\uFE8E\u06CC
+        \uFEE7\uFEC8\uFE8E\uFEE3\uFBFD \uFEE7\uFEAA\uFE8D\uFEAD\uFBFE\uFEE2 \u0648
+        \uFED3\uFED8\uFEC2 \uFEE3\uFBFF\uFE98\uFEEE\uFEE7\uFBFF\uFEE2 \uFEAD\uFEED\u06CC
+        \uFEE7\uFBFF\uFEAE\uFEED\u06CC \uFEAF\uFEE3\uFBFF\uFEE8\uFBFD \uFBFE\uFE8E
+        \uFEE7\uFBFF\uFEAE\uFEED\u06CC \uFEEB\uFEEE\uFE8D\uFBFE\uFBFD \uFEED\uFED7\uFE96
+        \uFE91\uFEB0\uFE8D\uFEAD\uFBFE\uFEE2"
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q7
       Right_Head_ID: C1L2.5Q8
       Left_Choose_Text: "\u061F \uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
@@ -2419,7 +2511,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6 \uFB90\uFEEE\uFEEB\uFEB4\uFE98\uFE8E\uFEE7\uFBFD
         \uFB90\uFE8E\uFEAD\uFE8D\uFBFE\uFBFD \uFB7C\uFEE8\uFEAA\uFE8D\uFEE7\uFBFD
         \uFEE7\uFEAA\uFE8D\uFEAD\u062F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q8
       Right_Head_ID: C1L2.6Q1
       Left_Choose_Text: "\u061F\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
@@ -2449,7 +2541,7 @@ MonoBehaviour:
         \uFB58\uFEB8\uFE98\uFBFF\uFE92\uFE8E\uFEE7\uFBFD \uFEE3\uFE8E \uFE8D\uFEB3\uFE96 
         \u0648 \uFEA9\u0631 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6 \uFB90\uFEEE\uFEEB\uFEB4\uFE98\uFE8E\uFEE7\uFBFD
         \uFB90\uFE8E\uFEAD\uFE91\uFEAE\u062F \uFEA9\uFE8D\uFEAD\u062F"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.5Q7
       Right_Head_ID: C1L2.62Q1
       Left_Choose_Text: "\u061F \uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFEED\uFEAE\uFBFF\uFEE7"
@@ -2481,37 +2573,6 @@ MonoBehaviour:
       Right_Head_ID: 
       Left_Choose_Text: 
       Right_Choose_Text: 
-      Ministers: []
-  - _Challenge: 0
-    Challenge: {fileID: 11400000, guid: 306a263c8a02cec439a65211d03d8e28, type: 2}
-    Available: 1
-    CardID: C0L0Q1
-    CardType: 1
-    RandomCards: []
-    SimpleCards:
-      ID: 
-      Name: 
-      Text: 
-      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
-      Left_Head_ID: 
-      Right_Head_ID: 
-      Left_Choose_Text: 
-      Right_Choose_Text: 
-      Ministers: []
-    FastCards:
-      ID: 
-      Name: 
-      Text: "\uFE97\uFB91\uFEE8\uFEEE\uFEDF\uFEEE\uFB8A\u06CC \uFEDF\uFEEE\uFEDF\uFEEA
-        \uFEEB\uFE8E\u06CC \uFE8D\uFEE7\uFE98\uFED8\uFE8E\u0644 \uFB94\uFE8E\u0632
-        \uFEE3\uFE8E \uFEE3\uFEE8\uFEB4\uFEEE\u062E \uFE8D\uFEB3\uFE96 \u0648 \uFE91\uFEEE\uFEA9\uFE9F\uFEEA
-        \uFE8D\u06CC \uFE91\uFEAE\uFE8D\u06CC \uFE8D\uFEAD\uFE97\uFED8\uFE8E \uFE81\u0646
-        \uFEEB\uFE8E \uFEE7\uFBFF\uFE8E\uFEAF\uFEE3\uFEE8\uFEAA\uFBFE\uFEE2."
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
-      Left_Head_ID: C1L2.7Q1
-      Right_Head_ID: C1L2.7Q1
-      Left_Choose_Text: "\uFEAA\uFBFF\uFEEB\uFEA9 \uFE8E\uFED8\uFE97\uFEAD\uFE8D"
-      Right_Choose_Text: "\uFE96\uFEB4\uFBFF\uFEE7 \uFE8E\uFED8\uFE97\uFEAD\uFE8D
-        \uFEEA\uFE91 \u06CC\uFEAF\uFE8E\uFBFF\uFEE7"
       Ministers: []
   - _Challenge: 1
     Challenge: {fileID: 11400000, guid: 191225d228465ec4e8e876b86cbf80d8, type: 2}
@@ -2552,7 +2613,7 @@ MonoBehaviour:
         \uFEAF\uFEE7\uFEA0\uFBFF\uFEAE\u0647 \uFE97\uFEEE\uFEDF\uFBFF\uFEAA \uFECF\uFEAC\uFE8D\uFBFE\uFBFD
         \uFEB7\uFEAA\u0647 \u060C \uFE91\uFEEA \uFB90\uFEB8\uFE8E\uFEED\uFEAD\uFEAF\uFE8D\u0646
         \uFB7C\uFB95\uFEEE\uFEE7\uFEEA \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEDF\uFE8E\uFEE3
@@ -2566,7 +2627,7 @@ MonoBehaviour:
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEE3\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
         \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEAE\uFEA9\u0647 \u060C \uFE91\uFE8E \uFE8D\uFBFE\uFEE6
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEE3\uFE8E\uFEAF\uFE8D\u062F \uFB7C\uFEEA \uFB90\uFEE8\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFEA9\uFE8E\uFEBB \u0627\uFEAD
@@ -2607,7 +2668,7 @@ MonoBehaviour:
         \uFEAF\uFEE7\uFEA0\uFBFF\uFEAE\u0647 \uFE97\uFEEE\uFEDF\uFBFF\uFEAA \uFECF\uFEAC\uFE8D\uFBFE\uFBFD
         \uFEB7\uFEAA\u0647 \u060C \uFE91\uFEEA \uFB90\uFEB8\uFE8E\uFEED\uFEAD\uFEAF\uFE8D\u0646
         \uFB7C\uFB95\uFEEE\uFEE7\uFEEA \uFB90\uFEE4\uFB8F \uFB90\uFEE8\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFE8E\uFEEC\uFEE7\uFE81 \uFEEA\uFE91 \uFBFD\uFEDF\uFE8E\uFEE3
@@ -2621,7 +2682,7 @@ MonoBehaviour:
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEE3\uFE8E \uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6
         \uFB58\uFBFF\uFEAA\u0627 \uFB90\uFEAE\uFEA9\u0647 \u060C \uFE91\uFE8E \uFE8D\uFBFE\uFEE6
         \uFEB3\uFEEE\uFEA7\uFE96 \uFEE3\uFE8E\uFEAF\uFE8D\u062F \uFB7C\uFEEA \uFB90\uFEE8\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4, type: 3}
       Left_Head_ID: 
       Right_Head_ID: 
       Left_Choose_Text: "\uFEAA\uFBFF\uFEE8\uFB90 \u0631\uFEA9\uFE8E\uFEBB \u0627\uFEAD
@@ -2676,7 +2737,7 @@ MonoBehaviour:
         \uFEE3\uFBFF\uFEA8\uFEEE\uFE8D\uFBFE\uFEE2 \uFB90\uFEEA \uFBFE\uFB91\uFBFD
         \uFE8D\u0632 \uFBFE\uFB95\uFE8E\u0646 \uFEEB\uFE8E \uFEAD\u0627 \uFEA9\u0631
         \uFE8D\uFEA7\uFE98\uFBFF\uFE8E\u0631 \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEAA"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q3
       Right_Head_ID: C1L2.9Q3
       Left_Choose_Text: "\u061F\uFEE6\uFEE3"
@@ -2706,7 +2767,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEB7\uFE98\uFEEA \uFE91\uFE8E\uFEB7\uFBFF\uFEAA \u060C \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFBFF\uFEAA
         \uFEA9\uFED3\uFE8E\uFECB\uFBFD \u0648 \uFBFE\uFE8E \uFE97\uFEEC\uFE8E\uFE9F\uFEE4\uFBFD
         \uFECB\uFEE4\uFEDE \uFB90\uFEE8\uFBFF\uFEAA"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q4
       Right_Head_ID: C1L2.9Q5
       Left_Choose_Text: "\u061F\uFBFD\uFECB\uFE8E\uFED3\uFEA9"
@@ -2737,7 +2798,7 @@ MonoBehaviour:
         \uFE8D\uFEBB\uFEE0\uFBFD \uFEA7\uFEEE\u062F \uFEEB\uFEB4\uFE98\uFEE8\uFEAA
         \u0648 \uFEE3\uFEE8\uFE98\uFEC8\uFEAE \uFEEB\uFEA0\uFEEE\u0645 \uFEE7\uFBFF\uFEAE\uFEED\uFEEB\uFE8E\u06CC
         \uFEA9\uFEB7\uFEE4\uFEE6 \uFEE3\uFBFF\uFEB8\uFEEE\uFEE7\uFEAA"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q5
       Right_Head_ID: C1L3.1Q1
       Left_Choose_Text: "\u061F\uFBFD\uFEE3\uFEEE\uFEA0\uFEEB"
@@ -2768,7 +2829,7 @@ MonoBehaviour:
         \uFEB7\uFB91\uFEB4\uFE98\uFEE6 \uFEA7\uFEC2 \uFEE3\uFED8\uFEAA\u0645 \uFEA9\uFEB7\uFEE4\uFEE6
         \u0648 \uFBFE\uFE8E \uFB58\uFEB2 \uFB94\uFEAE\uFED3\uFE98\uFEE6 \uFEE3\uFEE8\uFE8E\uFEC3\uFED6
         \uFE97\uFEBC\uFEAE\u0641 \uFEB7\uFEAA\u0647 \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q4
       Right_Head_ID: C1L3Q1
       Left_Choose_Text: "\u061F\uFBFD\uFECB\uFE8E\uFED3\uFEA9"
@@ -2776,7 +2837,7 @@ MonoBehaviour:
         \uFBFD\uFEE4\uFE9F\uFE8E\uFEEC\uFE97 \uFE96\uFEDF\uFE8E\uFEA3 \uFEE6\uFEE3"
       Ministers: []
   - _Challenge: 1
-    Challenge: {fileID: 0}
+    Challenge: {fileID: 11400000, guid: 0ab0661e6f27c8a40970a2244a5b123d, type: 2}
     Available: 1
     CardID: C1L3.1Q1
     CardType: 1
@@ -2802,9 +2863,61 @@ MonoBehaviour:
       Right_Choose_Text: 
       Ministers: []
   - _Challenge: 1
-    Challenge: {fileID: 0}
+    Challenge: {fileID: 11400000, guid: 1365b6906d531594aa260ce23173fce4, type: 2}
     Available: 1
     CardID: C1L3.3Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 1
+    Challenge: {fileID: 11400000, guid: 25b5f8afacc87aa40a64efc7e7f1bc1c, type: 2}
+    Available: 1
+    CardID: C1L4.1Q1
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+  - _Challenge: 1
+    Challenge: {fileID: 11400000, guid: a60810f381db3d942ba0ed4735f21cb4, type: 2}
+    Available: 1
+    CardID: C1L4.2Q1
     CardType: 1
     RandomCards: []
     SimpleCards:

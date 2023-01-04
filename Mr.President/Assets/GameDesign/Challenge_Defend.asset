@@ -20,6 +20,8 @@ MonoBehaviour:
     \uFEAF\uFEAD\uFEEB\uFBFD"
   Win_Spell_ID: goodspell1
   Lose_Spell_ID: badspell1
+  Chapter_HID_Win: C1L4.1Q1
+  Chapter_HID_Lose: C1L4.2Q1
   ChallengeFlow:
   - CardID: C1L3Q1
     CardType: 1
