@@ -541,7 +541,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\uFEAA\uFEB7 \uFE8E\uFEE4\uFEB7 \u06CC\uFEAD\uFE8E\uFEE8\uFB90\uFEAE\uFE91
+    \uFEEA\uFE91 \u0631\uFEEE\uFE92\uFEA0\uFEE3 \uFEB2\uFEE0\uFEA0\uFEE3 \u0648 \uFEAA\uFEE7\uFEA9\uFEAE\uFB90
+    \u0628\uFEEE\uFEB7\uFE81 \u0648 \u0636\uFE8D\uFEAE\uFE98\uFECB\uFE8D \uFEEA\uFE91
+    \uFE96\uFEB3\uFEA9 \u060C \uFE96\uFEDF\uFEED\uFEA9 \u0632\uFE8D \uFEAA\uFBFE\uFEAA\uFEB7
+    \uFBFD\uFE98\uFBFE\uFE8E\uFEBF\uFEAD\uFE8E\uFEE7 \u0648 \uFBFD\uFEEB\uFE8E\uFED3\uFEAD
+    \u062A\uFE8E\uFEE7\uFE8E\uFB91\uFEE3\uFE8D \u062F\uFEEE\uFE92\uFEE4\uFB90 \uFEAE\uFEC3\uFE8E\uFEA8\uFE91
+    \u0645\uFEA9\uFEAE\uFEE3"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: ae2954faa62be874dbd7107f1fcfeaa9, type: 2}
   m_sharedMaterial: {fileID: -2694893474593461055, guid: ae2954faa62be874dbd7107f1fcfeaa9,
@@ -944,6 +950,29 @@ PrefabInstance:
       propertyPath: value
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFEAD\uFEED\uFE8D\uFE91\uFEC2 \uFEBF\uFECC\uFBFF\uFED2 \uFE91\uFE8E
+        \uFEEB\uFEE4\uFEB4\uFE8E\uFBFE\uFEEA \uFEEB\uFE8E \u060C \uFECB\uFEAA\u0645
+        \uFE8D\uFE97\uFEA8\uFE8E\u0630 \uFE97\uFEBC\uFEE4\uFBFF\uFEE4\uFE8E\u062A
+        \uFEA9\uFBFE\uFB59\uFEE0\uFEE4\uFE8E\uFEB3\uFBFD \uFEE3\uFEE8\uFE8E\uFEB3\uFE90
+        \uFE91\uFE8E\uFECB\uFE9A \uFEB7\uFEAA \uFE97\uFE8E \uFEE3\uFEA0\uFEE0\uFEB2
+        \uFEB7\uFEE4\uFE8E \u0648 \uFEED\uFEAF\uFBFE\uFEAE \uFE8D\uFEE3\uFEEE\u0631
+        \uFEA7\uFE8E\uFEAD\uFE9F\uFEEA \uFEAD\u0627 \uFE91\uFEAE\uFB90\uFEE8\uFE8E\u0631
+        \uFB90\uFEE8\uFEE8\uFEAA"
+      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
@@ -1340,6 +1369,27 @@ PrefabInstance:
         type: 3}
       propertyPath: value
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFECB\uFED8\uFE90 \uFEE3\uFE8E\uFEE7\uFEAA\uFB94\uFBFD \uFEA9\u0631
+        \uFECB\uFEE0\uFEE2 \u0648 \uFEA9\uFE8D\uFEE7\uFEB6 \uFE8D\u0632 \uFEB3\uFE8E\uFBFE\uFEAE
+        \uFEAD\uFED7\uFE92\uFE8E \u060C \uFEE3\uFEA0\uFEE0\uFEB2 \uFEAD\u0627 \uFE91\uFEEA
+        \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC \uFEB7\uFEE4\uFE8E \u0648 \uFE8D\uFEE7\uFE98\uFEA8\uFE8E\u0628
+        \uFED3\uFEAE\u062F \uFEE3\uFEE8\uFE8E\uFEB3\uFE90 \uFE97\uFEAE \uFEED\u0627
+        \uFEA9\uFE8D\uFEB7\uFE96"
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
@@ -2606,6 +2656,27 @@ PrefabInstance:
       propertyPath: value
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFB90\uFEE4\uFE92\uFEEE\u062F \uFEEB\uFE8E\u06CC \uFB58\uFEB0\uFEB7\uFB91\uFBFD
+        \u060C \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\u062A \uFB90\uFE8E\uFEA9\u0631 \uFEA9\uFEAD\uFEE3\uFE8E\u0646
+        \u060C \uFECB\uFEAA\u0645 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD \uFB90\uFE8E\uFED3\uFBFD
+        \uFE91\uFEEA \uFEB3\uFEE0\uFE8E\uFEE3\uFE96 \uFEE3\uFEAE\u062F \u060C \uFE91\uFE8E\uFECB\uFE9A
+        \uFE8D\uFECB\uFE98\uFEAE\uFE8D\u0636 \uFEE3\uFEAE\uFEA9\u0645 \u0648 \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC
+        \uFEB7\uFEE4\uFE8E \uFE97\uFEEE\uFEB3\uFEC2 \uFEE3\uFEA0\uFEE0\uFEB2 \uFEB7\uFEAA"
+      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
@@ -2808,6 +2879,29 @@ PrefabInstance:
         type: 3}
       propertyPath: value
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFECB\uFEAA\u0645 \uFEAD\uFEB3\uFBFF\uFEAA\uFB94\uFBFD \uFB90\uFE8E\uFED3\uFBFD
+        \uFE91\uFEEA \uFEED\uFEAF\uFE8D\uFEAD\u062A \uFED3\uFEAE\uFEEB\uFEE8\uFB93
+        \u060C \uFEBB\uFEAA\uFE8D\u06CC \uFEED\uFEAF\uFBFE\uFEAE \uFED3\uFEAE\uFEEB\uFEE8\uFB93
+        \uFEAD\u0627 \uFEA9\u0631 \uFE81\uFEED\uFEAD\u062F \u0648 \uFE8D\u0648 \uFE91\uFE8E
+        \uFEAD\uFED3\uFE98\uFEE6 \uFEA9\u0631 \uFEE3\uFEA0\uFEE0\uFEB2 \u0648 \uFE8D\uFED3\uFEB8\uFE8E
+        \uFEB3\uFE8E\uFEAF\u06CC \uFB90\uFE8E\uFEAD\uFEEB\uFE8E\u06CC \uFEB7\uFEE4\uFE8E
+        \uFE91\uFE8E\uFECB\uFE9A \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC \uFEB7\uFEE4\uFE8E
+        \uFE8D\u0632 \uFEB3\uFEEE\u06CC \uFEE3\uFEA0\uFEE0\uFEB2 \uFEB7\uFEAA"
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
@@ -4421,19 +4515,19 @@ PrefabInstance:
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: GameoverCards.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: GameoverCards.Array.data[0].Image
       value: 
-      objectReference: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4,
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
         type: 3}
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: GameoverCards.Array.data[1].Image
       value: 
-      objectReference: {fileID: 21300000, guid: 7bc22ce8e89bc124f878772df3b192b4,
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
         type: 3}
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
@@ -4444,12 +4538,18 @@ PrefabInstance:
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: GameoverCards.Array.data[0].message
-      value: "\uFEDB\uFE8E\uFEAD\uFE95 \uFB58\uFE8E\uFBFE\uFE8E\uFEE5 \uFE91\uFEE8\uFEAA\u0649"
+      value: "\uFB90\uFEE4\uFE92\uFEEE\u062F \uFB58\uFEEE\u0644 \u060C \uFECB\uFEAA\u0645
+        \uFEE3\uFEAA\uFBFE\uFEAE\uFBFE\uFE96 \uFEBB\uFEA4\uFBFF\uFEA2 \uFEE3\uFEE8\uFE8E\uFE91\uFECA
+        \uFEE3\uFE8E\uFEDF\uFBFD \u060C \uFE91\uFE8E\uFECB\uFE9A \uFE8D\uFED3\uFEB8\uFE8E\uFB94\uFEAE\u06CC
+        \uFEED\uFEAF\uFBFE\uFEAE \uFE8D\uFED7\uFE98\uFEBC\uFE8E\u062F \uFE8D\u0632
+        \uFED3\uFECC\uFE8E\uFEDF\uFBFF\uFE96 \uFEB7\uFEE4\uFE8E \uFEB7\uFEAA "
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: GameoverCards.Array.data[1].message
-      value: "\uFEDB\uFE8E\uFEAD\uFE95 \uFB58\uFE8E\uFBFE\uFE8E\uFEE5 \uFE91\uFEE8\uFEAA\u0649"
+      value: "\uFEB7\uFEE4\uFE8E \uFE97\uFEEE\uFEB3\uFEC2 \uFEE3\uFEA0\uFEE0\uFEB2
+        \uFE8D\u0632 \uFEB3\uFEE4\uFE96 \uFEAD\uFBFE\uFE8E\uFEB3\uFE96 \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC
+        \uFE91\uFEAE\uFB90\uFEE8\uFE8E\u0631 \uFEB7\uFEAA\uFBFE\uFEAA"
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
@@ -4616,6 +4716,28 @@ PrefabInstance:
         type: 3}
       propertyPath: value
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFECB\uFEAA\u0645 \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFB90\uFE8E\uFED3\uFBFD
+        \uFE8D\u0632 \uFB90\uFE8E\uFEAD\uFEA7\uFE8E\uFEE7\uFEEA \uFEEB\uFE8E \u0648
+        \uFEBB\uFEE8\uFECC\uFE96 \uFB90\uFEB8\uFEEE\u0631 \u060C \uFE91\uFE8E\uFECB\uFE9A
+        \uFECB\uFED8\uFE90 \uFE8D\uFED3\uFE98\uFE8E\uFEA9\uFB94\uFBFD \uFEB3\uFEE8\uFB95\uFBFF\uFEE8\uFBFD
+        \uFEB7\uFEAA\u0647 \u0648 \uFEE3\uFEA0\uFEE0\uFEB2 \uFE97\uFEBC\uFEE4\uFBFF\uFEE2
+        \uFE91\uFEEA \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC \uFEB7\uFEE4\uFE8E
+        \uFB90\uFEAE\uFEA9\u0647 \uFE8D\uFEB3\uFE96"
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
@@ -5735,6 +5857,28 @@ PrefabInstance:
       propertyPath: value
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFEE3\uFEAE\uFEA9\u0645 \uFE91\uFEA8\uFE8E\uFEC3\uFEAE \uFB90\uFEE4\uFE92\uFEEE\u062F
+        \uFE8D\uFEE3\uFB91\uFE8E\uFEE7\uFE8E\u062A \uFEAD\uFED3\uFE8E\uFEEB\uFBFD
+        \u0648 \uFEE7\uFE8E\uFEAD\uFEBF\uFE8E\uFBFE\uFE98\uFBFD \uFEB7\uFEAA\uFBFE\uFEAA
+        \uFE8D\u0632 \uFEA9\uFEED\uFEDF\uFE96 \u060C \uFEA9\uFEB3\uFE96 \uFE91\uFEEA
+        \uFE8D\uFECB\uFE98\uFEAE\uFE8D\u0636 \u0648 \uFE81\uFEB7\uFEEE\u0628 \uFB90\uFEAE\uFEA9\uFEE7\uFEAA
+        \u0648 \uFEE3\uFEA0\uFEE0\uFEB2 \uFEE3\uFEA0\uFE92\uFEEE\u0631 \uFE91\uFEEA
+        \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC \uFEB7\uFEE4\uFE8E \uFEB7\uFEAA"
+      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
@@ -6402,6 +6546,39 @@ PrefabInstance:
       propertyPath: value
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[1].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFECB\uFEAA\u0645 \uFEE3\uFEAA\uFBFE\uFEAE\uFBFE\uFE96 \uFEBB\uFEA4\uFBFF\uFEA2
+        \uFEE3\uFEA4\uFBFF\uFEC2 \uFEAF\uFBFE\uFEB4\uFE96 \u060C \uFEBB\uFEAA\uFE8D\u06CC
+        \uFEE3\uFEAE\uFEA9\u0645 \uFEAD\u0627 \uFEA9\u0631 \uFE81\uFEED\uFEAD\uFEA9\u0647 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[1].message
+      value: "\uFEED\uFEAF\uFBFE\uFEAE \uFEE3\uFEA4\uFBFF\uFEC2 \uFEAF\uFBFE\uFEB4\uFE96
+        \uFEA9\u0631 \uFE9F\uFEE0\uFEB4\uFEEA \uFEE3\uFEA0\uFEE0\uFEB2 \uFECB\uFEE0\uFBFF\uFEEA
+        \uFEB7\uFEE4\uFE8E \uFEB7\uFEEC\uFE8E\uFEA9\u062A \uFEA9\uFE8D\uFEA9\u0647
+        \u0648 \uFEB7\uFEE4\uFE8E \uFE8D\u0632 \uFEAD\uFBFE\uFE8E\uFEB3\uFE96 \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC
+        \uFE91\uFEAE\uFB90\uFEE8\uFE8E\u0631 \uFEB7\uFEAA\uFBFE\uFEAA"
+      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
@@ -6918,6 +7095,27 @@ PrefabInstance:
       propertyPath: value
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFECB\uFEAA\u0645 \uFEAD\uFEBF\uFE8E\uFBFE\uFE96 \uFE8D\uFEAD\uFE97\uFEB6
+        \uFE8D\u0632 \uFEB7\uFEE4\uFE8E \uFE91\uFE8E\uFECB\uFE9A \uFE8D\uFBFE\uFEA0\uFE8E\u062F
+        \uFB90\uFEEE\uFEA9\uFE97\uFE8E \uFEED\uFEAF\uFBFE\uFEAE \uFEA9\uFED3\uFE8E\u0639
+        \uFECB\uFEE0\uFBFF\uFEEA \uFEA3\uFE8E\uFB90\uFEE4\uFBFF\uFE96 \uFEB7\uFEE4\uFE8E
+        \uFEB7\uFEAA \u0648 \uFEB7\uFEE4\uFE8E \uFE8D\u0632 \uFEB3\uFEE4\uFE96 \uFEA7\uFEEE\u062F
+        \uFE91\uFEAE\uFB90\uFEE8\uFE8E\u0631 \uFEB7\uFEAA\uFBFE\uFEAA"
+      objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}
       propertyPath: m_Name
@@ -7058,6 +7256,41 @@ PrefabInstance:
         type: 3}
       propertyPath: id
       value: Niroo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[1].Image
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0,
+        type: 3}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[0].message
+      value: "\uFEED\uFEAF\uFBFE\uFEAE \uFE8D\uFEE7\uFEAE\uFB8A\u06CC \uFE91\uFEA8\uFE8E\uFEC3\uFEAE
+        \uFB90\uFEE4\uFE92\uFEEE\u062F \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\u062A \uFE8D\uFEE7\uFEAE\uFB8A\u06CC
+        \u0648 \uFE91\uFEA4\uFEAE\uFE8D\u0646 \uFEEB\uFE8E\u06CC \uFEB3\uFEEE\uFEA7\uFE98\uFBFD
+        \uFEA9\u0631 \uFEE3\uFEA0\uFEE0\uFEB2 \uFEC3\uFEAE\u062D \uFEB7\uFB91\uFE8E\uFBFE\uFE98\uFBFD
+        \uFECB\uFEE0\uFBFF\uFEEA \uFEB7\uFEE4\uFE8E \uFE97\uFEBC\uFEEE\uFBFE\uFE90
+        \uFB90\uFEAE\u062F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687287673355330435, guid: 255e905997e089840b12a79be04d5f7e,
+        type: 3}
+      propertyPath: GameoverCards.Array.data[1].message
+      value: "\uFE8D\uFBFE\uFEE6 \uFEE3\uFEEE\uFEBF\uFEEE\u0639 \uFE91\uFE8E\uFECB\uFE9A
+        \uFE8D\uFEB3\uFE98\uFBFF\uFEC0\uFE8E\u0639 \uFEB7\uFEE4\uFE8E \u0648 \uFE91\uFEAE\uFB90\uFEE8\uFE8E\uFEAD\u06CC
+        \uFEB7\uFEE4\uFE8E \uFE8D\u0632 \uFEAD\uFBFE\uFE8E\uFEB3\uFE96 \uFE9F\uFEE4\uFEEC\uFEEE\uFEAD\u06CC
+        \uFEB7\uFEAA"
       objectReference: {fileID: 0}
     - target: {fileID: 8687287673355330495, guid: 255e905997e089840b12a79be04d5f7e,
         type: 3}

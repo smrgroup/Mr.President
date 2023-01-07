@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a1c4ec8b77c2f645a5610fd33ff7a3d, type: 3}
-  m_Name: Challenge_Defend
+  m_Name: Challenge_Attacks
   m_EditorClassIdentifier: 
   SliderValue: 50
   PointTargetTowin: 49
@@ -20,8 +20,8 @@ MonoBehaviour:
     \uFEAF\uFEAD\uFEEB\uFBFD"
   Win_Spell_ID: goodspell2
   Lose_Spell_ID: goodspell3
-  Chapter_HID_Win: C1L4.1Q1
-  Chapter_HID_Lose: C1L4.2Q1
+  Chapter_HID_Win: C1L3.9Q1
+  Chapter_HID_Lose: C1L3.8Q1
   ChallengeFlow:
   - CardID: C1L3Q1
     CardType: 1
@@ -76,7 +76,7 @@ MonoBehaviour:
         \uFEB7\uFEAE\uFE8D\uFBFE\uFEC2 \uFED7\uFBFF\uFEAA \uFEB7\uFEAA\u0647 \uFEA9\u0631
         \uFB90\uFE8E\uFEAD\uFE97\uFEEC\uFE8E\u060C \uFEAD\uFEA9\uFBFE\uFED2 \uFB7C\uFE8E\uFEDF\uFEB6
         \uFEAD\u0627 \uFB58\uFEAE \uFEE3\uFBFF\uFB91\uFEE8\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
       LeftText: ...
       RightText: ...
       LeftValue: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFB7C\uFE8E\uFEDF\uFEB6 \u0648 \uFED7\uFEAE\uFEE3\uFEB0 \uFE91\uFEEA
         \uFEE3\uFECC\uFEE8\uFE8E\u06CC \uFEB7\uFB91\uFEB4\uFE96 \uFEA9\u0631 \uFB7C\uFE8E\uFEDF\uFEB6
         \uFE8D\uFEB3\uFE96 "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 3a3089d7d864cf94d9b58777c6f949a0, type: 3}
       LeftText: ...
       RightText: ...
       LeftValue: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
         \uFE91\uFEAE\uFE8D\u06CC \uFE8D\uFBFE\uFEE6 \uFB90\uFE8E\u0631 \uFE8D\u0632
         \uFB7C\uFEEA \uFBFE\uFB95\uFE8E\uFEE7\uFBFD \uFE8D\uFEB3\uFE98\uFED4\uFE8E\uFEA9\u0647
         \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u06CC\uFE8E\uFEEB \u0646\uFE8E\uFB95\uFBFE"
       RightText: "\uFBFD\uFEEB\uFEAD\uFEAF \u06CC\uFE8E\uFEEB \u0646\uFE8E\uFB95\uFBFE"
       LeftValue: 0
@@ -174,8 +174,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q4
       Right_Head_ID: C1L3.3Q4
   - CardID: C1L3.3Q3
@@ -205,8 +205,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q4
       Right_Head_ID: C1L3.3Q4
   - CardID: C1L3.3Q4
@@ -232,7 +232,7 @@ MonoBehaviour:
         \uFEE3\uFEE4\uFB91\uFEE6 \uFE8D\uFEB3\uFE96 \uFEA7\uFEC4\uFEAE\u06CC \uFEA9\u0631
         \uFEE3\uFEB4\uFBFF\uFEAE \uFE91\uFE8E\uFEB7\uFEAA \uFB7C\uFEEA \uFB90\uFEE4\uFB91\uFBFD
         \uFE91\uFEEA \uFE81\uFEE7\uFEEC\uFE8E \uFE91\uFB91\uFEE8\uFBFF\uFEE2\u061F "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \uFBFD\uFEE7\uFE8E\uFE92\uFBFF\uFE98\uFEB8\uFB58
         \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
       RightText: "\u062A\uFE8E\uFEE4\uFEEC\uFEE3 \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
@@ -266,8 +266,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q7
       Right_Head_ID: C1L3.3Q7
   - CardID: C1L3.3Q6
@@ -295,8 +295,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q7
       Right_Head_ID: C1L3.3Q7
   - CardID: C1L3.3Q7
@@ -324,7 +324,7 @@ MonoBehaviour:
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA \uFE97\uFE8E \uFE91\uFE98\uFEEE\uFE8D\uFEE7\uFEE8\uFEAA
         \uFE91\uFE8E \uFBFE\uFB95\uFE8E\u0646 \uFEEB\uFE8E \uFEA9\uFEB7\uFEE4\uFEE6
         \uFEE3\uFED8\uFE8E\uFE91\uFEE0\uFEEA \uFB90\uFEE8\uFEE8\uFEAA  "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFBFD\uFBFE\uFE8E\uFEB3\uFE8E\uFEE8\uFEB7 \u0646\uFE8E\uFB95\uFBFE
         \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
       RightText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u0646\uFE8E\uFB95\uFBFE \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
@@ -361,8 +361,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q10
       Right_Head_ID: C1L3.3Q10
   - CardID: C1L3.3Q9
@@ -393,8 +393,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q10
       Right_Head_ID: C1L3.3Q10
   - CardID: C1L3.3Q10
@@ -419,7 +419,7 @@ MonoBehaviour:
         \uFE91\uFE8E \uFEEB\uFEE4\uFBFF\uFEE6 \uFE97\uFECC\uFEAA\uFE8D\u062F \uFB58\uFE8E\uFEB3\uFEA6
         \uFED7\uFEAA\uFEAD\uFE97\uFEE4\uFEE8\uFEAA\u06CC \uFE91\uFEEA \uFEA9\uFEB7\uFEE4\uFEE6
         \uFE91\uFEAA\uFEEB\uFBFF\uFEE2 "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFE8E\uFEEC\uFEE7\uFE81
         \uFEEA\uFE91"
       RightText: "\uFEAA\uFBFF\uFEEB\uFEA9 \u0645\uFE8E\uFEA0\uFEE7\uFE8D \u0627\uFEEE\uFED7
@@ -454,8 +454,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q13
       Right_Head_ID: C1L3.3Q13
   - CardID: C1L3.3Q12
@@ -483,8 +483,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q13
       Right_Head_ID: C1L3.3Q13
   - CardID: C1L3.3Q13
@@ -541,7 +541,7 @@ MonoBehaviour:
         \uFE97\uFEBC\uFEE4\uFBFF\uFEE2 \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2 \uFB90\uFEEA
         \uFEE7\uFBFF\uFEAE\u0648 \uFEEB\uFE8E \uFB7C\uFEC4\uFEEE\u0631 \uFEA9\u0631
         \uFEB7\uFEEC\uFEAE \uFEE3\uFEB4\uFE98\uFED8\uFEAE \uFB90\uFEE8\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFE\uFEAD\uFEED\uFE8E\uFBFF\uFE91 \u062F\uFEED\uFEAE\uFED3
         \u06CC\uFEAA\uFBFF\uFEE0\uFB90 \uFED6\uFEC3\uFE8E\uFEE8\uFEE3 \u06CC\uFEED\uFEAD
         \uFEAE\uFE91"
@@ -577,8 +577,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q17
       Right_Head_ID: C1L3.3Q17
   - CardID: C1L3.3Q16
@@ -610,8 +610,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q17
       Right_Head_ID: C1L3.3Q17
   - CardID: C1L3.3Q17
@@ -637,7 +637,7 @@ MonoBehaviour:
         \uFE91\uFEEA \uFB58\uFEAE\uFEED\uFE8D\u0632 \uFEA9\u0631 \uFE91\uFBFF\uFE8E\uFEED\uFEAD\u062F
         \uFE8D\u0632 \uFB7C\uFEEA \uFEAD\uFE8D\uFEEB\uFBFD \uFE91\uFEEA \uFE8D\uFEE7\uFEEC\uFE8E
         \uFE97\uFEA0\uFEEC\uFBFF\uFEB0\uFE8D\u062A \uFE91\uFEAE\uFEB3\uFE8E\uFEE7\uFBFF\uFEE2\u061F "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\u062A\uFE8D\uFEB0\uFBFF\uFEEC\uFEA0\uFE97 \uFBFD\uFBFE\uFE8D\uFEEE\uFEEB
         \u0644\uFE8E\uFEB3\uFEAD\uFE8D"
       RightText: "\uFEAE\uFEEC\uFEB7 \u06CC\uFEA9\uFEED\uFEAD\uFEED \uFED6\uFBFE\uFEAE\uFEC3
@@ -671,8 +671,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q20
       Right_Head_ID: C1L3.3Q20
   - CardID: C1L3.3Q19
@@ -701,8 +701,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q20
       Right_Head_ID: C1L3.3Q20
   - CardID: C1L3.3Q20
@@ -732,7 +732,7 @@ MonoBehaviour:
         \uFEA7\uFEEE\u062F \uFEAD\u0627 \uFEA9\u0631 \uFEB7\uFEEC\uFEAE \uFEE3\uFEB4\uFE98\uFED8\uFEAE
         \uFB90\uFEAE\uFEA9\u0647 \uFEE3\uFE8E \uFB7C\uFEC4\uFEEE\u0631 \uFE91\uFEEA
         \uFE81\uFEE7\uFEEC\uFE8E \uFEA3\uFEE4\uFEE0\uFEEA \uFB90\uFEE8\uFBFF\uFEE2 "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFEE6\uFB91\uFED3\uFE8D
         \uFE90\uFEE4\uFE91 \uFE8E\uFE91"
       RightText: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFBFD\uFEE8\uFBFF\uFEE3\uFEAF
@@ -766,8 +766,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q23
       Right_Head_ID: C1L3.3Q23
   - CardID: C1L3.3Q22
@@ -796,7 +796,7 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
+      LeftValue: 10
       RightValue: 0
       Left_Head_ID: C1L3.3Q23
       Right_Head_ID: C1L3.3Q23
@@ -827,7 +827,7 @@ MonoBehaviour:
         \uFEA9\uFED3\uFE8E\uFECB\uFBFD \uFE81\uFEE7\uFEEC\uFE8E \uFEAD\u0627 \uFE8D\u0632
         \uFE91\uFBFF\uFEE6 \uFE91\uFE92\uFEAE\uFBFE\uFEE2 \uFE97\uFE8E \uFEB7\uFEEC\uFEAE
         \uFB90\uFE8E\uFEE3\uFEE0\uFE8E \uFEB3\uFED8\uFEEE\u0637 \uFB90\uFEE8\uFEAA  "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEEA\uFE92\uFEE7\uFE8E\uFE9F \uFEEA\uFEE4\uFEEB \uFEEA\uFEE0\uFEE4\uFEA3"
       RightText: "\u0647\uFEAA\uFEE7\uFE8E\uFEE3 \uFBFD\uFED7\uFE8E\uFE91 \u06CC\uFE8E\uFEEB
         \u0647\uFE8E\uFB95\uFBFE\uFE8E\uFB58 \uFEEA\uFE91 \uFEEA\uFEE0\uFEE4\uFEA3"
@@ -861,8 +861,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q26
       Right_Head_ID: C1L3.3Q26
   - CardID: C1L3.3Q25
@@ -889,8 +889,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q26
       Right_Head_ID: C1L3.3Q26
   - CardID: C1L3.3Q26
@@ -943,7 +943,7 @@ MonoBehaviour:
         \uFEE7\uFBFF\uFE8E\u0632 \uFE91\uFEEA \uFE81\u0646 \uFECF\uFEE0\uFE8E\u062A
         \uFE91\uFEAE\uFE8D\u06CC \uFE8D\uFEA9\uFE8D\uFEE3\uFEEA \uFE9F\uFEE8\uFB93
         \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90 \uFEEA\uFE91
         \uFEAE\uFE98\uFB58\uFEEE\uFB91\uFBFF\uFEE0\uFEEB \u0645\uFE8D\uFEB0\uFECB\uFE8D"
       RightText: "\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90 \uFEEA\uFE91
@@ -978,8 +978,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q30
       Right_Head_ID: C1L3.3Q30
   - CardID: C1L3.3Q29
@@ -1010,8 +1010,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q30
       Right_Head_ID: C1L3.3Q30
   - CardID: C1L3.3Q30
@@ -1033,7 +1033,7 @@ MonoBehaviour:
         \uFE8D\u0632 \uFEAD\uFE8D\u0647 \uFEAD\uFEB3\uFBFF\uFEAA\uFEE7\uFEAA \u0648
         \uFEED\uFED7\uFE98\uFEB8\uFEEA \uFE97\uFE8E \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
         \uFEAD\u0627 \uFE97\uFEBC\uFEAE\u0641 \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \uFBFD\uFEEB\uFEAD\uFEAF
         \u06CC\uFE8E\uFEEB \u0646\uFE8E\uFB95\uFBFE \uFE8E\uFE91"
       RightText: "\uFEAA\uFBFF\uFEE8\uFB90 \uFEEA\uFEE0\uFEE4\uFEA3 \u0645\uFE8E\uFEC8\uFEE7
@@ -1068,8 +1068,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q32
       Right_Head_ID: C1L3.3Q32
   - CardID: C1L3.3Q32
@@ -1098,7 +1098,7 @@ MonoBehaviour:
         \uFEE3\uFEE4\uFB91\uFEE6 \uFE8D\uFEB3\uFE96 \uFE91\uFEEA \uFEBF\uFEAE\u0631
         \uFE8D\u0632 \uFE91\uFBFF\uFEE6 \uFEAD\uFED3\uFE98\uFEE6 \uFEE3\uFEA4\uFEBC\uFEEE\uFEDF\uFE8E\u062A
         \uFECF\uFEE0\uFE8E\uFE97\uFBFD \uFEA9\u0631 \uFEB7\uFEEC\uFEAE\u06A9 \uFEB7\uFEEE\u062F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEEA\uFEE7\uFE8E\uFEA8\uFB58\uFEEE\uFE97 \u0632\uFE8D \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
       RightText: "\uFEE6\uFB91\uFED3\uFE8D \uFE90\uFEE4\uFE91 \u0632\uFE8D \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
       LeftValue: 0
@@ -1129,8 +1129,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q35
       Right_Head_ID: C1L3.3Q35
   - CardID: C1L3.3Q34
@@ -1159,8 +1159,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q35
       Right_Head_ID: C1L3.3Q35
   - CardID: C1L3.3Q35
@@ -1187,7 +1187,7 @@ MonoBehaviour:
         \uFEA9\uFEB7\uFEE4\uFEE6 \uFE91\uFB59\uFBFF\uFEEE\uFEE7\uFEAA\uFEE7\uFEAA
         \uFE8D\uFEE3\uFE8E \uFE81\uFEE7\uFEEC\uFE8E \uFEE3\uFEAE\uFEA9\u0645 \uFECB\uFE8E\uFEA9\u06CC
         \uFEEB\uFEB4\uFE98\uFEE8\uFEAA \u0648 \uFEB3\uFEAE\uFE91\uFE8E\u0632 \uFEE7\uFBFF\uFEB4\uFE98\uFEE8\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFEE8\uFE98\uFEB4\uFEEB \uFE8E\uFEE3 \uFEE6\uFEE4\uFEB7\uFEA9
         \uFEE2\uFEEB \uFE8E\uFEEC\uFEE7\uFE81"
       RightText: "\uFEAA\uFEE8\uFE98\uFEB4\uFBFF\uFEE7 \uFE8E\uFEE3 \uFEE6\uFEE4\uFEB7\uFEA9
@@ -1221,8 +1221,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q38
       Right_Head_ID: C1L3.3Q38
   - CardID: C1L3.3Q37
@@ -1251,8 +1251,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q38
       Right_Head_ID: C1L3.3Q38
   - CardID: C1L3.3Q38
@@ -1306,7 +1306,7 @@ MonoBehaviour:
         \uFEE7\uFEEE\u0639 \uFBFE\uFB95\uFE8E\u0646 \uFEEB\uFE8E \uFEAD\u0627 \uFEB7\uFEE8\uFE8E\uFEB3\uFE8E\uFBFE\uFBFD
         \uFB90\uFEE8\uFEE8\uFEAA\u060C\uFB7C\uFB95\uFEEE\uFEE7\uFEEA \uFEE3\uFEE8\uFEC4\uFED8\uFEEA
         \uFEAD\u0627 \uFB58\uFE8E\uFB90\uFEB4\uFE8E\uFEAF\u06CC \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFE8E\uFEEB \uFB8F\uFEB7\uFEEE\uFEE3 \u0632\uFE8D \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
       RightText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u0646\uFE8E\uFB95\uFBFE \u0632\uFE8D
         \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
@@ -1340,8 +1340,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q42
       Right_Head_ID: C1L3.3Q42
   - CardID: C1L3.3Q41
@@ -1369,8 +1369,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q42
       Right_Head_ID: C1L3.3Q42
   - CardID: C1L3.3Q42
@@ -1395,7 +1395,7 @@ MonoBehaviour:
         \uFEA9\u0631 \uFE81\uFEE3\uFEAA\u0647 \uFE8D\uFEE7\uFEAA \u060C\uFB90\uFEAA\uFE8D\u0645
         \uFBFE\uFB95\uFE8E\u0646 \uFEAD\u0627 \uFE8D\uFEED\u0644 \uFE91\uFEEA \uFEB7\uFEEC\uFEAE
         \uFE91\uFED4\uFEAE\uFEB3\uFE98\uFBFF\uFEE2\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFBFD\uFEEB\uFEAD\uFEAF \u0646\uFE8E\uFB95\uFBFE \u0632\uFE8D \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
       RightText: "\u0645\uFE8E\uFEC8\uFEE7 \u0647\uFEA9\uFE8E\uFBFF\uFB58 \u0646\uFE8E\uFB95\uFBFE
         \u0632\uFE8D \u0647\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D"
@@ -1429,8 +1429,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q45
       Right_Head_ID: C1L3.3Q45
   - CardID: C1L3.3Q44
@@ -1457,8 +1457,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q45
       Right_Head_ID: C1L3.3Q45
   - CardID: C1L3.3Q45
@@ -1484,7 +1484,7 @@ MonoBehaviour:
         \u0648 \uFEE3\uFE8E \uFE91\uFE8E\uFBFE\uFEAA \uFED3\uFEEE\uFEAD\u0627 \uFE81\uFEE7\uFEEC\uFE8E
         \uFEAD\u0627 \uFE8D\u0632 \uFB7C\uFEB8\uFEE2 \uFEEB\uFEE0\uFBFF\uFB91\uFEEE\uFB58\uFE98\uFEAE
         \uFEEB\uFE8E \uFB58\uFEE8\uFEEC\uFE8E\u0646 \uFB90\uFEE8\uFBFF\uFEE2"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFF\uFE98\uFEB3\uFEAE\uFED4\uFE91 \uFEDE\uFB95\uFEE8\uFE9F
         \uFEEA\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81"
       RightText: "\uFEAA\uFBFF\uFE98\uFEB3\uFEAE\uFED4\uFE91 \u0647\uFEEE\uFB90 \uFEEA\uFE91
@@ -1518,8 +1518,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: C1L3.3Q48
       Right_Head_ID: C1L3.3Q48
   - CardID: C1L3.3Q47
@@ -1551,8 +1551,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: C1L3.3Q48
       Right_Head_ID: C1L3.3Q48
   - CardID: C1L3.3Q48
@@ -1570,7 +1570,7 @@ MonoBehaviour:
         \uFE91\uFEEA \uFEB7\uFEEC\uFEAE \uFEA9\uFE8D\uFEAD\u062F \u0648 \uFE8D\u0632
         \uFEC3\uFEAE\uFED3\uFBFD \uFEEB\uFEE2 \uFEA9\u0631 \uFEA9\uFBFE\uFEAA \uFEA9\uFEB7\uFEE4\uFEE6
         \uFEE7\uFE92\uFE8E\uFEB7\uFEAA "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       LeftText: "\uFEAA\uFBFF\uFE98\uFEB3\uFEAE\uFED4\uFE91 \uFEDE\uFB95\uFEE8\uFE9F
         \uFEEA\uFE91 \u0627\uFEAD \uFE8E\uFEEC\uFEE7\uFE81"
       RightText: "\uFEAA\uFBFF\uFE98\uFEB3\uFEAE\uFED4\uFE91 \u0647\uFEEE\uFB90 \uFEEA\uFE91
@@ -1614,8 +1614,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: -10
+      RightValue: -10
       Left_Head_ID: 
       Right_Head_ID: 
   - CardID: C1L3.3Q50
@@ -1646,7 +1646,7 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: ...
       RightText: ...
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 10
       Left_Head_ID: 
       Right_Head_ID: 
