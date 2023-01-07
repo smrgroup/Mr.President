@@ -91,7 +91,7 @@ MonoBehaviour:
       ID: 
       Name: 
       Text: "\uFEB3\uFE8E\u0644...\u0660\u0663\u0660\u0662 "
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 72332c998024b8a4e92c4591eaf8000d, type: 3}
       Left_Head_ID: C1L0Q2
       Right_Head_ID: C1L0Q2
       Left_Choose_Text: ...
@@ -152,7 +152,7 @@ MonoBehaviour:
         \uFEB7\uFEAA\uFBFE\uFEAA \uFEED\uFEC7\uFBFF\uFED4\uFEEA \uFEB7\uFEE4\uFE8E
         \uFE91\uFEAE\uFED7\uFEAE\uFE8D\uFEAD\u06CC \uFECB\uFEAA\uFE8D\uFEDF\uFE96
         \uFE8D\uFEB3\uFE96"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: a47e03a444325704fa0bb365c7248405, type: 3}
       Left_Head_ID: C1L0Q3
       Right_Head_ID: C1L0Q3
       Left_Choose_Text: ...
@@ -182,7 +182,7 @@ MonoBehaviour:
         \uFEB7\uFEE4\uFE8E \uFEA3\uFEE4\uFE8E\uFBFE\uFE96 \uFB90\uFEAE\uFEA9\uFEE7\uFEAA
         \u0648 \uFE81\uFEE7\uFEEC\uFE8E \uFE8D\uFEE7\uFE98\uFEC8\uFE8E\u0631 \uFB58\uFBFF\uFEB8\uFEAE\uFED3\uFE96
         \uFB90\uFEB8\uFEEE\u0631 \uFEAD\u0627 \uFEA9\uFE8D\uFEAD\uFEE7\uFEAA"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0c24dcf461c283044801b16055889302, type: 3}
       Left_Head_ID: C1L0Q4
       Right_Head_ID: C1L0Q4
       Left_Choose_Text: ...
@@ -211,7 +211,7 @@ MonoBehaviour:
       Text: "\uFE8D\uFEE3\uFE8E \uFEE3\uFEB8\uFB91\uFEE0\uFE8E\uFE97\uFBFD \uFEA9\u0631
         \uFE8D\uFBFE\uFEE6 \uFEE3\uFEB4\uFBFF\uFEAE \uFEA7\uFEEE\uFE8D\uFEEB\uFBFF\uFEAA
         \uFEA9\uFE8D\uFEB7\uFE96..."
-      Image: {fileID: 21300000, guid: 63fe6c12af746e442905899fe093cbd4, type: 3}
+      Image: {fileID: 21300000, guid: 28d41f13b9fce0f4992d3a0ea560b26d, type: 3}
       Left_Head_ID: C1L0Q5
       Right_Head_ID: C1L0Q5
       Left_Choose_Text: ...
@@ -657,7 +657,7 @@ MonoBehaviour:
       Text: "\uFEA7\uFE92\uFEAE \uFED3\uFEEE\uFEAD\u06CC:  \uFEB3\uFED4\uFBFF\uFEAE
         \uFEE3\uFE8E \uFEA9\u0631 \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
         \uFB90\uFEB8\uFE98\uFEEA \uFEB7\uFEAA \uFED7\uFE8E\uFE97\uFEDE \uFB90\uFBFF\uFEB4\uFE96\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 3dac8674998611149b415ab471f0c17c, type: 3}
       Left_Head_ID: C1L1.1Q2
       Right_Head_ID: C1L1.1Q2
       Left_Choose_Text: "\u061F\uFBFD\uFB7C"
@@ -1228,7 +1228,7 @@ MonoBehaviour:
         \uFEAD\uFEED\uFE8D\uFE91\uFEC2 \uFE91\uFE8E \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD!!!
         \uFEA9\uFEAD\uFEA7\uFEEE\uFE8D\uFEB3\uFE96 \uFECF\uFEAE\uFE8D\uFEE3\uFE96
         \uFB58\uFEAC\uFBFE\uFEAE\uFED3\uFE98\uFEEA \uFEE7\uFEB8\uFEAA!!!"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: ce146e65e7fb0404098d412e33ef98ff, type: 3}
       Left_Head_ID: C1L1.8Q1
       Right_Head_ID: C1L1.8Q1
       Left_Choose_Text: "\uFE96\uFEB3\uFE8D \u0647\uFEAE\uFEA8\uFEB4\uFEE3 \uFE8E\uFECC\uFED7\uFE8D\uFEED
@@ -1262,7 +1262,7 @@ MonoBehaviour:
         \uFE8D\uFEA7\uFEAE\uFE8D\u062C \uFEB3\uFED4\uFEAE\uFE8D\u06CC \uFEE3\uFE8E
         \uFEE7\uFEB8\uFE8E\u0646 \uFEA9\uFEEB\uFEE8\uFEAA\u0647 \uFEBF\uFECC\uFED2
         \uFEA9\uFBFE\uFB59\uFEE0\uFEE4\uFE8E\uFEB3\uFBFD \uFE81\uFEE7\uFEEC\uFE8E\uFEB3\uFE96"
-      Image: {fileID: 21300000, guid: 8458e5d2eb95fa6409169465377e22d6, type: 3}
+      Image: {fileID: 21300000, guid: 19ed60cf436ff8a489309661793f618d, type: 3}
       Left_Head_ID: C1L1.8Q1
       Right_Head_ID: C1L1.8Q1
       Left_Choose_Text: "\u062F\uFEEE\uFE91 \u0646\uFEEE\uFEB8\uFED8\uFEA3"
@@ -1294,7 +1294,7 @@ MonoBehaviour:
       Name: 
       Text: "\uFE8D\uFED3\uFEB0\uFE8D\uFBFE\uFEB6 \uFE97\uFEE8\uFEB6 \uFE91\uFEAA\uFEE7\uFE92\uFE8E\u0644
         \uFEB7\uFB91\uFEB4\uFE96 \uFEA9\u0631 \uFEE3\uFEAC\uFE8D\uFB90\uFEAE\uFE8D\u062A"
-      Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
+      Image: {fileID: 21300000, guid: d1efe166b8318cb44ba9a8b894ccf711, type: 3}
       Left_Head_ID: C1L1.8Q1
       Right_Head_ID: C1L1.8Q1
       Left_Choose_Text: "\uFEAA\uFEB7 \uFEAA\uFEEB\uFE8D\uFEEE\uFEA7 \uFBFD\uFB94\uFEAD\uFEB0\uFE91
@@ -1503,7 +1503,7 @@ MonoBehaviour:
         \uFEED\uFEAF\uFBFE\uFEAE \uFB90\uFEB8\uFEEE\u0631 \uFEB7\uFEE4\uFE8E\uFEDF\uFBFD
         \uFE81\uFBFE\uFE8E \uFE8D\uFBFE\uFEE6 \uFBFE\uFB8F \uFE97\uFEE0\uFE8E\uFED3\uFBFD
         \uFE8D\uFEB3\uFE96\u061F\u061F\u061F"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 4a8d9753ed4987e43abd7ef98a27e937, type: 3}
       Left_Head_ID: C1L2.1Q3
       Right_Head_ID: C1L2.1Q3
       Left_Choose_Text: "\u061F\uFBFD\uFB7C"

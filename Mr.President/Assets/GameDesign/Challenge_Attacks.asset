@@ -44,7 +44,7 @@ MonoBehaviour:
         \uFE91\uFE8E\uFEDF\uFE8E\u06CC \u0668\u0661 \uFE97\uFE8E \u0660\u0664 \uFEB3\uFE8E\u0644
         \uFEA9\u0631 \uFE9F\uFEE8\uFB93 \uFEE3\uFE8E \uFE81\uFEE3\uFE8E\uFEA9\u0647
         \uFE8D\uFBFE\uFEE2!!!!"
-      Image: {fileID: 0}
+      Image: {fileID: 21300000, guid: 0947e6b7595c5094a916c8ee21ad09b2, type: 3}
       LeftText: "\uFE96\uFEB3\uFE8D \uFB8F\uFBFE\uFEA9\uFEB0\uFEE7 \uFE8E\uFEEC\uFEE7\uFE81
         \u0646\uFE8E\uFBFE\uFE8E\uFB58"
       RightText: "\u0646\uFEAA\uFEE3\uFE81 \u0634\uFEEE\uFEA7 \uFEE2\uFEE8\uFEEC\uFE9F
