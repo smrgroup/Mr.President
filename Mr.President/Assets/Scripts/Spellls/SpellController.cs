@@ -47,7 +47,7 @@ public class SpellController : MonoBehaviour
             foreach (Spell spell in spells)
             {
                 float castORnot = Random.Range(0, 100);
-                Debug.Log(castORnot+"%");
+                //Debug.Log(castORnot+"%");
                 if (castORnot <= spell.Percent_to_Spell && spell.Times_to_Spell > 0)
                 {
                     if (!spell.IsPowrUp)
