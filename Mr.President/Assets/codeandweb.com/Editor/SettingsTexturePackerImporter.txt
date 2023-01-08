@@ -1,0 +1,224 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/Skate/Sprite/1/360 Kiwi (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/360 pop (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/50 grind sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Backside Smithgrind (1).tpsheet
+- Assets/Resources/Skate/Sprite/1/Backside Tailslide (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Big Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/BS Disaster (1) Sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Bubble flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Casper Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Crooked Grind (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Cross Bone (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Darkside (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Drop in (1) Sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Feather Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Frontside Feeble (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Frontside Nosegrind (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/FS Salad (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Heel Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Impossible (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Jump (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Laser Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Melon Grab (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Move Down U Sheet.png.tpsheet
+- Assets/Resources/Skate/Sprite/1/Move Up U Sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Nightmare (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Nollie Flip Noseslide (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Ollie (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Plasma Spin (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Sigma Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Toe Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Under Flip (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Varial (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Vintage (1) sheet.tpsheet
+- Assets/Resources/Skate/Sprite/1/Walk (1) sheet.tpsheet
+- Assets/Sprites/Amusement Park/Funfair/Funfair sheet.tpsheet
+- Assets/Sprites/Amusement Park/MerryGoRound/MerryGoRound sheet.tpsheet
+- Assets/Sprites/Amusement Park/Ship/Ship sheet.tpsheet
+- Assets/Sprites/Enviroment/Fountain/1/Fountain sheet.tpsheet
+- Assets/Sprites/Ministers/Ministers.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Idle/Garfield Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Idle/Garfield Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Walk/Garfield Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Walk/Garfield Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Lili/Idle/Lili Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Lili/Idle/Lili Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Lili/Walk/Lili Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Lili/Walk/Lili Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Milo/Idle/Milo Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Milo/Idle/Milo Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Milo/Walk/Milo Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Cat/Milo/Walk/Milo Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Idle/Dalmatian Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Idle/Dalmatian Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Walk/Dalmatian Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Walk/Dalmatian Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Idle/Hapoo Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Idle/Hapoo Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Walk/Hapoo Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Walk/Hapoo Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Idle/Brown Mouse Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Idle/Brown Mouse Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Walk/Brown Mouse Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Walk/Brown Mouse Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Idle/Gray Moosh Idle Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Idle/Gray Moosh Idle Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Walk/Gray Moosh Walk Back Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Walk/Gray Moosh Walk Front Sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Squirrel/Squirrel Eating sheet.tpsheet
+- Assets/Sprites/NPC/Animals/Squirrel/Squirrel Idle sheet.tpsheet
+- Assets/Sprites/NPC/Attachments/Book/Book sheet.tpsheet
+- Assets/Sprites/NPC/Attachments/Spray/Sprays sheet.tpsheet
+- Assets/Sprites/NPC/Picnic/sheet.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/Skate/Sprite/1/360 Kiwi (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/360 pop (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/50 grind sheet.png
+- Assets/Resources/Skate/Sprite/1/Backside Smithgrind (1).png
+- Assets/Resources/Skate/Sprite/1/Backside Tailslide (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Big Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/BS Disaster (1) Sheet.png
+- Assets/Resources/Skate/Sprite/1/Bubble flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Casper Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Crooked Grind (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Cross Bone (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Darkside (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Drop in (1) Sheet.png
+- Assets/Resources/Skate/Sprite/1/Feather Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Frontside Feeble (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Frontside Nosegrind (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/FS Salad (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Heel Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Impossible (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Jump (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Laser Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Melon Grab (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Move Down U Sheet.png.png
+- Assets/Resources/Skate/Sprite/1/Move Up U Sheet.png
+- Assets/Resources/Skate/Sprite/1/Nightmare (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Nollie Flip Noseslide (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Ollie (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Plasma Spin (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Sigma Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Toe Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Under Flip (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Varial (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Vintage (1) sheet.png
+- Assets/Resources/Skate/Sprite/1/Walk (1) sheet.png
+- Assets/Sprites/Amusement Park/Funfair/Funfair sheet.png
+- Assets/Sprites/Amusement Park/MerryGoRound/MerryGoRound sheet.png
+- Assets/Sprites/Amusement Park/Ship/Ship sheet.png
+- Assets/Sprites/Enviroment/Fountain/1/Fountain sheet.png
+- Assets/Sprites/Ministers/Ministers.png
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Idle/Garfield Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Idle/Garfield Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Walk/Garfield Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Garfield/Walk/Garfield Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Lili/Idle/Lili Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Lili/Idle/Lili Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Lili/Walk/Lili Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Lili/Walk/Lili Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Milo/Idle/Milo Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Milo/Idle/Milo Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Milo/Walk/Milo Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Cat/Milo/Walk/Milo Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Idle/Dalmatian Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Idle/Dalmatian Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Walk/Dalmatian Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Dalmatian/Walk/Dalmatian Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Idle/Hapoo Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Idle/Hapoo Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Walk/Hapoo Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Dog/Hapoo/Walk/Hapoo Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Idle/Brown Mouse Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Idle/Brown Mouse Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Walk/Brown Mouse Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Brown/Walk/Mouse 2 Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Idle/Gray Moosh Idle Back Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Idle/Gray Moosh Idle Front Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Walk/Gray Moosh Walk Back Sheet.png
+- Assets/Sprites/NPC/Animals/Mouse/Gray/Walk/Moosh Walk Sheet.png
+- Assets/Sprites/NPC/Animals/Squirrel/Squirrel Eating sheet.png
+- Assets/Sprites/NPC/Animals/Squirrel/Squirrel Idle sheet.png
+- Assets/Sprites/NPC/Attachments/Book/Book sheet.png
+- Assets/Sprites/NPC/Attachments/Spray/Sprays sheet.png
+- Assets/Sprites/NPC/Picnic/sheet.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0
