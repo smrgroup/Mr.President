@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Chapter_1
   m_EditorClassIdentifier: 
   ChapterFlow:
-  - elementName: C1L0Q0
+  - elementName: Jump-1
     _Challenge: 0
     Challenge: {fileID: 0}
-    Available: 0
-    CardID: C1L0Q0
+    Available: 1
+    CardID: Jump-1
     CardType: 1
     RandomCards: []
     SimpleCards:
@@ -34,9 +34,9 @@ MonoBehaviour:
       ID: 
       Name: 
       Text: Jump
-      Image: {fileID: 0}
-      Left_Head_ID: C1L2.9Q1
-      Right_Head_ID: C1L2.9Q1
+      Image: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0, type: 3}
+      Left_Head_ID: C1L2.5Q6
+      Right_Head_ID: C1L2.5Q6
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers:
@@ -2233,6 +2233,33 @@ MonoBehaviour:
       Right_Head_ID: 
       Left_Choose_Text: 
       Right_Choose_Text: 
+      Ministers: []
+  - elementName: Jump-2
+    _Challenge: 0
+    Challenge: {fileID: 0}
+    Available: 1
+    CardID: Jump-2
+    CardType: 1
+    RandomCards: []
+    SimpleCards:
+      ID: 
+      Name: 
+      Text: 
+      Image: {fileID: 21300000, guid: 5693ce3e5a03bd647892624b2198e50c, type: 3}
+      Left_Head_ID: 
+      Right_Head_ID: 
+      Left_Choose_Text: 
+      Right_Choose_Text: 
+      Ministers: []
+    FastCards:
+      ID: 
+      Name: 
+      Text: Jump
+      Image: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0, type: 3}
+      Left_Head_ID: C1L2.9Q1
+      Right_Head_ID: C1L2.9Q1
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
       Ministers: []
   - elementName: C1L2.7Q2
     _Challenge: 0
