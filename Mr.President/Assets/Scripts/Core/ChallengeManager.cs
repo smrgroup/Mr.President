@@ -88,6 +88,9 @@ public class ChallengeManager : MonoBehaviour
         GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform);
         CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
         this.challenge = challenge;
+        challenge_Head = 0;
+
+
         // make clone of CardsData for Save Main Data
         if (this.challenge == null)
         {
@@ -249,6 +252,8 @@ public class ChallengeManager : MonoBehaviour
     {
         GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform.position, StaticData.gameManager.BackGroundPlay.transform.rotation, StaticData.gameManager.BackGroundPlay.transform);
         CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
+
+
 
         if (challenge_Slider.value >= Clonechallenge.PointTargetTowin)
         {
