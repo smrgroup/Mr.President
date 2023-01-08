@@ -2387,7 +2387,7 @@ MonoBehaviour:
         \uFEA9\uFEB7\uFEE4\uFEE6 \uFEE3\uFBFF\uFEB8\uFEEE\uFEE7\uFEAA"
       Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q5
-      Right_Head_ID: C1L3.3Q1
+      Right_Head_ID: C1L3.1Q1
       Left_Choose_Text: "\u061F\uFBFD\uFEE3\uFEEE\uFEA0\uFEEB"
       Right_Choose_Text: "\uFEE2\uFEE8\uFB91\uFBFF\uFEE3 \u0628\uFE8E\uFEA8\uFE98\uFEE7\uFE8D
         \uFBFD\uFECB\uFE8E\uFED3\uFEA9 \uFE96\uFEDF\uFE8E\uFEA3 \uFEE6\uFEE3"
@@ -2419,7 +2419,7 @@ MonoBehaviour:
         \uFE97\uFEBC\uFEAE\u0641 \uFEB7\uFEAA\u0647 \uFE8D\uFEB3\uFE96"
       Image: {fileID: 21300000, guid: 0306ddccec10fd7419bafeaa187e4522, type: 3}
       Left_Head_ID: C1L2.9Q4
-      Right_Head_ID: C1L3.1Q1
+      Right_Head_ID: C1L3.3Q1
       Left_Choose_Text: "\u061F\uFBFD\uFECB\uFE8E\uFED3\uFEA9"
       Right_Choose_Text: "\uFEE2\uFEE8\uFB91\uFBFF\uFEE3 \u0628\uFE8E\uFEA8\uFE98\uFEE7\uFE8D
         \uFBFD\uFEE4\uFE9F\uFE8E\uFEEC\uFE97 \uFE96\uFEDF\uFE8E\uFEA3 \uFEE6\uFEE3"
@@ -2604,10 +2604,10 @@ MonoBehaviour:
         \uFB7C\uFBFF\uFEB0\u06CC \uFEAD\u0627 \uFEE3\uFBFF\uFE98\uFEEE\uFE8D\uFEE7\uFEE8\uFEAA
         \uFEA9\uFE8D\uFEB7\uFE98\uFEEA \uFE91\uFE8E\uFEB7\uFEE8\uFEAA "
       Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
-      Left_Head_ID: ...
-      Right_Head_ID: ...
-      Left_Choose_Text: C1L3.9Q2
-      Right_Choose_Text: C1L3.9Q2
+      Left_Head_ID: C1L3.9Q2
+      Right_Head_ID: C1L3.9Q2
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
       Ministers: []
   - elementName: C1L3.9Q2
     _Challenge: 0
@@ -2638,10 +2638,10 @@ MonoBehaviour:
         \uFEA7\uFEEE\uFEA9\uFEB7\uFE8E\u0646 \uFEAD\u0627 \uFBFE\uFB91\uFE92\uFE8E\u0631
         \uFE91\uFBFF\uFE8E\u0646 \uFEE3\uFBFF\uFB91\uFEE8\uFEE8\uFEAA "
       Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
-      Left_Head_ID: ...
-      Right_Head_ID: ...
-      Left_Choose_Text: C1L3.9Q3
-      Right_Choose_Text: C1L3.9Q3
+      Left_Head_ID: C1L3.9Q3
+      Right_Head_ID: C1L3.9Q3
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
       Ministers: []
   - elementName: C1L3.9Q3
     _Challenge: 0
@@ -2667,10 +2667,10 @@ MonoBehaviour:
         \uFEE3\uFEE8\uFE8E\uFED3\uFECA \uFEA7\uFEEE\u062F \uFE97\uFEBC\uFEE4\uFBFF\uFEE2
         \uFE91\uFB95\uFBFF\uFEAE\uFBFE\uFEE2"
       Image: {fileID: 21300000, guid: 99136d22a3b6b2f42aefc777351afc94, type: 3}
-      Left_Head_ID: ...
-      Right_Head_ID: ...
-      Left_Choose_Text: C1L4.1Q1
-      Right_Choose_Text: C1L4.1Q1
+      Left_Head_ID: C1L4.1Q1
+      Right_Head_ID: C1L4.1Q1
+      Left_Choose_Text: ...
+      Right_Choose_Text: ...
       Ministers: []
   - elementName: C1L4.1Q1
     _Challenge: 1
