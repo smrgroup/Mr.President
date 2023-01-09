@@ -16,7 +16,7 @@ MonoBehaviour:
   - elementName: Jump-1
     _Challenge: 0
     Challenge: {fileID: 0}
-    Available: 0
+    Available: 1
     CardID: Jump-1
     CardType: 1
     RandomCards: []
@@ -35,8 +35,8 @@ MonoBehaviour:
       Name: 
       Text: Jump
       Image: {fileID: 21300000, guid: f8d4947148473514db566298aa09ffa0, type: 3}
-      Left_Head_ID: C1L2.5Q6
-      Right_Head_ID: C1L2.5Q6
+      Left_Head_ID: C1L3.9Q3
+      Right_Head_ID: C1L3.9Q3
       Left_Choose_Text: ...
       Right_Choose_Text: ...
       Ministers: []

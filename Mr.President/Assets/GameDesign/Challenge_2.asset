@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Challenge_2
   m_EditorClassIdentifier: 
   SliderValue: 0
-  PointTargetTowin: 75
+  PointTargetTowin: 50
   WinText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u062A\uFE8D\uFEB0\uFBFF\uFEEC\uFEA0\uFE97
     \uFE8E\uFED8\uFE97\uFEAD\uFE8D \u0631\uFEA9 \u06CC\uFEAF\uFEED\uFEAE\uFBFF\uFB58"
   LoseText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u062A\uFE8D\uFEB0\uFBFF\uFEEC\uFEA0\uFE97
