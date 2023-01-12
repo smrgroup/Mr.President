@@ -22,10 +22,15 @@ public class MinisterController : MonoBehaviour
     public List<Minister_GameOverCard> GameoverCards;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        OnEndOfMinister = new UnityEvent<string>();
+    }
+
     void Start()
     {
         StartCoroutine(StartFill());
-        OnEndOfMinister = new UnityEvent<string>();
     }
 
     // Update is called once per frame

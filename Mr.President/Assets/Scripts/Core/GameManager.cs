@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     public bool ActiveChallenge;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         StaticData.gameManager = this;
 
@@ -79,8 +79,11 @@ public class GameManager : MonoBehaviour
         if (Application.platform == RuntimePlatform.Android)
             Application.targetFrameRate = 100;
 
-        MinisterController.OnEndOfMinister.AddListener(OnministerEnd);
+    }
 
+    private void Start()
+    {
+        MinisterController.OnEndOfMinister.AddListener(OnministerEnd);
     }
 
     // Update is called once per frame
