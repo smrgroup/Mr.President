@@ -293,8 +293,22 @@ public class GameManager : MonoBehaviour
     public CardDetails GetRandomCard()
     {
         int rnd = Random.Range(0, Clonecardsdata.RandomCards.Count);
-        CardDetails choosed = Clonecardsdata.RandomCards[rnd];
-        Clonecardsdata.RandomCards.Remove(choosed);
+
+        if (chapterflow[CardHead].RandomlistID == "")
+        { 
+            Debug.LogError("RandomlistID Is Empty");
+            return null;
+        }
+        
+        CardDetails choosed = Clonecardsdata.RandomCards
+            .Find(R => R.RandomListID == chapterflow[CardHead].RandomlistID)
+            .RandomCards[rnd];
+
+        Clonecardsdata.RandomCards.
+            Find(R => R.RandomListID == chapterflow[CardHead].RandomlistID)
+            .RandomCards
+            .Remove(choosed);
+
         return choosed;
     }
     #endregion

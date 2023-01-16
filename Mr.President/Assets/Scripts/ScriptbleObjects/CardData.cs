@@ -9,7 +9,7 @@ public class CardData : ScriptableObject
 
     [Header("<<Chapter Config>>")]
     public List<Chapter> ChapterFlow = new List<Chapter>();
-    public List<CardDetails> RandomCards = new List<CardDetails>();
+    public List<RandomCardsList> RandomCards = new List<RandomCardsList>();
 
     private void OnValidate()
     {
@@ -57,6 +57,13 @@ public class CardDetails
 }
 
 [System.Serializable]
+public class RandomCardsList
+{
+    public string RandomListID;
+    public List<CardDetails> RandomCards = new List<CardDetails>();
+}
+
+[System.Serializable]
 public class Chapter
 {
     [HideInInspector]
@@ -81,6 +88,9 @@ public class Chapter
     [DrawIf("Available", true)]
     [DrawIf("_Challenge", false)]
     public CardType CardType;
+    [Header("if Cardtype is random enter listID below")]
+    public string RandomlistID;
+
 
     [Space(10)]
     [Header("<<Cards>>")]
