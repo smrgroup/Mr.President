@@ -9,7 +9,7 @@ public class CardData : ScriptableObject
 
     [Header("<<Chapter Config>>")]
     public List<Chapter> ChapterFlow = new List<Chapter>();
-
+    public List<CardDetails> RandomCards = new List<CardDetails>();
 
     private void OnValidate()
     {
@@ -84,7 +84,6 @@ public class Chapter
 
     [Space(10)]
     [Header("<<Cards>>")]
-    public List<CardDetails> RandomCards = new List<CardDetails>();
     public CardDetails SimpleCards = new CardDetails();
     public CardDetails FastCards = new CardDetails();
 

@@ -216,14 +216,14 @@ public class GameManager : MonoBehaviour
         }
         else if (next_cardtype == CardType.Fast)
         {
-            if (cardsdata.ChapterFlow[CardHead]._Challenge)
+            if (Clonecardsdata.ChapterFlow[CardHead]._Challenge)
                 return null;
             else
-                return cardsdata.ChapterFlow[CardHead].FastCards;
+                return Clonecardsdata.ChapterFlow[CardHead].FastCards;
         }
         else if (next_cardtype == CardType.simple)
         {
-            return cardsdata.ChapterFlow[CardHead].SimpleCards;
+            return Clonecardsdata.ChapterFlow[CardHead].SimpleCards;
         }
         return null;
     }
@@ -292,8 +292,10 @@ public class GameManager : MonoBehaviour
 
     public CardDetails GetRandomCard()
     {
-        int rnd = Random.Range(0, cardsdata.ChapterFlow[CardHead].RandomCards.Count);
-        return cardsdata.ChapterFlow[CardHead].RandomCards[rnd];
+        int rnd = Random.Range(0, Clonecardsdata.RandomCards.Count);
+        CardDetails choosed = Clonecardsdata.RandomCards[rnd];
+        Clonecardsdata.RandomCards.Remove(choosed);
+        return choosed;
     }
     #endregion
 
