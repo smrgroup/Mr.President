@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1c4ec8b77c2f645a5610fd33ff7a3d, type: 3}
   m_Name: Challenge_Nego_Win
   m_EditorClassIdentifier: 
-  SliderValue: 50
+  SliderValue: 0
   PointTargetTowin: 50
   WinText: "\uFEA9\u0631 \uFE8D\uFE9B\uFEAE \uFB94\uFED4\uFE96 \u0648 \uFB94\uFEEE
     \uFEE3\uFE9C\uFE92\uFE96 \u060C\uFE97\uFEEE\uFE8D\uFEE7\uFEB4\uFE98\uFBFF\uFEE2
@@ -28,6 +28,8 @@ MonoBehaviour:
     \uFEA9\u0631 \uFE97\uFEE8\uFEB6 \uFED7\uFEAE\uFE8D\u0631 \uFE91\uFB95\uFBFF\uFEAE\uFEE7\uFEAA"
   Win_Spell_ID: 
   Lose_Spell_ID: 
+  Chapter_HID_Win: C1L4.4Q1
+  Chapter_HID_Lose: C1L4.4Q1
   ChallengeFlow:
   - CardID: C1L4Q1
     CardType: 1
@@ -142,8 +144,8 @@ MonoBehaviour:
         \u0646\uFEAA\uFEB7 \uFEEA\uFEE4\uFBFF\uFEE4\uFEBF"
       RightText: "\uFBFD\uFE98\uFECC\uFEE8\uFEBB \u0646\uFEAA\uFECC\uFEE3 \u0646\uFEAA\uFEB7
         \uFEEA\uFEE4\uFBFF\uFEE4\uFEBF"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 5
+      RightValue: 10
       Left_Head_ID: C1L4.2Q2
       Right_Head_ID: C1L4.2Q2
   - CardID: C1L4.2Q2
@@ -174,10 +176,10 @@ MonoBehaviour:
         \u062A\uFE8D\uFEAD\uFE8E\uFEB4\uFEA7 \uFE96\uFEB3\uFE8D\uFEEE\uFEA7\uFEAD\uFEA9"
       RightText: "\uFBFD\uFE98\uFECC\uFEE8\uFEBB \u06CC\uFE8E\uFEEB \uFEEA\uFEE7\uFE8E\uFEA7\uFEAD\uFE8E\uFB90
         \u062A\uFE8D\uFEAD\uFE8E\uFEB4\uFEA7 \uFE96\uFEB3\uFE8D\uFEEE\uFEA7\uFEAD\uFEA9"
-      LeftValue: 0
-      RightValue: 0
-      Left_Head_ID: 
-      Right_Head_ID: 
+      LeftValue: 10
+      RightValue: 5
+      Left_Head_ID: C1L4.2Q3
+      Right_Head_ID: C1L4.2Q3
   - CardID: C1L4.2Q3
     CardType: 1
     Available: 1
@@ -202,8 +204,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
       RightText: "\uFEE2\uFED4\uFEDF\uFE8E\uFEA8\uFEE3"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 5
+      RightValue: 10
       Left_Head_ID: C1L4.2Q4
       Right_Head_ID: C1L4.2Q4
   - CardID: C1L4.2Q4
@@ -234,8 +236,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: "\uFBFD\uFBFE\uFE8D\uFEEE\uFEEB \u062A\uFEAD\uFEAA\uFED7 \uFEB6\uFEEB\uFE8E\uFB90"
       RightText: "\uFBFD\uFEE8\uFBFF\uFEE3\uFEAF \u062A\uFEAD\uFEAA\uFED7 \uFEB6\uFEEB\uFE8E\uFB90"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 5
+      RightValue: 10
       Left_Head_ID: C1L4.2Q5
       Right_Head_ID: C1L4.2Q5
   - CardID: C1L4.2Q5
@@ -265,8 +267,8 @@ MonoBehaviour:
       LeftText: "\uFEEA\uFEB7\uFE8E\uFE91"
       RightText: "\uFE96\uFEB3\uFE8D \uFEE6\uFBFF\uFEE7\uFE8D\uFEEE\uFED7 \u0632\uFE8D
         \u062C\uFEAD\uFE8E\uFEA7 \uFEE6\uFBFE\uFE8D \uFEAE\uFBFF\uFEA7"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 5
       Left_Head_ID: C1L4.2Q6
       Right_Head_ID: C1L4.2Q6
   - CardID: C1L4.2Q6
@@ -295,8 +297,8 @@ MonoBehaviour:
       Image: {fileID: 0}
       LeftText: "\uFEAA\uFEA3\uFE8D\uFEED \u0631\uFE8D\uFEB0\uFEEB \u0664\u0660 \uFE8E\uFEEC\uFEE8\uFE97"
       RightText: "\uFEE2\uFED8\uFED3\uFE8D\uFEEE\uFEE3"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 5
+      RightValue: 10
       Left_Head_ID: C1L4.2Q7
       Right_Head_ID: C1L4.2Q7
   - CardID: C1L4.2Q7
@@ -327,8 +329,8 @@ MonoBehaviour:
       LeftText: "\uFEAA\uFBFF\uFEEB\uFEAA\uFE91 \u0627\uFEAD \uFE96\uFED4\uFEE7 \u062F\uFE8E\uFEEC\uFEE8\uFEB8\uFBFF\uFB58"
       RightText: "\uFEAA\uFBFF\uFEEB\uFEAA\uFE91 \u0627\uFEAD \u0632\uFE8E\uFB94
         \u062F\uFE8E\uFEEC\uFEE8\uFEB8\uFBFF\uFB58"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 10
+      RightValue: 5
       Left_Head_ID: C1L4.2Q8
       Right_Head_ID: C1L4.2Q8
   - CardID: C1L4.2Q8
@@ -360,8 +362,8 @@ MonoBehaviour:
       RightText: "\uFEEA\uFBFE\uFE8E\uFEB4\uFEE4\uFEEB \u06CC\uFE8E\uFEEB \u0631\uFEEE\uFEB8\uFB90
         \uFE8E\uFE91 \u06CC\uFEAD\uFE8E\uFEA0\uFE97 \u0637\uFE8E\uFE92\uFE97\uFEAD\uFE8D
         \uFECA\uFEC4\uFED7 \uFE96\uFEB3\uFE8D\uFEEE\uFEA7\uFEAD\uFEA9"
-      LeftValue: 0
-      RightValue: 0
+      LeftValue: 5
+      RightValue: 10
       Left_Head_ID: C1L4.2Q9
       Right_Head_ID: C1L4.2Q9
   - CardID: C1L4.2Q9
@@ -393,6 +395,6 @@ MonoBehaviour:
       RightText: "\uFE96\uFEB3\uFE8D \uFE8E\uFEEC\uFEE7\uFE81 \uFE8E\uFE91 \uFEEA\uFEE7\uFE8E\uFEA7\uFEA9\uFEED\uFEAD
         \uFE96\uFBFF\uFB91\uFEDF\uFE8E\uFEE3"
       LeftValue: 0
-      RightValue: 0
+      RightValue: 10
       Left_Head_ID: 
       Right_Head_ID: 
