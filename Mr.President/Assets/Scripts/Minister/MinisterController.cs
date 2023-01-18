@@ -30,6 +30,7 @@ public class MinisterController : MonoBehaviour
 
     void Start()
     {
+        value = StaticData.gameManager.savedgamedata.ministers.Find(x => x.id == id).value;
         StartCoroutine(StartFill());
     }
 
@@ -54,7 +55,7 @@ public class MinisterController : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        while (borderfill.fillAmount < 0.5f)
+        while (borderfill.fillAmount < value)
         {
             yield return new WaitForSeconds(0.0015f);
             borderfill.fillAmount += 0.005f;
@@ -70,6 +71,7 @@ public class MinisterController : MonoBehaviour
 
     }
 
+
     public void setvalue(float incomevalue)
     {
         value = value + incomevalue;
@@ -83,6 +85,5 @@ public class MinisterController : MonoBehaviour
             if (!StaticData.gameManager.ENDofGame)
                 OnEndOfMinister.Invoke(this.id);
     }
-
 
 }

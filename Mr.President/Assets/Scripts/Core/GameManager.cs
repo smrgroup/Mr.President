@@ -4,11 +4,14 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 
 public class GameManager : MonoBehaviour
 {
+
+    public GameData savedgamedata = new GameData();
 
     public bool ENDofGame = false;
 
@@ -71,6 +74,8 @@ public class GameManager : MonoBehaviour
         // Chapter Data
         chapterflow = Clonecardsdata.ChapterFlow;
 
+      
+        LoadSavedData();
 
         // Find SPellController
         spellcontroller = FindObjectOfType<SpellController>();
@@ -91,6 +96,8 @@ public class GameManager : MonoBehaviour
     {
 
     }
+
+
 
     #region CardController
     IEnumerator intialCardArea()
@@ -234,6 +241,7 @@ public class GameManager : MonoBehaviour
         dragstate = state;
         AddMinistersEffect();
         Cardheadmanager();
+        SaveGame();
         CreateCard();
     }
 
@@ -346,6 +354,62 @@ public class GameManager : MonoBehaviour
         ENDofGame = true;
     }
 
+
+    #endregion
+
+    #region SaveData
+
+    public void LoadSavedData()
+    {
+
+        if (PlayerPrefs.HasKey(StaticData.SAVE_KEY))
+        {
+           
+            Debug.Log(PlayerPrefs.GetString(StaticData.SAVE_KEY));
+
+            savedgamedata = JsonUtility.FromJson<GameData>(PlayerPrefs.GetString(StaticData.SAVE_KEY));
+
+            if (cardsdata.name == savedgamedata.Chapter)
+            {
+                CardHead = savedgamedata.CardHead;
+                chapterflow = savedgamedata.Lastchapterstate;
+            }
+ 
+        }
+    }
+
+    public void SaveGame()
+    { 
+        GameData gamedata = new GameData();
+        gamedata.ministers = new List<MinistersSaveData>();
+
+        gamedata.Chapter = cardsdata.name;
+        gamedata.CardHead = CardHead;
+        gamedata.CardHeadID = Clonecardsdata.ChapterFlow[CardHead].CardID;
+        gamedata.Lastchapterstate = chapterflow;
+
+        ministers = FindObjectsOfType<MinisterController>().ToList();
+
+  
+        foreach (var minister in ministers)
+        {
+            MinistersSaveData newministerdata = new MinistersSaveData(minister.id,minister.value);
+            gamedata.ministers.Add(newministerdata);
+        }
+
+        var json = JsonUtility.ToJson(gamedata);
+        PlayerPrefs.SetString(StaticData.SAVE_KEY,json);
+
+        //GameData newgamedata = new GameData();
+        //newgamedata = JsonUtility.FromJson<GameData>(PlayerPrefs.GetString(StaticData.SAVE_KEY));
+
+    }
+
+    [ContextMenu("Delete SaveData")]
+    public void deleteSaveData()
+    {
+        PlayerPrefs.DeleteKey(StaticData.SAVE_KEY);
+    }
 
     #endregion
 

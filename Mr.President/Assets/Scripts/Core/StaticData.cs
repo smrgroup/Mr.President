@@ -5,4 +5,5 @@ using UnityEngine;
 public static class StaticData
 {
     public static GameManager gameManager;
+    public static string SAVE_KEY = "SaveData";
 }
