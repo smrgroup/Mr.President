@@ -30,7 +30,9 @@ public class MinisterController : MonoBehaviour
 
     void Start()
     {
-        value = StaticData.gameManager.savedgamedata.ministers.Find(x => x.id == id).value;
+        if (StaticData.gameManager.savedgamedata.ministers != null)
+            value = StaticData.gameManager.savedgamedata.ministers.Find(x => x.id == id).value;
+        
         StartCoroutine(StartFill());
     }
 
