@@ -11,9 +11,11 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
+    public List<CardData> chapters;
+
     public GameData savedgamedata = new GameData();
 
-    public bool ENDofGame = false;
+    public bool EndofGame = false;
 
     [Header("PreFabs")]
     public GameObject CardsArea;
@@ -67,6 +69,7 @@ public class GameManager : MonoBehaviour
         ministers = FindObjectsOfType<MinisterController>().ToList();
         textarea = FindObjectOfType<TextManager>();
 
+        cardsdata = chapters.Find(x => x.name == PlayerPrefs.GetString("Chapter"));
 
         // make clone of CardsData for Save Main Data
         Clonecardsdata = Instantiate(cardsdata);
@@ -136,7 +139,7 @@ public class GameManager : MonoBehaviour
     public void CreateCard()
     {
         // end Game by minister
-        if (ENDofGame == true)
+        if (EndofGame == true)
             return;
 
         //int chapterCards = chapterflow.FindAll(x => x.Available == true).Count - 1;
@@ -330,7 +333,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("END OF THE GAME BY MINISTERID : " + MinisterID);
         Targetminister = ministers.Find(minister => minister.id == MinisterID);
         createMinisterEndsCard();
-        ENDofGame = true;
+        EndofGame = true;
     }
 
     public void createMinisterEndsCard()
@@ -351,7 +354,7 @@ public class GameManager : MonoBehaviour
     void ChapterEnd()
     {
         EndGame.SetBool("play", true);
-        ENDofGame = true;
+        EndofGame = true;
     }
 
 

@@ -84,7 +84,7 @@ public class MinisterController : MonoBehaviour
             value = 0;
 
         if (value == 0 || value == 1)
-            if (!StaticData.gameManager.ENDofGame)
+            if (!StaticData.gameManager.EndofGame)
                 OnEndOfMinister.Invoke(this.id);
     }
 

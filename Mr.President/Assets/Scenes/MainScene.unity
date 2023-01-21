@@ -284,7 +284,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe07d48162d2762408c2935a0596396b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ENDofGame: 0
+  chapters:
+  - {fileID: 11400000, guid: 9cfeedc5f04a51941b7b234315927243, type: 2}
+  - {fileID: 11400000, guid: 0a8d78df4de388b489b3767a4b6e90f7, type: 2}
+  EndofGame: 0
   CardsArea: {fileID: 454010090}
   BackGroundPlay: {fileID: 788653474}
   Loading: {fileID: 208285753}
