@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -138,13 +139,13 @@ public class CardDragController : MonoBehaviour
             if (transform.position.x >= ChoosenArea && state == State.Middle)
             {
                 state = State.Right;
-                SignMinisters();
+                SignMinisters(true,state);
                 RightTween.OpenCloseObjectAnimation();
             }
             else if (transform.position.x <= -ChoosenArea && state == State.Middle)
             {
                 state = State.Left;
-                SignMinisters();
+                SignMinisters(true , state);
                 LeftTween.OpenCloseObjectAnimation();
             }
             else if (transform.position.x <= ChoosenArea && transform.position.x >= -ChoosenArea)
@@ -219,9 +220,9 @@ public class CardDragController : MonoBehaviour
         StartCoroutine(RLMoveAwait(0.2f, gameObject));
     }
 
-    public virtual void SignMinisters(bool state = true)
+    public virtual void SignMinisters(bool sign = true , State state = State.Middle)
     {
-        if (state)
+        if (sign)
         {
             foreach (var targetminister in card_details.Ministers)
             {
@@ -229,7 +230,21 @@ public class CardDragController : MonoBehaviour
                 {
                     if (minister.id == targetminister.id)
                     {
-                        minister.transform.GetChild(0).GetComponent<Image>().color = Color.red;
+
+                        if (state == State.Left)
+                        {
+                            if (targetminister.Left_value > 0)
+                                minister.transform.GetChild(0).GetComponent<Image>().color = Color.green;
+                            else
+                                minister.transform.GetChild(0).GetComponent<Image>().color = Color.red;
+                        }
+                        else if (state == State.Right)
+                        {
+                            if (targetminister.Right_value > 0)
+                                minister.transform.GetChild(0).GetComponent<Image>().color = Color.green;
+                            else
+                                minister.transform.GetChild(0).GetComponent<Image>().color = Color.red;
+                        }
                     }
                 }
             }

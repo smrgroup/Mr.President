@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     public CardData Clonecardsdata;
 
     private Chapter CarrentCard;
-    private CardDetails carddetails;
+    public CardDetails carddetails;
     private State dragstate;
 
     private List<GameObject> backcardsPrefabs;

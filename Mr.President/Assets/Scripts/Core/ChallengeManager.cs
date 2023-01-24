@@ -85,6 +85,13 @@ public class ChallengeManager : MonoBehaviour
 
     public void StartChallnage(Challenges challenge)
     {
+
+        if (challenge.Win_Spell_ID == "" || challenge.Lose_Spell_ID == "")
+        {
+            Debug.LogError("Set Spell ID's For Challenge");
+            return;
+        }
+
         GameObject CenterNotif = Instantiate(CenterNotifPrefab, StaticData.gameManager.BackGroundPlay.transform);
         CenterNotifcontroller = CenterNotif.GetComponent<CenterNotificationController>();
         this.challenge = challenge;

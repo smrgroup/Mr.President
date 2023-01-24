@@ -21,7 +21,7 @@ public class ChallengeCardDragController : CardDragController
         base.Start();
     }
 
-    public override void SignMinisters(bool state = true)
+    public override void SignMinisters(bool sign = true, State state = State.Middle)
     {
     }
 
